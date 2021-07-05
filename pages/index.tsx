@@ -1,5 +1,5 @@
+/* eslint-disable */
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,7 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Image src="/elbec.svg" alt="elbec group" width={300} height={121} />
+      <img src="/elbec.svg" alt="elbec group" width="300px" height="121px" />
     </div>
   )
 }
+/* eslint-enable */
