@@ -1,0 +1,16 @@
+:root {
+  --brand-color: #153D59;
+}
+
+html,
+body {
+  background-color: var(--brand-color);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
