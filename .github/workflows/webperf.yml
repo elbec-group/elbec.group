@@ -25,5 +25,5 @@ jobs:
           runs: 3
           urls: |
             ${{ steps.netlify.outputs.url }}
-          budgetPath: .github/workflows/setup/lighthouse-audit.json
+          configPath: "./.github/workflows/setup/lighthouse-audit.json"
           uploadArtifacts: true
