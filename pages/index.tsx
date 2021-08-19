@@ -1,6 +1,7 @@
 /* eslint-disable */
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import {Logo} from '../componets/Logo'
 
 export default function Home() {
   return (
@@ -9,9 +10,17 @@ export default function Home() {
         <title>elbec group</title>
         <meta name="description" content="Educación lingüística basada en evidencias científicas" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
       </Head>
 
-      <img src="/elbec.svg" alt="elbec group" width="300px" height="121px" />
+      <Logo
+          className={styles.Logo}
+          alt="Educación lingüística basada en evidencias científicas"
+          isAnimated
+        />
+      <h1 className={styles.Title}>Educación lingüística<br/>basada en evidencias científicas</h1>
     </div>
   )
 }
