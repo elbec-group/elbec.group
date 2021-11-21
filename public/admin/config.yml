@@ -5,28 +5,47 @@ backend:
   publish_mode: editorial_workflow
 media_folder: images/media
 public_folder: images
-
-
 i18n:
   structure: multiple_folders
   locales: [en, es, ca]
   default_locale: en
-
 collections:
+  - name: authors
+    label: Authors
+    folder: content/authors
+    identifier_field: name
+    create: true
+    fields:
+      - { label: "Name", name: name, widget: string }
+      - { label: "Photo", name: photo, widget: image, required: false }
+      - { label: "Role", name: role, widget: string, required: false }
+      - { label: "Link", name: url, widget: string, required: false }
+      - { label: "Biography", name: bio, widget: markdown, required: false }
   - name: projects
     label: Projects
     label_singular: Project
     i18n: true
     folder: content/projects
-    identiifier_field: name
+    identifier_field: name
     create: true
     fields:
-      - { label: 'Name', name: name, widget: string }
-      - { label: 'Title', name: title, widget: string, i18n: true }
-      - { label: 'Publish Date', name: created, widget: datetime }
-      - { label: 'Body', name: body, widget: markdown, i18n: true }
-
-
+      - { label: "ID", name: id, widget: string }
+      - { label: "Publication Date", name: publication_date, widget: date }
+      - { label: "Name", name: name, widget: string, i18n: true }
+      - { label: "Reference", name: reference, widget: string }
+      - { label: "Funding agency", name: funding_agency, widget: string }
+      - { label: "Amount", name: amout, widget: string }
+      - { label: "Running from", name: running_from, widget: string }
+      - { label: "PI", name: pi, widget: string }
+      - { label: "Abstract", name: abstract, widget: markdown, i18n: true }
+      - { label: "Relevant outputs", name: relevant_outputs, widget: string }
+      - label: Members
+        collection: authors
+        multiple: true
+        name: members
+        search_fields: ["name"]
+        value_field: "name"
+        widget: relation
 #  - name: "publications"
 #  - name: "resources"
 #  - name: "news & events"
