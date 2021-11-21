@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: elbec-group/elbec.group
   branch: main
   publish_mode: editorial_workflow
@@ -46,9 +46,3 @@ collections:
         search_fields: ["name"]
         value_field: "name"
         widget: relation
-#  - name: "publications"
-#  - name: "resources"
-#  - name: "news & events"
-#  - name: "about"
-#  - name: "newsletters"
-#  - name: "contact"
