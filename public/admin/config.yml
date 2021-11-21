@@ -3,6 +3,9 @@ backend:
   repo: elbec-group/elbec.group
   branch: main
   publish_mode: editorial_workflow
+media_folder: images/media
+public_folder: images
+
 
 i18n:
   structure: multiple_folders
