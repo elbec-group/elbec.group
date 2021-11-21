@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: elbec-group/elbec.group
+  branch: main
+  publish_mode: editorial_workflow
+
+i18n:
+  structure: multiple_folders
+  locales: [en, es, ca]
+  default_locale: en
+
+collections:
+  - name: projects
+    label: Projects
+    label_singular: Project
+    i18n: true
+    folder: content/projects
+    identiifier_field: name
+    create: true
+    fields:
+      - { label: 'Name', name: name, widget: string }
+      - { label: 'Title', name: title, widget: string, i18n: true }
+      - { label: 'Publish Date', name: created, widget: datetime }
+      - { label: 'Body', name: body, widget: markdown, i18n: true }
+
+
+#  - name: "publications"
+#  - name: "resources"
+#  - name: "news & events"
+#  - name: "about"
+#  - name: "newsletters"
+#  - name: "contact"
