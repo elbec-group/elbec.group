@@ -1,0 +1,97 @@
+backend:
+  name: git-gateway
+  #repo: elbec-group/elbec.group
+  #branch: main
+  #publish_mode: editorial_workflow
+local_backend: true
+
+media_folder: images/media
+public_folder: images
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
+i18n:
+  structure: multiple_folders
+  locales: [en, es, ca]
+  default_locale: en
+
+collections:
+  - name: authors
+    label: Authors / Members
+    folder: content/authors
+    identifier_field: name
+    create: true
+    fields:
+      - { label: "Name", name: name, widget: string }
+      - { label: "Photo", name: photo, widget: image, required: false }
+      - { label: "Role", name: role, widget: string, required: false }
+      - { label: "Link", name: url, widget: string, required: false }
+      - { label: "Biography", name: bio, widget: markdown, required: false }
+  - name: projects
+    label: Projects
+    label_singular: Project
+    i18n: true
+    folder: content/projects
+    identifier_field: name
+    create: true
+    fields:
+      - {
+          label: "Is Publish",
+          name: draft,
+          widget: boolean,
+          default: false,
+          required: false,
+        }
+      - { label: "ID", name: id, widget: string }
+      - { label: "Publication Date", name: publication_date, widget: date }
+      - { label: "Name", name: name, widget: string, i18n: true }
+      - { label: "Reference", name: reference, widget: string }
+      - { label: "Funding agency", name: funding_agency, widget: string }
+      - { label: "Amount", name: amout, widget: string }
+      - { label: "Running from", name: running_from, widget: string }
+      - label: PI
+        collection: authors
+        name: pi
+        multiple: true
+        search_fields: ["name"]
+        value_field: "name"
+        widget: relation
+      - { label: "Abstract", name: abstract, widget: markdown, i18n: true }
+      - {
+          label: "Relevant outputs",
+          name: relevant_outputs,
+          widget: string,
+          required: false,
+        }
+      - label: Members
+        collection: authors
+        multiple: true
+        name: members
+        search_fields: ["name"]
+        value_field: "name"
+        widget: relation
+  - name: publications
+    label: Publications
+    label_singular: Publication
+    i18n: true
+    folder: content/publications
+    identifier_field: title
+    create: true
+    fields:
+      - { label: "ID", name: id, widget: string }
+      - { label: "DOI/Link", name: doi, widget: string }
+      - { label: "Year", name: year, widget: string }
+      - { label: "Title", name: title, widget: string, i18n: true }
+      - { label: "Journal or Publishing house", name: journal, widget: string }
+      - { label: "Type of publication", name: publication_type, widget: string }
+      - { label: "Abstract", name: abstract, widget: markdown, i18n: true }
+      - label: Authors
+        collection: authors
+        multiple: true
+        name: authors
+        search_fields: ["name"]
+        value_field: "name"
+        widget: relation
