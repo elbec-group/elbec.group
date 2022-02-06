@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import config from "../cms/config.js";
+import {Loading} from "../componets/Loading.js"
 
 interface cmsObject {
   [init: string]: any
@@ -12,7 +13,7 @@ const CMS = dynamic(
     }),
   {
     ssr: false,
-    loading: () => <h3>Loading...</h3>,
+    loading: () => <Loading />,
   }
 );
 

@@ -4,10 +4,9 @@ import Head from "next/head";
 
 import htmr from "htmr";
 
-import styles from "../styles/Home.module.css";
-import { Logo } from "../componets/Logo.js";
-import { Lines } from "../componets/Lines.js";
-import { Footer } from "../componets/Footer.js";
+import styles from "../styles/Projects.module.css";
+import { Logo } from "../componets/Logo";
+import { Lines } from "../componets/Lines";
 
 interface Props {
   content: { attributes: HomeAttributes };
@@ -22,7 +21,7 @@ interface HomeAttributes {
 
 const LANGUAGE = 'en'
 
-const HomePage: NextPage<Props> = ({ content }) => {
+const ProjectsPage: NextPage<Props> = ({ content }) => {
   console.log({content})
   const {
     attributes: { logo_alt, hero_title, home_title, num_news = 2, num_projects = 2 },
@@ -30,6 +29,14 @@ const HomePage: NextPage<Props> = ({ content }) => {
   return (
     <div className={styles.container}>
       <Head>
+        <title>elbec group</title>
+        <meta
+          name="description"
+          content="Educación lingüística basada en evidencias científicas"
+        />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
           rel="stylesheet"
@@ -39,7 +46,7 @@ const HomePage: NextPage<Props> = ({ content }) => {
         <Logo className={styles.Logo} alt={logo_alt} isAnimated />
         <h1 className={styles.Title}>{htmr(hero_title)}</h1>
       </div>
-      <Lines className={styles.Lines} />
+      <Lines />
       <section>
         <h2>{home_title}</h2>
         <div>
@@ -49,7 +56,6 @@ const HomePage: NextPage<Props> = ({ content }) => {
           {num_projects}
         </div>
       </section>
-      <Footer />
     </div>
   );
 };
@@ -63,5 +69,5 @@ export const getStaticProps: GetStaticProps = async () => {
   return { props: { content: contentHome.default } };
 };
 
-export default HomePage;
+export default ProjectsPage;
 /* eslint-enable */

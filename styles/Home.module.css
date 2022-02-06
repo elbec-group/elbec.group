@@ -1,12 +1,17 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  justify-content: center;
+  min-height: 100vh;
+
 }
+
+.Loading {
+  color: white;
+}
+
 
 .Logo {
   pointer-events: none;
@@ -21,6 +26,11 @@
   font-size: 16px;
   opacity: 0;
   padding-left: 3ch;
+}
+.Lines {
+  background-color: #50B693;
+  height: 20px;
+  width: 100%;
 }
 
 @media (min-width: 480px) {

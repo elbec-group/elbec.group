@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: "123"
-title: Title
+title: Publication Title
 journal: Journal
 publishing_house: Publishing house
 year: "2020"
