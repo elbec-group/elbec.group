@@ -5,16 +5,9 @@
   max-width: 1200px;
   padding-bottom: 24px;
   width: 100%;
-}
-
-.FooterWrapper {
-  align-items: center;
   display: flex;
   flex-direction: column;
-
-  @media (--sm-n-above) {
-    flex-direction: row;
-  }
+  align-items: center;
 }
 
 .Logo {
