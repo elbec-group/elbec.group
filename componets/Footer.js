@@ -8,34 +8,41 @@ const Footer = () => {
   return (
     <footer className={styles.Footer}>
       <Lines />
-      <div className={styles.Logo}>
-        <Image src="/elbec-dark.svg" alt="Elbec logo" width="75" height="30" />
-      </div>
-      <ul className={styles.Links}>
-        <li className={styles.Link}>
-          <Link href="/projects">Projects</Link>
-        </li>
-        <li className={styles.Link}>
-          <Link href="#">Publications</Link>
-        </li>
-        <li className={styles.Link}>
-          <Link href="#">Resources</Link>
-        </li>
-        <li className={styles.Link}>
-          <Link href="#">News & Events</Link>
-        </li>
-        <li className={styles.Link}>
-          <Link href="#">Newsletter</Link>
-        </li>
-        <li className={styles.Link}>
-          <Link href="#">Contactar</Link>
-        </li>
-        <li className={styles.Link}>
-          <Link href="#">About</Link>
-        </li>
-      </ul>
-      <div className={styles.Logo}>
-        <Image src="/UAB-logo.png" alt="UAB logo" width="182" height="55" />
+      <div className={styles.FooterWrapper}>
+        <div className={styles.Logo}>
+          <Image
+            src="/elbec-dark.svg"
+            alt="Elbec logo"
+            width="75"
+            height="30"
+          />
+        </div>
+        <ul className={styles.Links}>
+          <li className={styles.Link}>
+            <Link href="/projects">Projects</Link>
+          </li>
+          <li className={styles.Link}>
+            <Link href="#">Publications</Link>
+          </li>
+          <li className={styles.Link}>
+            <Link href="#">Resources</Link>
+          </li>
+          <li className={styles.Link}>
+            <Link href="#">News & Events</Link>
+          </li>
+          <li className={styles.Link}>
+            <Link href="#">Newsletter</Link>
+          </li>
+          <li className={styles.Link}>
+            <Link href="#">Contactar</Link>
+          </li>
+          <li className={styles.Link}>
+            <Link href="#">About</Link>
+          </li>
+        </ul>
+        <div className={styles.Logo}>
+          <Image src="/UAB-logo.png" alt="UAB logo" width="182" height="55" />
+        </div>
       </div>
       <div className={styles.LegalLanguages}>
         <nav className={styles.Legal}>
