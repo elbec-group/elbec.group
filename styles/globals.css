@@ -1,11 +1,7 @@
 /* @import "open-props/media.min.css"; */
 
 
-
-:root {
-  --brand-color: #153d59;
-  --color-light: #fff;
-}
+@import "./variables";
 
 html,
 body {
