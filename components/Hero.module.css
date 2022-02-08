@@ -1,0 +1,47 @@
+.Hero {
+  align-items: center;
+  background-color: var(--brand-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.isFullHeight {
+  min-height: 100vh;
+}
+
+.Logo {
+  pointer-events: none;
+  max-width: 450px;
+  width: 80vw;
+}
+
+.Title {
+  animation: fadeIn 1s 2.2s ease-in-out forwards;
+  color: var(--white-color);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  opacity: 0;
+  padding-left: 3ch;
+}
+
+@media (min-width: 480px) {
+  .Title {
+    font-size: 28px;
+  }
+}
+
+.Lines {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}

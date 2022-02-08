@@ -2,12 +2,11 @@
 import { NextPage, GetStaticProps } from "next";
 import Head from "next/head";
 
-import htmr from "htmr";
+
 
 import styles from "../styles/Home.module.css";
-import { Logo } from "../componets/Logo.js";
-import { Lines } from "../componets/Lines.js";
-import { Footer } from "../componets/Footer.js";
+import { Hero } from "../components/Hero.js";
+import { Footer } from "../components/Footer.js";
 
 interface Props {
   content: { attributes: HomeAttributes };
@@ -27,20 +26,18 @@ const HomePage: NextPage<Props> = ({ content }) => {
   const {
     attributes: { logo_alt, hero_title, home_title, num_news = 2, num_projects = 2 },
   } = content;
+  console.log({logo_alt})
+  console.log({hero_title})
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
           rel="stylesheet"
-        />
+          />
       </Head>
-      <div>
-        <Logo className={styles.Logo} alt={logo_alt} isAnimated />
-        <h1 className={styles.Title}>{htmr(hero_title)}</h1>
-      </div>
-      <Lines className={styles.Lines} />
-      <section>
+      <Hero title={hero_title} textAlt={logo_alt} />
+      <section className={styles.content}>
         <h2>{home_title}</h2>
         <div>
           {num_news}
@@ -50,7 +47,7 @@ const HomePage: NextPage<Props> = ({ content }) => {
         </div>
       </section>
       <Footer />
-    </div>
+    </>
   );
 };
 

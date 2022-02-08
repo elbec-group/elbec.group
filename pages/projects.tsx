@@ -5,8 +5,8 @@ import Head from "next/head";
 import htmr from "htmr";
 
 import styles from "../styles/Projects.module.css";
-import { Logo } from "../componets/Logo";
-import { Lines } from "../componets/Lines";
+import { Logo } from "../components/Logo";
+import { Lines } from "../components/Lines";
 
 interface Props {
   content: { attributes: HomeAttributes };
