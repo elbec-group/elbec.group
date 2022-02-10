@@ -188,6 +188,12 @@ export default {
           i18n: true,
         },
         {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          required: false,
+        },
+        {
           label: "Reference",
           name: "reference",
           widget: "string",
