@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import cx from "classnames";
 
-import { Logo } from "./Logo.js";
-import { Lines } from "./Lines.js";
+import { Logo } from "../Logo";
+import { Lines } from "../Lines";
 import htmr from "htmr";
 
 import styles from "./Hero.module.css";

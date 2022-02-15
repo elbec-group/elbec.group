@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { Lines } from "./Lines.js";
+import { Lines } from "../Lines";
 import styles from "./Footer.module.css";
 
 const Footer = () => {

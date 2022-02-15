@@ -156,7 +156,7 @@ const Logo = ({
 
   useEffect(() => {
     isAnimated && logoAnimation();
-  }, [isAnimated]); // es-lint-disable-line react-hooks/exhaustive-deps
+  }, [isAnimated]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <svg

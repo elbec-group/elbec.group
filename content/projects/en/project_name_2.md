@@ -3,7 +3,7 @@ draft: false
 id: "2"
 publication_date: 2022-02-09T18:36:21.688Z
 name: Project Name 2
-image: images/1641942042218.jpg
+image: ""
 reference: Reference 2
 funding_agency: Agency 2
 amout: "2000"

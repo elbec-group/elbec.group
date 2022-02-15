@@ -4,25 +4,28 @@ import Head from "next/head";
 import path from "path"
 import fs from "fs"
 
+
 import styles from "../styles/Home.module.css";
-import { Hero } from "../components/Hero.js";
-import { Card } from "../components/Card.js";
-import { Footer } from "../components/Footer.js";
+import { Hero } from "../components/Hero";
+import { Card } from "../components/Card";
+import { Footer } from "../components/Footer";
 
 interface Props {
-  contentHome: { attributes: HomeAttributes };
+  config:{ attributes: ConfigAttributes };
+  content: { attributes: HomeAttributes };
   projects:Array<Object>
+}
+
+interface ConfigAttributes {
+  num_news: number;
+  num_projects: number;
 }
 
 interface HomeAttributes {
   hero_title: string;
   logo_alt: string;
   home_title: string;
-  num_news: number;
-  num_projects: number;
 }
-
-
 
 const PROPS = {
   abstract: 'abstract',
@@ -35,13 +38,16 @@ const PROPS = {
 
 const LANGUAGE = 'en'
 
-const HomePage: NextPage<Props> = ({ contentHome, projects }) => {
-  // projects.map((project:any) => console.log(project))
+const HomePage: NextPage<Props> = ({ config, content, projects }) => {
+  // console.log({projects})
   const {
-    attributes: { logo_alt, hero_title, home_title, num_news = 2, num_projects = 2 },
-  } = contentHome;
-  
+    attributes: { logo_alt, hero_title, home_title },
+  } = content;
+  const { attributes: {num_news = 2, num_projects = 2 }} = config;  
+
+  const newsHome = projects.slice(0, num_news)
   const projectsHome = projects.slice(0, num_projects)
+
   return (
     <>
       <Head>
@@ -51,36 +57,45 @@ const HomePage: NextPage<Props> = ({ contentHome, projects }) => {
           />
       </Head>
       <Hero title={hero_title} textAlt={logo_alt} isFullHeight/>
-      <section className={styles.content}>
+      <article className={styles.content}>
         <h2>{home_title}</h2>
-        <div>
-          {num_news}
-        </div>
-        <div>
-          <h2>Projects</h2>
-          {projectsHome.map((project:any) => {
-            const {attributes} = project
 
-            return <Card props={attributes} />
+        {/* <section>
+          <h3>News</h3>
+          {newsHome.map((project:any) => {
+            const {attributes, slug} = project
+
+            return <Card props={attributes} slug={slug} />
           })}
-        </div>
-      </section>
+        </section> */}
+        <section>
+          <h3>Projects</h3>
+          {projectsHome.map((project:any) => {
+            const {attributes, slug} = project
+
+            return <Card props={attributes} slug={slug}/>
+          })}
+        </section>
+      </article>
       <Footer />
     </>
   );
 };
 
 export const getStaticProps: GetStaticProps = async () => {
+  const configHome = await import('../content/config/home.md')
   const contentHome = await import(`../content/pages/${LANGUAGE}/home.md`)
-
+  
   const projectsDirectory = path.join(process.cwd(), `./content/projects/${LANGUAGE}`)
   const projectsFilenames = fs.readdirSync(projectsDirectory)
   const projects = await Promise.all(projectsFilenames.map(async filename => {
     const fileContents = await import(`../content/projects/${LANGUAGE}/${filename}`)
-    return fileContents.default
+    return {slug: `/projects/${filename.split('.')[0]}`, attributes: fileContents.default.attributes}
   })).then (result => result)
+  console.log('projects', projects)
+  // console.log('projects.attributes', projects.attributes)
 
-  return { props: { contentHome: contentHome.default, projects } }
+  return { props: { config: configHome.default, content: contentHome.default, projects } }
 };
 
 export default HomePage;

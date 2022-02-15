@@ -1,5 +1,6 @@
 module.exports = {
   reactStrictMode: true,
+  pageExtensions: ["tsx"],
   webpack: (config) => {
     config.module.rules.push({
       test: /\.md$/,
