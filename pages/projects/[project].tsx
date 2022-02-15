@@ -89,7 +89,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getStaticProps: GetStaticProps = async ({ params }: any) => {
   const slug = params.project as string;
   const projectContents = await import(`content/projects/${LANGUAGE}/${slug}.md`)
   return {props: projectContents.attributes}
