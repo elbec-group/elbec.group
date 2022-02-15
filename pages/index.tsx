@@ -4,36 +4,26 @@ import Head from "next/head";
 import path from "path"
 import fs from "fs"
 
-
 import styles from "../styles/Home.module.css";
 import { Hero } from "../components/Hero";
 import { Card } from "../components/Card";
 import { Footer } from "../components/Footer";
 
-interface Props {
+type Props = {
   config:{ attributes: ConfigAttributes };
   content: { attributes: HomeAttributes };
   projects:Array<Object>
 }
 
-interface ConfigAttributes {
+type ConfigAttributes = {
   num_news: number;
   num_projects: number;
 }
 
-interface HomeAttributes {
+type HomeAttributes = {
   hero_title: string;
   logo_alt: string;
   home_title: string;
-}
-
-const PROPS = {
-  abstract: 'abstract',
-  image: 'image',
-  pi: 'pi',
-  publication_date: 'publication_date',
-  reference: 'reference',
-  title: 'title',
 }
 
 const LANGUAGE = 'en'
@@ -90,10 +80,8 @@ export const getStaticProps: GetStaticProps = async () => {
   const projectsFilenames = fs.readdirSync(projectsDirectory)
   const projects = await Promise.all(projectsFilenames.map(async filename => {
     const fileContents = await import(`../content/projects/${LANGUAGE}/${filename}`)
-    return {slug: `/projects/${filename.split('.')[0]}`, attributes: fileContents.default.attributes}
+    return {slug: `/projects/${filename.split('.')[0]}`, attributes: fileContents.attributes}
   })).then (result => result)
-  console.log('projects', projects)
-  // console.log('projects.attributes', projects.attributes)
 
   return { props: { config: configHome.default, content: contentHome.default, projects } }
 };

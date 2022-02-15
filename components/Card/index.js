@@ -7,9 +7,7 @@ const Card = ({
   slug,
 }) => {
   const imageFixedPath = image && image.replace("/public", "");
-  console.log("slug 👉🏼", slug);
-  console.log("name 👉🏼", name);
-  // slug = undefined;
+
   return (
     <div className="Card">
       <div className="CardImage">
@@ -24,11 +22,11 @@ const Card = ({
       </div>
       <div className="CardContent">
         <h3>
-          {/* {slug ? ( */}
-          <Link href={slug} passHref>
-            {name}
-          </Link>
-          {/* ) : null} */}
+          {slug ? (
+            <Link href={slug} passHref>
+              {name}
+            </Link>
+          ) : null}
         </h3>
         <p>{abstract}</p>
         <p>
