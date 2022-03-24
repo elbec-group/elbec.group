@@ -1,3 +1,3 @@
 ---
-name: Naimé Salas
+name: Naymé Salas
 ---

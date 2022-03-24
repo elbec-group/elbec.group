@@ -2,37 +2,34 @@ import PropTypes from "prop-types";
 import Image from "next/image";
 import Link from "next/link";
 
+import styles from "./Card.module.css";
+
 const Card = ({
   props: { abstract, image, pi, publication_date, reference, name },
   slug,
 }) => {
   const imageFixedPath = image && image.replace("/public", "");
 
+  const truncateText = (text, length = 280) =>
+    text.length > length ? `${text.substring(0, length)}...` : text;
+
   return (
-    <div className="Card">
-      <div className="CardImage">
-        {image ? (
-          <Image
-            src={`${imageFixedPath}`}
-            alt={name}
-            width={250}
-            height={400}
-          />
-        ) : null}
-      </div>
-      <div className="CardContent">
+    <div className={styles.Card}>
+      <div
+        className={styles.CardImage}
+        style={{ backgroundImage: `url(${imageFixedPath})` }}
+      />
+      <div className={styles.CardContent}>
         <h3>
-          {slug ? (
-            <Link href={slug} passHref>
-              {name}
-            </Link>
-          ) : null}
+          <Link href={slug} passHref>
+            {name}
+          </Link>
         </h3>
-        <p>{abstract}</p>
-        <p>
-          {reference} / {pi}
+        <p className={styles.Reference}>
+          {reference}, PI: <span className={styles.Pi}>{pi}</span>
         </p>
-        <p>{publication_date}</p>
+        <p className={styles.Abstract}>{truncateText(abstract)}</p>
+        <span className={styles.Date}>{publication_date}</span>
       </div>
     </div>
   );
@@ -48,7 +45,7 @@ Card.propTypes = {
     reference: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
   }),
-  slug: PropTypes.string, //.isRequired,
+  slug: PropTypes.string.isRequired,
 };
 
 export { Card };

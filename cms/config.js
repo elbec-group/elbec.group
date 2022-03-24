@@ -6,14 +6,21 @@ export default {
     repo: "elbec-group/elbec.group",
     branch: "main",
     publish_mode: "editorial_workflow",
+    commit_messages: {
+      create: "Create {{collection}} “{{slug}} | {{author-name}}”",
+      update: "Update {{collection}} “{{slug}} | {{author-name}}”",
+      delete: "Delete {{collection}} “{{slug}} | {{author-name}}”",
+      uploadMedia: "[skip ci] Upload “{{path}} | {{author-name}}”",
+      deleteMedia: "[skip ci] Delete “{{path}} | {{author-name}}”",
+    },
   },
-  local_backend: true,
-  media_folder: "images/media",
+  // local_backend: true,
+  media_folder: "images",
   public_folder: "/images",
   slug: {
     encoding: "ascii",
     clean_accents: true,
-    sanitize_replacement: "_",
+    sanitize_replacement: "-",
   },
   i18n: {
     structure: "multiple_folders",
@@ -21,13 +28,76 @@ export default {
     default_locale: "en",
   },
   collections: [
+    // Meta --------------------------
+    {
+      name: "meta",
+      label: "Meta",
+      delete: false,
+      files: [
+        {
+          name: "authors",
+          label: "Authors / Members",
+          identifier_field: "name",
+          create: true,
+          file: "content/meta/authors.yml",
+          fields: [
+            {
+              name: "authors",
+              label: "Authors / Members",
+              label_singular: "Authors / Members",
+              widget: "list",
+              fields: [
+                {
+                  label: "Name",
+                  name: "name",
+                  widget: "string",
+                },
+                {
+                  label: "Photo",
+                  name: "photo",
+                  widget: "image",
+                  required: false,
+                },
+                {
+                  label: "Role",
+                  name: "role",
+                  widget: "string",
+                  required: false,
+                },
+                {
+                  label: "Link",
+                  name: "url",
+                  widget: "list",
+                  required: false,
+                  fields: [
+                    {
+                      label: "Link",
+                      name: "url",
+                      widget: "string",
+                    },
+                  ],
+                },
+                {
+                  label: "Biography",
+                  name: "bio",
+                  widget: "markdown",
+                  required: false,
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    // Pages --------------------------
     {
       name: "pages",
       label: "Pages",
       files: [
+        // Home -----------------------
         {
           name: "home",
-          label: "Home English",
+          label: "Home 🇬🇧",
           file: "content/pages/en/home.md",
           fields: [
             {
@@ -49,7 +119,7 @@ export default {
         },
         {
           name: "home-es",
-          label: "Home Spanish",
+          label: "Home 🇪🇸",
           file: "content/pages/es/home.md",
           fields: [
             {
@@ -62,11 +132,16 @@ export default {
               label: "[es] Logo Alt Text",
               widget: "string",
             },
+            {
+              name: "home_title",
+              label: "[es] Home Title",
+              widget: "string",
+            },
           ],
         },
         {
           name: "home-ca",
-          label: "Home Catalan",
+          label: "Home 🇦🇩",
           file: "content/pages/ca/home.md",
           fields: [
             {
@@ -79,10 +154,53 @@ export default {
               label: "[ca] Logo Alt Text",
               widget: "string",
             },
+            {
+              name: "home_title",
+              label: "[ca] Home Title",
+              widget: "string",
+            },
+          ],
+        },
+        // Mission
+        {
+          name: "mission",
+          label: "Mission [English]",
+          file: "content/pages/en/mission.md",
+          fields: [
+            {
+              name: "mission",
+              label: "[en] Mission",
+              widget: "text",
+            },
+          ],
+        },
+        {
+          name: "mission-es",
+          label: "Mission [Spanish]",
+          file: "content/pages/es/mission.md",
+          fields: [
+            {
+              name: "mission",
+              label: "[es] Mission",
+              widget: "markdown",
+            },
+          ],
+        },
+        {
+          name: "mission-ca",
+          label: "Mission [Catalan]",
+          file: "content/pages/ca/mission.md",
+          fields: [
+            {
+              name: "mission",
+              label: "[ca] Mission",
+              widget: "markdown",
+            },
           ],
         },
       ],
     },
+    // Authors ------------------------
     {
       name: "authors",
       label: "Authors / Members",
@@ -121,6 +239,7 @@ export default {
         },
       ],
     },
+    // Publication Type ---------------
     {
       name: "publication_type",
       label: "Publication Type",
@@ -135,6 +254,7 @@ export default {
         },
       ],
     },
+    // Projects -----------------------
     {
       name: "projects",
       label: "Projects",
@@ -143,6 +263,8 @@ export default {
       folder: "content/projects",
       identifier_field: "name",
       create: true,
+      slug: "{{fields.name}}",
+      // summary: "{{name}} | {{abstract | truncate(200, '...')}}",
       fields: [
         {
           label: "Is Publish",
@@ -168,11 +290,6 @@ export default {
           i18n: true,
         },
         {
-          name: "slug",
-          label: "Slug",
-          widget: "string",
-        },
-        {
           label: "Image",
           name: "image",
           media_folder: "/public/images",
@@ -192,13 +309,21 @@ export default {
         },
         {
           label: "Amount",
-          name: "amout",
+          name: "amount",
           widget: "string",
+          pattern: [
+            "\\d\\.?\\d{2}",
+            "The correct format would be like 10000 or 10000.50 (American format)",
+          ],
         },
         {
           label: "Running from",
           name: "running_from",
           widget: "string",
+          pattern: [
+            "\\d{4}-\\d{4}",
+            "The correct format would be like 2020-2022",
+          ],
         },
         {
           label: "PI",
@@ -218,20 +343,41 @@ export default {
         {
           label: "Relevant outputs",
           name: "relevant_outputs",
-          widget: "string",
+          widget: "list",
           required: false,
+          fields: [
+            {
+              name: "resource",
+              label: "Resource",
+              widget: "text",
+              i18n: true,
+            },
+            {
+              name: "link",
+              label: "Link",
+              widget: "text",
+              i18n: true,
+              pattern: [
+                "^https?://",
+                "The correct format would be like https://www.elbec.group/",
+              ],
+              hint: "Link to the resource",
+            },
+          ],
         },
         {
           label: "Members",
           collection: "authors",
           multiple: true,
           name: "members",
+          required: false,
           search_fields: ["name"],
           value_field: "name",
           widget: "relation",
         },
       ],
     },
+    // Publications -------------------
     {
       name: "publications",
       label: "Publications",
@@ -316,10 +462,11 @@ export default {
         },
       ],
     },
+    // Configuration ------------------
     {
       name: "config",
-      label: "Configutation",
-      label_singular: "Configutation",
+      label: "Configuration",
+      label_singular: "Configuration",
       i18n: false,
       identifier_field: "title",
       create: true,
@@ -328,6 +475,44 @@ export default {
           name: "home",
           label: "Home",
           file: "content/config/home.md",
+          fields: [
+            {
+              name: "num_news",
+              label: "Number of news & events",
+              widget: "number",
+              default: 2,
+              value_type: "int",
+              min: 1,
+              max: 4,
+              step: 1,
+            },
+            {
+              name: "num_projects",
+              label: "Number of projects",
+              widget: "number",
+              default: 2,
+              value_type: "int",
+              min: 1,
+              max: 4,
+              step: 1,
+            },
+          ],
+        },
+      ],
+    },
+    // Resource -----------------------
+    {
+      name: "resources",
+      label: "Resources",
+      label_singular: "Resources",
+      i18n: false,
+      identifier_field: "title",
+      create: true,
+      files: [
+        {
+          name: "home",
+          label: "Resources",
+          file: "content/resources.md",
           fields: [
             {
               name: "num_news",

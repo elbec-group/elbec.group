@@ -16,22 +16,22 @@ const Footer = () => {
           <Link href="/projects">Projects</Link>
         </li>
         <li className={styles.Link}>
-          <Link href="#">Publications</Link>
+          <Link href="/publications">Publications</Link>
         </li>
         <li className={styles.Link}>
-          <Link href="#">Resources</Link>
+          <Link href="/resources">Resources</Link>
         </li>
         <li className={styles.Link}>
-          <Link href="#">News & Events</Link>
+          <Link href="/news-events">News & Events</Link>
         </li>
         <li className={styles.Link}>
-          <Link href="#">Newsletter</Link>
+          <Link href="/newsletter">Newsletter</Link>
         </li>
         <li className={styles.Link}>
-          <Link href="#">Contactar</Link>
+          <Link href="/contact">Contactar</Link>
         </li>
         <li className={styles.Link}>
-          <Link href="#">About</Link>
+          <Link href="/about">About</Link>
         </li>
       </ul>
       <div className={styles.Logo}>
@@ -39,8 +39,8 @@ const Footer = () => {
       </div>
       <div className={styles.LegalLanguages}>
         <nav className={styles.Legal}>
-          <Link href="#">Terms & Conditions</Link> |{" "}
-          <Link href="#">Privacy Policy</Link>
+          <Link href="/terms-conditions">Terms & Conditions</Link> |{" "}
+          <Link href="/privacy-policy">Privacy Policy</Link>
         </nav>
         <nav className={styles.Languages}>
           <Link href="#">Català</Link> | <Link href="#">Castellano</Link>

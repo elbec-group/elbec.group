@@ -1,13 +1,14 @@
-/* eslint-disable */
 import { GetStaticPaths, GetStaticProps } from "next";
-import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image"
 import path from "path"
 import fs from "fs"
 // import { fetchProjectContent } from "../../lib/projects";
 
-import styles from "styles/Home.module.css";
+import styles from "./Project.module.css";
 
 import { Footer } from "components/Footer";
+import classNames from "classnames";
 
 type Props = {
   draft: boolean;
@@ -18,7 +19,7 @@ type Props = {
   image: string;
   reference: string;
   funding_agency: string;
-  amout: number;
+  amount: number;
   running_from: string;
   pi: string[];
   abstract: string;
@@ -29,49 +30,68 @@ type Props = {
 const LANGUAGE = 'en'
 
 const Post = ({ draft,
-  id,
+  // id,
   publication_date,
   name,
-  slug,
   image,
   reference,
   funding_agency,
-  amout,
+  amount,
   running_from,
   pi,
   abstract,
-  photo,
   members }: Props) => {
+    console.log({image})
+  
+  // const LANG: string = navigator && navigator.language || 'en-US'
+  const LANG: string = 'en-US'
+  const DATE_OPTIONS: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+  const date: string = new Date(publication_date).toLocaleDateString(LANG, DATE_OPTIONS)
 
   return (
-    <>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-          rel="stylesheet"
-          />
-      </Head>
-      <h1>Post</h1>
+    <article className={styles.Wrapper}>
+      <header className={styles.Header}>
+        {image ? (
+          <Image src={image.replace('/public','')} width="1200" height="500"/>
+        ) : <></>}
+      </header>
 
-      <div>
-        <p>{draft}</p>
-        <p>{id}</p>
-        <p>{publication_date}</p>
-        <p>{name}</p>
-        <p>{slug}</p>
-        <p>{image}</p>
-        <p>{reference}</p>
-        <p>{funding_agency}</p>
-        <p>{amout}</p>
-        <p>{running_from}</p>
-        <p>{pi}</p>
+      <section>
+        <h1 className={styles.Title}>{name}</h1>
+        <div className={styles.Information}>
+          <p>
+            Principal Investigator(s): {pi.map(_pi => <Link href="#"><a className={styles.Pi}>{_pi}</a></Link>)} 
+            { members.length > 0 ? 
+            (<> with {members.map((member, i, {length}) => { 
+              const SEPARATOR = i === length - 1 ? '' : ', '
+              return (<Link href="#"><a className={styles.Member}>{`${member}${SEPARATOR}`}</a></Link>)
+              })} 
+            </>) : (<></>)}
+            </p>
+            
+          <p>Funding agency: {funding_agency}</p>
+          <p>Funding: {amount}</p>
+          <p>Duration: {running_from}</p>
+          <p>Reference: {reference}</p>
+        </div>
         <p>{abstract}</p>
-        <p>{photo}</p>
-        <p>{members}</p>
-      </div>
+      </section>
+
+      <section className={styles.Outputs}>
+        <h2 className={styles.OutputsTitle}>Outputs</h2>
+        <div className={styles.OutputsContent}>
+          <ul className={styles.OutputsList}>
+            <li><Link href="#"><a className={styles.OutputsLink}>CREC - an SRSD intervention on planning opinion essay writing in Catalan, aimed at children in grades 4-6 (11 sessions)</a></Link></li>
+            <li><Link href="#"><a className={styles.OutputsLink}>CREC - an SRSD intervention on planning opinion essay writing in Catalan, aimed at children in grades 4-6 (11 sessions)</a></Link></li>
+            <li><Link href="#"><a className={styles.OutputsLink}>CREC - an SRSD intervention on planning opinion essay writing in Catalan, aimed at children in grades 4-6 (11 sessions)</a></Link></li>
+            <li><Link href="#"><a className={styles.OutputsLink}>CREC - an SRSD intervention on planning opinion essay writing in Catalan, aimed at children in grades 4-6 (11 sessions)</a></Link></li>
+          </ul>
+          <Image src="/images/outputs.svg" width="303" height="220"/>
+        </div>
+      </section>
 
       <Footer />
-    </>
+    </article>
   );
 };
 
@@ -96,4 +116,3 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
 };
 
 export default Post;
-/* eslint-enable */

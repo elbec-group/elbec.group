@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
-import config from "../cms/config.js";
-import {Loading} from "../components/Loading";
+import config from "cms/config.js";
+import {Loading} from "components/Loading";
 
 interface cmsObject {
   [init: string]: any
