@@ -1,27 +1,81 @@
-/* eslint-disable */
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import {Logo} from '../componets/Logo'
+import { NextPage, GetStaticProps } from "next";
+import Head from "next/head";
+import path from "path"
+import fs from "fs"
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>elbec group</title>
-        <meta name="description" content="Educación lingüística basada en evidencias científicas" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-      </Head>
+import styles from "styles/Home.module.css";
+import { Hero } from "components/Hero";
+import { Card } from "components/Card";
+import { Footer } from "components/Footer";
 
-      <Logo
-          className={styles.Logo}
-          alt="Educación lingüística basada en evidencias científicas"
-          isAnimated
-        />
-      <h1 className={styles.Title}>Educación lingüística<br/>basada en evidencias científicas</h1>
-    </div>
-  )
+type Props = {
+  config:{ attributes: ConfigAttributes };
+  content: { attributes: HomeAttributes };
+  projects:Array<Object>
 }
-/* eslint-enable */
+
+type ConfigAttributes = {
+  num_news: number;
+  num_projects: number;
+}
+
+type HomeAttributes = {
+  hero_title: string;
+  logo_alt: string;
+  home_title: string;
+}
+
+
+
+const HomePage: NextPage<Props> = ({ config, content, projects }) => {
+  // console.log({projects})
+  const {
+    attributes: { logo_alt, hero_title, home_title },
+  } = content;
+  const { attributes: {num_news = 2, num_projects = 2 }} = config;  
+
+  const newsHome = projects.slice(0, num_news)
+  const projectsHome = projects.slice(0, num_projects)
+
+  return (
+    <>
+      <Hero title={hero_title} textAlt={logo_alt} isFullHeight/>
+      <article className={styles.content}>
+        <h2>{home_title}</h2>
+
+        {/* <section>
+          <h3>News</h3>
+          {newsHome.map((project:any) => {
+            const {attributes, slug} = project
+
+            return <Card props={attributes} slug={slug} />
+          })}
+        </section> */}
+        <section>
+          {projectsHome.map((project:any) => {
+            const {attributes, slug} = project
+            return <Card key={slug} props={attributes} slug={slug}/>
+          })}
+        </section>
+      </article>
+      <Footer />
+    </>
+  );
+};
+
+export const getStaticProps: GetStaticProps = async () => {
+  const LANGUAGE = 'en'
+  const configHome = await import('../content/config/home.md')
+  const contentHome = await import(`../content/pages/${LANGUAGE}/home.md`)
+  
+  const projectsDirectory = path.join(process.cwd(), `content/projects/${LANGUAGE}`)
+  const projectsFilenames = fs.readdirSync(projectsDirectory)
+  const projects = await Promise.all(projectsFilenames.map(async filename => {
+    const fileContents = await import(`../content/projects/${LANGUAGE}/${filename}`)
+    return {slug: `/projects/${filename.split('.')[0]}`, attributes: fileContents.attributes}
+  })).then (result => result)
+
+  return { props: { config: configHome.default, content: contentHome.default, projects } }
+};
+
+export default HomePage;

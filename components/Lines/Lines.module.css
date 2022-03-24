@@ -1,0 +1,22 @@
+.Lines {
+  --first-color: var(--red-brand-color);
+  --second-color: var(--green-brand-color);
+  --third-color: var(--yellow-brand-color);
+  --fourth-color: var(--blue-brand-color);
+  --first-step: 25%;
+  --second-step: 50%;
+  --third-step: 75%;
+  --height: 20px;
+
+
+  background-color: #50B693;
+  background: linear-gradient(
+    90deg, 
+    var(--first-color), var(--first-color) var(--first-step), 
+    var(--second-color) var(--first-step), var(--second-color) var(--second-step), 
+    var(--third-color) var(--second-step), var(--third-color) var(--third-step), 
+    var(--fourth-color) var(--third-step), var(--fourth-color) 100%
+  );
+  height: var(--height);
+  width: 100%;
+}

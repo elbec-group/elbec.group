@@ -22,7 +22,7 @@ jobs:
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v7
         with:
-          runs: 3
+          runs: 5 
           urls: |
             ${{ steps.netlify.outputs.url }}
           configPath: "./.github/workflows/setup/lighthouse-audit.json"
