@@ -7,7 +7,7 @@ import fs from "fs"
 
 import styles from "./Project.module.css";
 
-import { Footer } from "components/Footer";
+import { Footer } from "../../components/Footer";
 import classNames from "classnames";
 
 type Props = {

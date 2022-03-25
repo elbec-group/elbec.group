@@ -2,7 +2,7 @@
 export default {
   cms_manual_init: true,
   backend: {
-    name: "git-gateway",
+    name: "github",
     repo: "elbec-group/elbec.group",
     branch: "main",
     publish_mode: "editorial_workflow",
