@@ -207,11 +207,17 @@ export default {
       folder: "content/authors",
       identifier_field: "name",
       create: true,
+      i18n: true,
       fields: [
         {
           label: "Name",
           name: "name",
           widget: "string",
+        },
+        {
+          label: "Order",
+          name: "order",
+          widget: "number",
         },
         {
           label: "Photo",
