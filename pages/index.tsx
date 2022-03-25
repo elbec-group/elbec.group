@@ -40,17 +40,17 @@ const HomePage: NextPage<Props> = ({ config, content, projects }) => {
   return (
     <>
       <Hero title={hero_title} textAlt={logo_alt} isFullHeight/>
-      <article className={styles.content}>
+      {/* <article className={styles.content}>
         <h2>{home_title}</h2>
 
-        {/* <section>
+        <section>
           <h3>News</h3>
           {newsHome.map((project:any) => {
             const {attributes, slug} = project
 
             return <Card props={attributes} slug={slug} />
           })}
-        </section> */}
+        </section>
         <section>
           {projectsHome.map((project:any) => {
             const {attributes, slug} = project
@@ -58,7 +58,7 @@ const HomePage: NextPage<Props> = ({ config, content, projects }) => {
           })}
         </section>
       </article>
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
