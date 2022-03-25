@@ -4,9 +4,9 @@ import path from "path"
 import fs from "fs"
 
 import styles from "styles/Home.module.css";
-import { Hero } from "components/Hero";
-import { Card } from "components/Card";
-import { Footer } from "components/Footer";
+import { Hero } from "../components/Hero"
+// import { Card } from "components/Card";
+// import { Footer } from "components/Footer";
 
 type Props = {
   config:{ attributes: ConfigAttributes };
