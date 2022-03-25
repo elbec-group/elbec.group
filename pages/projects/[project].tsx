@@ -61,7 +61,7 @@ const Post = ({ draft,
         <div className={styles.Information}>
           <p>
             Principal Investigator(s): {pi.map(_pi => <Link href="#" key={_pi}><a className={styles.Pi}>{_pi}</a></Link>)} 
-            { members.length > 0 ? 
+            { members?.length > 0 ? 
             (<> with {members.map((member, i, {length}) => { 
               const SEPARATOR = i === length - 1 ? '' : ', '
               return (<Link href="#" key={member}><a className={styles.Member}>{`${member}${SEPARATOR}`}</a></Link>)
