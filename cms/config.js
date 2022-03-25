@@ -230,6 +230,7 @@ export default {
           name: "role",
           widget: "string",
           required: false,
+          i18n: true,
         },
         {
           label: "Link",
@@ -242,6 +243,7 @@ export default {
           name: "bio",
           widget: "markdown",
           required: false,
+          i18n: true,
         },
       ],
     },
