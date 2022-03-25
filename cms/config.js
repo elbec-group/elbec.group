@@ -254,11 +254,13 @@ export default {
       folder: "content/publication_type",
       identifier_field: "name",
       create: true,
+      i18n: true,
       fields: [
         {
           label: "Name",
           name: "name",
           widget: "string",
+          i18n: true,
         },
       ],
     },
