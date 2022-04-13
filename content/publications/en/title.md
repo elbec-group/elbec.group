@@ -1,11 +1,11 @@
 ---
 publication_type: Article
 eds: "123"
-title: Publication Title
+name: Publication Title
 journal: Journal
 publishing_house: Publishing house
 year: "2020"
-doi: DOI Link
+doi: https://en.wikipedia.org/wiki/Digital_object_identifier
 abstract: Abstract
 authors:
   - Name

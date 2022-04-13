@@ -14,7 +14,7 @@ export default {
       deleteMedia: "[skip ci] Delete “{{path}}”",
     },
   },
-  // local_backend: true,
+  local_backend: true,
   media_folder: "images",
   public_folder: "/images",
   slug: {
@@ -32,19 +32,21 @@ export default {
     {
       name: "meta",
       label: "Meta",
+      label_singular: "Meta",
+      identifier_field: "name",
+      create: true,
       delete: false,
       files: [
         {
-          name: "authors",
-          label: "Authors / Members",
+          name: "currency",
           identifier_field: "name",
+          label: "Currencies",
           create: true,
-          file: "content/meta/authors.yml",
+          file: "content/meta/currency.md",
           fields: [
             {
-              name: "authors",
-              label: "Authors / Members",
-              label_singular: "Authors / Members",
+              name: "currency",
+              label: "Currency",
               widget: "list",
               fields: [
                 {
@@ -53,35 +55,9 @@ export default {
                   widget: "string",
                 },
                 {
-                  label: "Photo",
-                  name: "photo",
-                  widget: "image",
-                  required: false,
-                },
-                {
-                  label: "Role",
-                  name: "role",
+                  label: "Code",
+                  name: "code",
                   widget: "string",
-                  required: false,
-                },
-                {
-                  label: "Link",
-                  name: "url",
-                  widget: "list",
-                  required: false,
-                  fields: [
-                    {
-                      label: "Link",
-                      name: "url",
-                      widget: "string",
-                    },
-                  ],
-                },
-                {
-                  label: "Biography",
-                  name: "bio",
-                  widget: "markdown",
-                  required: false,
                 },
               ],
             },
@@ -273,25 +249,18 @@ export default {
       folder: "content/projects",
       identifier_field: "name",
       create: true,
-      slug: "{{fields.name}}",
+      slug: "{{name}}_{{id}}",
       // summary: "{{name}} | {{abstract | truncate(200, '...')}}",
       fields: [
         {
-          label: "Is Publish",
-          name: "draft",
-          widget: "boolean",
-          default: false,
-          required: false,
+          label: "Order",
+          name: "order",
+          widget: "number",
         },
         {
           label: "ID",
           name: "id",
           widget: "string",
-        },
-        {
-          label: "Publication Date",
-          name: "publication_date",
-          widget: "date",
         },
         {
           label: "Name",
@@ -320,11 +289,19 @@ export default {
         {
           label: "Amount",
           name: "amount",
-          widget: "string",
+          widget: "number",
           pattern: [
             "\\d\\.?\\d{2}",
             "The correct format would be like 10000 or 10000.50 (American format)",
           ],
+        },
+        {
+          label: "Currency",
+          collection: "meta",
+          name: "currency_type",
+          search_fields: ["name"],
+          value_field: "currency.*.code",
+          widget: "relation",
         },
         {
           label: "Running from",
@@ -351,28 +328,41 @@ export default {
           i18n: true,
         },
         {
+          i18n: true,
           label: "Relevant outputs",
           name: "relevant_outputs",
-          widget: "list",
           required: false,
+          widget: "list",
           fields: [
             {
-              name: "resource",
-              label: "Resource",
-              widget: "text",
+              name: "resource_name",
+              label: "Resource Name",
+              widget: "string",
               i18n: true,
             },
             {
-              name: "link",
-              label: "Link",
-              widget: "text",
+              name: "resource_link",
+              label: "Resource",
+              widget: "relation",
+              collection: "resources",
+              // required: false,
+              value_field: "resource_link",
+              search_fields: ["name", "label"],
               i18n: true,
-              pattern: [
-                "^https?://",
-                "The correct format would be like https://www.elbec.group/",
-              ],
-              hint: "Link to the resource",
+              hint: "Link to a resource on the website",
             },
+            // {
+            //   name: "external_link",
+            //   label: "Link",
+            //   widget: "string",
+            //   i18n: true,
+            //   required: false,
+            //   pattern: [
+            //     "^https?://",
+            //     "The correct format would be like https://www.elbec.group/",
+            //   ],
+            //   hint: "External link to the resource",
+            // },
           ],
         },
         {
@@ -413,7 +403,7 @@ export default {
         },
         {
           label: "Title",
-          name: "title",
+          name: "name",
           widget: "string",
           i18n: true,
         },
@@ -512,39 +502,25 @@ export default {
     },
     // Resource -----------------------
     {
-      name: "resources",
-      label: "Resources",
-      label_singular: "Resources",
-      i18n: false,
-      identifier_field: "title",
       create: true,
-      files: [
+      folder: "content/resources",
+      i18n: true,
+      identifier_field: "resource_name",
+      label: "Resources",
+      name: "resources",
+      slug: "{{resource_name}}",
+      fields: [
         {
-          name: "home",
-          label: "Resources",
-          file: "content/resources.md",
-          fields: [
-            {
-              name: "num_news",
-              label: "Number of news & events",
-              widget: "number",
-              default: 2,
-              value_type: "int",
-              min: 1,
-              max: 4,
-              step: 1,
-            },
-            {
-              name: "num_projects",
-              label: "Number of projects",
-              widget: "number",
-              default: 2,
-              value_type: "int",
-              min: 1,
-              max: 4,
-              step: 1,
-            },
-          ],
+          name: "resource_name",
+          label: "Name",
+          widget: "string",
+          i18n: true,
+        },
+        {
+          name: "resource_link",
+          label: "Link",
+          widget: "string",
+          i18n: true,
         },
       ],
     },

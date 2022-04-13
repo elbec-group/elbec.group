@@ -3,15 +3,19 @@ import Head from "next/head";
 import path from "path"
 import fs from "fs"
 
+import { DEFAULT_LOCALE, LOCALES } from 'core/config';
+console.log('💬 | file: index.tsx | line 7 | LOCALES', LOCALES)
+console.log('💬 | file: index.tsx | line 7 | DEFAULT_LOCALE', DEFAULT_LOCALE)
+
 import styles from "styles/Home.module.css";
 import { Hero } from "../components/Hero"
-// import { Card } from "components/Card";
-// import { Footer } from "components/Footer";
+import { Card } from "components/Card";
+import { Footer } from "components/Footer";
 
 type Props = {
   config:{ attributes: ConfigAttributes };
   content: { attributes: HomeAttributes };
-  projects:Array<Object>
+  projects: object[]
 }
 
 type ConfigAttributes = {
@@ -24,8 +28,6 @@ type HomeAttributes = {
   logo_alt: string;
   home_title: string;
 }
-
-
 
 const HomePage: NextPage<Props> = ({ config, content, projects }) => {
   // console.log({projects})
@@ -40,25 +42,28 @@ const HomePage: NextPage<Props> = ({ config, content, projects }) => {
   return (
     <>
       <Hero title={hero_title} textAlt={logo_alt} isFullHeight/>
-      {/* <article className={styles.content}>
+      <article className={styles.content}>
         <h2>{home_title}</h2>
 
         <section>
           <h3>News</h3>
+          {console.log({newsHome})}
           {newsHome.map((project:any) => {
             const {attributes, slug} = project
-
-            return <Card props={attributes} slug={slug} />
+            
+            return <Card props={attributes} slug={slug} key={slug} />
           })}
         </section>
+
         <section>
+          <h3>Projects</h3>
           {projectsHome.map((project:any) => {
             const {attributes, slug} = project
             return <Card key={slug} props={attributes} slug={slug}/>
           })}
         </section>
       </article>
-      <Footer /> */}
+      <Footer />
     </>
   );
 };

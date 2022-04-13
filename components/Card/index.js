@@ -1,14 +1,17 @@
 import PropTypes from "prop-types";
 import Image from "next/image";
 import Link from "next/link";
-
+import ReactMarkdown from "react-markdown";
 import styles from "./Card.module.css";
+
+const options = { year: "numeric", month: "long", day: "numeric" };
 
 const Card = ({
   props: { abstract, image, pi, publication_date, reference, name },
   slug,
 }) => {
   const imageFixedPath = image && image.replace("/public", "");
+  const date = new Date(publication_date);
 
   const truncateText = (text, length = 280) =>
     text.length > length ? `${text.substring(0, length)}...` : text;
@@ -28,8 +31,12 @@ const Card = ({
         <p className={styles.Reference}>
           {reference}, PI: <span className={styles.Pi}>{pi}</span>
         </p>
-        <p className={styles.Abstract}>{truncateText(abstract)}</p>
-        <span className={styles.Date}>{publication_date}</span>
+        <ReactMarkdown className={styles.Abstract}>
+          {truncateText(abstract)}
+        </ReactMarkdown>
+        <span className={styles.Date}>
+          {date.toLocaleDateString("en-EN", options)}
+        </span>
       </div>
     </div>
   );

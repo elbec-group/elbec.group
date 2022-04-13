@@ -1,13 +1,15 @@
 ---
 draft: false
-id: Pr2
 publication_date: 2022-03-03T17:31:40.079Z
+order: 3
+id: Pr2
 name: "Teaching innovation project: Improving the scientific culture of Primary
   School teacher trainees"
 image: ""
 reference: weqrwrqw
 funding_agency: qwerqwerqwe
 amount: "21321321"
+currency_type: GBP
 running_from: 2000-2010
 pi:
   - Naymé Salas

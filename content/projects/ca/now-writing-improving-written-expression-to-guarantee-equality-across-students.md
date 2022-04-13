@@ -1,8 +1,9 @@
 ---
 name: Ara, l’escriptura! Millorar l’expressió escrita per garantir l’equitat de
   l’alumnat
+currency_type: EUR
 pi:
-  - Naimé Salas
+  - Naymé Salas
 abstract: "L’objectiu d’aquesta proposta va ser incidir en la millora dels
   resultats en expressió escrita de l’alumnat d’educació obligatòria d’escoles
   ubicades en contextos deprimits, entenent que es tracta d’una competència
@@ -29,4 +30,7 @@ abstract: "L’objectiu d’aquesta proposta va ser incidir en la millora dels
   projecte es van disseminar en diverses conferències i congressos nacionals i
   internacionals, i es van publicar articles en revistes amb revisió per
   experts."
+members:
+  - Marilisa Birello
+  - Naimé Salas
 ---
