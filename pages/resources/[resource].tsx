@@ -12,7 +12,7 @@ import { Hero } from "components/Hero";
 import classNames from "classnames";
 
 const LANGUAGE = 'en'
-const Post = ({content, contentHero}) => {
+const Post = ({content, contentHero}: any) => {
   const { 
     publication_type,
     eds,
