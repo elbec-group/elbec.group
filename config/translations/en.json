@@ -1,7 +1,7 @@
 {
   "PROJECTS": "Projects",
   "PUBLICATIONS": "Publications",
-  "RESOURCES": "Resources?",
+  "RESOURCES": "Resources",
   "NEWS_EVENTS": "News & Events",
   "NEWSLETTER": "Newsletter",
   "CONTACT": "Contact",
@@ -13,7 +13,7 @@
   "LOCALE_CA": "Català",
   "PRINCIPAL_INVESTIGATOR": "Principal Investigator(s)",
   "FUNDING_AGENCY": "Funding agency",
-  "ANOUNT": "Anount",
+  "ANOUNT": "Amount",
   "DURATION": "Duration",
   "REFERENCE": "Reference",
   "OUTPUTS": "Outputs"
