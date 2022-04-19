@@ -17,9 +17,9 @@ export const DATE_OPTIONS: Intl.DateTimeFormatOptions = { year: 'numeric', month
 export const menuItems = {
   "PROJECTS": "/projects",
   "PUBLICATIONS": "/publications",
-  "RESOURCES": "/resources",
+  // "RESOURCES": "/resources",
   "NEWS_EVENTS": "/news-events",
-  "NEWSLETTER": "/newsletter",
+  // "NEWSLETTER": "/newsletter",
   "CONTACT": "/contact",
   "ABOUT": "/about",
 }
