@@ -1,0 +1,115 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-bottom: 24px;
+  padding-inline: 24px;
+  width: 100%;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px; /* or 150% */
+  
+  text-align: justify;
+  
+  color: #525252;
+  width: 100%;
+}
+
+.Header {
+
+}
+
+.Content {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.Information {
+  border: 1px solid #E8476F88;
+}
+
+.InformationList {
+  background-color: #E8476F11;
+  list-style: none;
+  padding: 1ch;
+  margin: 0;
+
+  & li {
+    border-bottom: 1px solid #E8476F88;
+    line-height: 3ch;
+    text-align: left;
+
+    @media (min-width: 480px) {
+      border: none
+    }
+    
+    & span {
+      display: block;
+      color: #606060;
+      padding: 0;
+      font-style: italic;
+      min-width: 25%;
+
+      @media (min-width: 480px) {
+        display: inline-block;
+        margin-right: 1ch;
+      }
+    }
+  }
+}
+
+.Title {
+  font-family: BioRhyme;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px; /* or 111% */
+  
+  text-align: left;
+  
+  color: #E8476F;
+}
+
+.Pi {
+  color: #E8476F;
+  font-weight: bold;
+}
+
+.Member {
+  color: #4F4F4F;
+  font-weight: bold;
+}
+
+.Outputs {
+  border-left: 24px solid #E8476F;
+  color: #4F4F4F;
+  font-family: BioRhyme;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px 12px 0;
+  width: 100%;
+}
+
+.OutputsList {
+  padding: 0;
+
+  & li {
+    list-style: none;
+  }
+}
+
+.OutputsLink {
+  color: #4F4F4F;
+  display: block;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  margin-block-end: 24px;
+}

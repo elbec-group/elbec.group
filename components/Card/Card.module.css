@@ -67,5 +67,9 @@
 }
 
 .Date {
+  background-repeat: no-repeat;
+  background-image: url("/images/icons/Calendar.svg");
+  background-position: 0 0;
   color: #B5B5B5;
+  padding-left: 24px;
 }

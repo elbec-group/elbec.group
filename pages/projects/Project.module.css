@@ -4,8 +4,7 @@
   flex-direction: column;
   margin: 0 auto;
   max-width: 1200px;
-  padding-bottom: 24px;
-  padding-inline: 24px;
+  
   width: 100%;
 
   font-family: Open Sans;
@@ -23,6 +22,55 @@
 
 }
 
+.Content {
+  margin-bottom: 40px;
+  padding-inline: 12px;
+  
+  @media (min-width: 480px) {
+    padding-inline: 24px;
+  }
+
+  & img {
+    margin: 100px auto;
+    max-width: 100%;
+  }
+}
+
+
+.Information {
+  border: 1px solid #8DC9E688;
+}
+
+.InformationList {
+  background-color: #8DC9E611;
+  list-style: none;
+  padding: 1ch;
+  margin: 0;
+
+  & li {
+    border-bottom: 1px solid #8DC9E688;
+    line-height: 3ch;
+    text-align: left;
+
+    @media (min-width: 480px) {
+      border: none
+    }
+    
+    & span {
+      display: block;
+      color: #606060;
+      padding: 0;
+      font-style: italic;
+      min-width: 25%;
+
+      @media (min-width: 480px) {
+        display: inline-block;
+        margin-right: 1ch;
+      }
+    }
+  }
+}
+
 .Title {
   font-family: BioRhyme;
   font-style: normal;
@@ -30,7 +78,7 @@
   font-size: 36px;
   line-height: 40px; /* or 111% */
   
-  text-align: justify;
+  text-align: left;
   
   color: #8DC9E6;
 }
@@ -56,11 +104,39 @@
   width: 100%;
 }
 
+.OutputsContent {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 480px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .OutputsList {
+  
+  flex: 1;
   padding: 0;
 
+  @media (min-width: 480px) {
+    column-count: 2;
+    column-gap: 32px;
+  }
+
   & li {
+    background-image: url("/images/icons/Edit.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border-bottom: 1px solid #E1E1E1;
+    color: #B5B5B5;
     list-style: none;
+    padding-left: 32px;
+
+    @media (min-width: 480px) {
+      border-bottom: none;
+    }
   }
 }
 
@@ -68,9 +144,8 @@
   color: #4F4F4F;
   display: block;
   font-family: Open Sans;
+  font-size: 16px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  /* line-height: 24px; */
-  margin-block-end: 24px;
+  margin-block-end: 12px;
 }

@@ -19,8 +19,6 @@ type HomeAttributes = {
   home_title: string;
 }
 
-const LANGUAGE = 'en'
-
 const ProjectsPage: NextPage<Props> = ({ projects, contentHero }) => {
   const {
      logo_alt, hero_title, home_title 
@@ -42,13 +40,13 @@ const ProjectsPage: NextPage<Props> = ({ projects, contentHero }) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
-  const contentHero = await import(`content/pages/${LANGUAGE}/home.md`)
+export const getStaticProps: GetStaticProps = async ({locale}) => {
+  const contentHero = await import(`content/pages/${locale}/home.md`)
   
-  const projectsDirectory = path.join(process.cwd(), `content/projects/${LANGUAGE}`)
+  const projectsDirectory = path.join(process.cwd(), `content/projects/${locale}`)
   const projectsFilenames = fs.readdirSync(projectsDirectory)
   const projects = await Promise.all(projectsFilenames.map(async filename => {
-    const fileContents = await import(`content/projects/${LANGUAGE}/${filename}`)
+    const fileContents = await import(`content/projects/${locale}/${filename}`)
     return {slug: `/projects/${filename.split('.')[0]}`, attributes: fileContents.attributes}
   })).then (result => result)
 
