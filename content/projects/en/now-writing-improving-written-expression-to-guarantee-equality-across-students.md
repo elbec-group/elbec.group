@@ -1,6 +1,5 @@
 ---
 draft: false
-publication_date: 2022-03-01T18:50:30.661Z
 order: 2
 id: Pr1
 name: Now, writing! Improving written expression to guarantee equality across

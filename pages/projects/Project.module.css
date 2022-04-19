@@ -4,8 +4,7 @@
   flex-direction: column;
   margin: 0 auto;
   max-width: 1200px;
-  padding-bottom: 24px;
-  padding-inline: 24px;
+  
   width: 100%;
 
   font-family: Open Sans;
@@ -25,7 +24,18 @@
 
 .Content {
   margin-bottom: 40px;
+  padding-inline: 12px;
+  
+  @media (min-width: 480px) {
+    padding-inline: 24px;
+  }
+
+  & img {
+    margin: 100px auto;
+    max-width: 100%;
+  }
 }
+
 
 .Information {
   border: 1px solid #8DC9E688;
@@ -94,11 +104,39 @@
   width: 100%;
 }
 
+.OutputsContent {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 480px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .OutputsList {
+  
+  flex: 1;
   padding: 0;
 
+  @media (min-width: 480px) {
+    column-count: 2;
+    column-gap: 32px;
+  }
+
   & li {
+    background-image: url("/images/icons/Edit.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border-bottom: 1px solid #E1E1E1;
+    color: #B5B5B5;
     list-style: none;
+    padding-left: 32px;
+
+    @media (min-width: 480px) {
+      border-bottom: none;
+    }
   }
 }
 
@@ -109,5 +147,5 @@
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
-  margin-block-end: 24px;
+  margin-block-end: 12px;
 }

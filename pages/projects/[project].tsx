@@ -4,72 +4,47 @@ import Image from "next/image"
 import path from "path"
 import fs from "fs"
 import ReactMarkdown from 'react-markdown'
-// import { fetchProjectContent } from "../../lib/projects";
+import { useRouter } from "next/router";
+import {DEFAULT_LANGUAGE, LOCALES} from "config/index"
+import { Project } from 'types/app';
+import { useI18N } from "context/i18n";
 
 import styles from "./Project.module.css";
 
-import { Footer } from "../../components/Footer";
-import classNames from "classnames";
+import { Footer } from "components/Footer";
+import { HeroImage } from "components/HeroImage";
 
 
-
-type Props = {
-  abstract: string;
-  amount: number;
-  currency_type: string;
-  draft: boolean;
-  funding_agency: string;
-  id: string;
-  image: string;
-  members: string[];
-  name: string;
-  order: number;
-  pi: string[];
-  publication_date: string;
-  reference: string;
-  relevant_outputs: object[];
-  running_from: string;
-  slug: string;
-}
-
-const LANGUAGE = 'en'
 const Post = ({ 
   abstract,
   amount,
   currency_type,
   funding_agency,
-  // id,
   image,
   members,
   name,
-  // order,
   pi,
-  // publication_date,
   reference,
   relevant_outputs,
-  running_from,
-  slug }: Props) => {
+  running_from }: Project) => {
   
-  // const LANG: string = navigator && navigator.language || 'en-US'
-  const LANG = 'en-US'
-  const DATE_OPTIONS: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-  // const date = new Date(publication_date).toLocaleDateString(LANG, DATE_OPTIONS)
-  const currencyFormat = new Intl.NumberFormat(LANG, { style: 'currency', currency: currency_type })
+  const { locale } = useRouter();  
+  const { t } = useI18N();
+  // @ts-ignore
+  const currencyFormat = new Intl.NumberFormat(LOCALES[locale], { style: 'currency', currency: currency_type })
 
   return (
     <article className={styles.Wrapper}>
-      <header className={styles.Header}>
-        {image ? (
-          <Image src={image.replace('/public','')} alt={name} width="1200" height="500"/>
-        ) : null}
-      </header>
+      {image ? (
+        <HeroImage image={image.replace('/public','')} alt={name} />
+      ) : null}
 
       <section className={styles.Content}>
         <h1 className={styles.Title}>{name}</h1>
         <div className={styles.Information}>
           <ul className={styles.InformationList}>
             <li>
-              <span>Principal Investigator(s):</span> {pi.map(_pi => <Link href="#" key={_pi}><a className={styles.Pi}>{_pi}</a></Link>)} 
+              <span>{t('PRINCIPAL_INVESTIGATOR')}:</span> {pi.map(_pi => <Link href="#" key={_pi}><a className={styles.Pi}>{_pi}</a></Link>)} 
               { members?.length > 0 ? 
               (<> with {members.map((member, i, {length}) => { 
                 const SEPARATOR = i === length - 1 ? '' : ', '
@@ -78,10 +53,10 @@ const Post = ({
               </>) : null}
             </li>
               
-            <li><span>Funding agency:</span> {funding_agency}</li>
-            <li><span>Anount:</span> {currencyFormat.format(amount)}</li>
-            <li><span>Duration:</span> {running_from}</li>
-            <li><span>Reference:</span> <strong>{reference}</strong></li>
+            <li><span>{t('FUNDING_AGENCY')}:</span> {funding_agency}</li>
+            <li><span>{t('ANOUNT')}:</span> {currencyFormat.format(amount)}</li>
+            <li><span>{t('DURATION')}:</span> {running_from}</li>
+            <li><span>{t('REFERENCE')}:</span> <strong>{reference}</strong></li>
           </ul>
         </div>
         
@@ -90,7 +65,7 @@ const Post = ({
 
       {relevant_outputs.length > 0 ? (
       <section className={styles.Outputs}>
-        <h2 className={styles.OutputsTitle}>Outputs</h2>
+        <h2 className={styles.OutputsTitle}>{t('OUTPUTS')}</h2>
         <div className={styles.OutputsContent}>
           <ul className={styles.OutputsList}>
             {relevant_outputs.map((output: any) => {
@@ -109,22 +84,27 @@ const Post = ({
 };
 
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const projectsDirectory = path.join(process.cwd(), `./content/projects/${LANGUAGE}`)
+export const getStaticPaths: GetStaticPaths = async ({locales}: any) => {
+  const projectsDirectory = path.join(process.cwd(), `./content/projects/${DEFAULT_LANGUAGE}`)
   const projectsFilenames = fs.readdirSync(projectsDirectory)
   const projectPaths = await Promise.all(projectsFilenames.map(async filename => {
-    return {params: {project: `${filename.split('.')[0]}`}}
+    return `${filename.split('.')[0]}`
   })).then (result => result)
+  const paths = locales.map((locale: string) => {
+    return projectPaths.map((project: any) => {
+      return { params: { project }, locale }
+    })
+  }).flat();
 
   return {
-    paths: projectPaths,
+    paths,
     fallback: false,
   };
 };
 
-export const getStaticProps: GetStaticProps = async ({ params }: any) => {
+export const getStaticProps: GetStaticProps = async ({ locale, params }: any) => {
   const slug = params.project as string;
-  const projectContents = await import(`content/projects/${LANGUAGE}/${slug}.md`)
+  const projectContents = await import(`content/projects/${locale}/${slug}.md`)
   return {props: projectContents.attributes}
 };
 

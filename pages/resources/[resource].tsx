@@ -4,27 +4,27 @@ import Image from "next/image"
 import path from "path"
 import fs from "fs"
 import ReactMarkdown from 'react-markdown'
-// import { fetchProjectContent } from "../../lib/projects";
+import {DEFAULT_LANGUAGE, LOCALES} from "config/index"
 
-import styles from "./Publication.module.css";
+import styles from "./Resource.module.css";
 import { Footer } from "components/Footer";
 import { Hero } from "components/Hero";
-import classNames from "classnames";
+
 
 const LANGUAGE = 'en'
 const Post = ({content, contentHero}: any) => {
-  const { 
-    publication_type,
-    eds,
-    name,
-    journal,
-    publishing_house,
-    year,
-    doi,
-    abstract,
-    authors,
-    elbec_members_involved,
-    projects } = content
+  // const { 
+  //   publication_type,
+  //   eds,
+  //   name,
+  //   journal,
+  //   publishing_house,
+  //   year,
+  //   doi,
+  //   abstract,
+  //   authors,
+  //   elbec_members_involved,
+  //   projects } = content
   const {hero_title, logo_alt} = contentHero
 
   
@@ -35,10 +35,10 @@ const Post = ({content, contentHero}: any) => {
 
   return (
     <article className={styles.Wrapper}>
-       <Hero title={hero_title} textAlt={logo_alt} />
+      <Hero title={hero_title} textAlt={logo_alt} />
       <section className={styles.Content}>
-        <h1 className={styles.Title}>{name}</h1>
-        <div className={styles.Information}>
+        <h1 className={styles.Title}>Resources</h1>
+        {/* <div className={styles.Information}>
           <ul className={styles.InformationList}>
             <li><span>Publication type:</span> {publication_type}</li>
             <li><span>EDS:</span> {eds}</li>
@@ -49,51 +49,40 @@ const Post = ({content, contentHero}: any) => {
             <li><span>authors:</span> {authors.map((author: string) => `${author}, `)}</li>
             <li><span>elbec members involved:</span> {elbec_members_involved}</li>
           </ul>
-        </div>
+        </div> */}
         
-        <ReactMarkdown>{abstract}</ReactMarkdown>
+        {/* <ReactMarkdown>{abstract}</ReactMarkdown> */}
       </section>
-{/*
-
-      {projects.length > 0 ? (
-      <section className={styles.Outputs}>
-        <h2 className={styles.OutputsTitle}>Outputs</h2>
-        <div className={styles.OutputsContent}>
-          <ul className={styles.OutputsList}>
-            {projects.map((project: any) => {
-              const {resource_link, resource_name} = project
-              return (<li key={resource_link}><Link href={resource_link}><a className={styles.OutputsLink}>{resource_name}</a></Link></li>)
-            })}
-          </ul>
-        </div>
-      </section>
-      ) : null} */}
-
       <Footer />
     </article>
   );
 };
 
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const publicationsDirectory = path.join(process.cwd(), `./content/publications/${LANGUAGE}`)
-  const publicationsFilenames = fs.readdirSync(publicationsDirectory)
-  const publicationPaths = await Promise.all(publicationsFilenames.map(async filename => {
-    return {params: {publication: `${filename.split('.')[0]}`}}
+export const getStaticPaths: GetStaticPaths = async ({locales}: any) => {
+  const resourcesDirectory = path.join(process.cwd(), `./content/resources/${DEFAULT_LANGUAGE}`)
+  const resourcesFilenames = fs.readdirSync(resourcesDirectory)
+  const resourcePaths = await Promise.all(resourcesFilenames.map(async filename => {
+    return `${filename.split('.')[0]}`
   })).then (result => result)
+  const paths = locales.map((locale: string) => {
+    return resourcePaths.map((resource: any) => {
+      return { params: { resource }, locale }
+    })
+  }).flat();
   
   return {
-    paths: publicationPaths,
+    paths,
     fallback: false,
   };
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }: any) => {
-  const slug = params.publication as string;
+  const slug = params.resource as string;
   const contentHero = await import(`content/pages/${LANGUAGE}/home.md`)
-  const publicationContents = await import(`content/publications/${LANGUAGE}/${slug}.md`)
+  const resourceContents = await import(`content/resources/${LANGUAGE}/${slug}.md`)
 
-  return {props: {content: publicationContents.attributes, contentHero: contentHero.attributes}}
+  return {props: {content: resourceContents.attributes, contentHero: contentHero.attributes}}
 };
 
 export default Post;

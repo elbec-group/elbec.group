@@ -51,3 +51,14 @@
     color: #4F4F4F;
   }
 }
+
+.LanguagesLink {
+  display: inline-block;
+
+  &:first-child {
+    margin-right: 1ch;
+    padding-right: 1ch;
+    position: relative;
+    border-right: 1px solid #B5B5B5;
+  }
+}

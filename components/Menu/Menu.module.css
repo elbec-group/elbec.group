@@ -1,0 +1,77 @@
+.MenuWrapper {
+  align-items: center;
+  background-color: #153E5A;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 12px;
+}
+
+.MenuLogo {
+  background-repeat: no-repeat;
+  background-image: url("/images/Logo.svg");
+  background-position: center;
+  display: block;
+  height: 30px;
+  width: 74px;
+}
+
+.MenuLinks {
+  align-items: center;
+  display: flex;
+}
+
+.MenuIcon {
+  background-repeat: no-repeat;
+  background-image: url("/images/icons/Menu.svg");
+  background-position: center;
+  display: block;
+  height: 40px;
+  width: 40px;
+
+  @media (min-width: 480px) {
+    display: none;
+  }
+}
+
+.MenuList {
+  list-style: none;
+  display: none;
+  gap: 2ch;
+
+  @media (min-width: 480px) {
+    display: flex;
+  }
+  
+  & a {
+    color: #E1E1E1;
+
+    &:hover {
+      color: #FDD068;
+      border-bottom: 4px solid #FDD068;
+      text-decoration: none;
+      padding-block-end: 12px;
+    }
+  }
+}
+
+.MenuLanguajes {
+  list-style: none;
+  display: flex;
+  font-size: 14px;;
+  gap: 1ch;
+  margin-left: 24px;
+  padding: 0;
+  
+  & li:first-of-type {
+    border-right: 1px solid #B0B0B0;
+    padding-inline: 1ch;
+  }
+  
+  & a {
+    color: #B0B0B0;
+    &:hover {
+      color: #dedede;
+      text-decoration: underline;
+    }
+  }
+}

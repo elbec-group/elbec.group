@@ -1,6 +1,5 @@
 ---
 draft: false
-publication_date: 2022-03-03T17:31:40.079Z
 order: 3
 id: Pr2
 name: "Teaching innovation project: Improving the scientific culture of Primary
@@ -30,10 +29,6 @@ abstract: >-
 
 
   En concret, el projecte va dissenyar un programa de 10 sessions de tutorització en el marc de l’assignatura de TFG dels graus implicats (GEP i GL). Hem considerat que la realització d’un TFG de tipus empíric era una excel·lent oportunitat per confrontar els alumnes amb el funcionament científic en un àmbit de màxima rellevància per a ells com a futurs educadors: la didàctica de la llengua escrita. Donat que la durada del projecte era només d’un semestre (octubre-gener), la implementació encara estava en curs en el moment de la confecció d’aquesta memòria final.
-relevant_outputs:
-  - link: http://localhost:3000/projects/now-writing-improving-written-expression-to-guarantee-equality-across-students
-    resource: now-writing-improving-written-expression-to-guarantee-equality-across-students
-  - link: https://docs.google.com/document/d/1p_leUOsEgNxQoRH9MayHv44Q6npWe-mp2uiJRLurUnw/edit
-    resource: Mega link
+relevant_outputs: []
 members: []
 ---
