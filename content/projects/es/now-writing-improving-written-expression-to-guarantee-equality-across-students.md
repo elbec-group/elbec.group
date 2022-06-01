@@ -6,7 +6,7 @@ name: Ahora, ¡la escritura! Mejorar la expresión escrita para garantizar la
 image: /public/images/element5-digital-oycl7y4y0bk-unsplash.jpg
 reference: 2015ACUP 00175
 funding_agency: Recercaixa-ACUP
-amount: 123456
+amount: 88088
 currency_type: EUR
 running_from: 2016-2019
 pi:
