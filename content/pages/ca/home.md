@@ -1,5 +1,5 @@
 ---
-hero_title: educación lingüística<br/>basada en evidencia científica
-logo_alt: educación lingüística basada en evidencia científica
-home_title: " Confiança i recursos per a ensenyar evolució."
+hero_title: educació lingüística<br/>basada en evidència científica
+logo_alt: educació lingüística basada en evidència científica
+home_title: educació lingüística basada en evidència científica
 ---
