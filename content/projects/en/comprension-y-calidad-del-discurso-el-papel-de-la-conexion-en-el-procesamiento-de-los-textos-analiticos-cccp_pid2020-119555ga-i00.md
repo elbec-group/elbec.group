@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 1
 id: PID2020-119555GA-I00
 name: "Comprensión y calidad del discurso: el papel de la conexión en el
   procesamiento de los textos analíticos (CCCP)"
