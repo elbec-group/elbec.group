@@ -54,5 +54,8 @@
   "bugs": {
     "url": "https://github.com/elbec-group/elbec.group/issues"
   },
-  "homepage": "https://github.com/elbec-group/elbec.group#readme"
+  "homepage": "https://github.com/elbec-group/elbec.group#readme",
+  "engines": {
+    "node": "16"
+  }
 }
