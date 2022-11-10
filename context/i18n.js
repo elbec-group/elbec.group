@@ -15,7 +15,7 @@ export function I18NProvider({ children }) {
   const t = useCallback(
     (key, ...args) => {
       let translation = languages[locale][key];
-      if (args.length === 0) return translation;
+      if (args?.length === 0) return translation;
       args.forEach((value, index) => {
         translation = translation.replace(`\${${index + 1}}`, value);
       });
