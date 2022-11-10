@@ -6,7 +6,7 @@ import { localeDateOptions, LOCALES } from "config";
 import { useRouter } from "next/router";
 
 const Card = ({
-  props: { abstract, image, pi, date, reference, name },
+  props: { abstract, image, pi = '', date, reference, name },
   slug,
 }) => {
   const imageFixedPath = image && image.replace("/public", "");
@@ -14,7 +14,7 @@ const Card = ({
   const { locale } = useRouter();
 
   const truncateText = (text, length = 280) =>
-    text.length > length ? `${text.substring(0, length)}...` : text;
+    text?.length > length ? `${text.substring(0, length)}...` : text;
 
   return (
     <div className={styles.Card}>
@@ -50,9 +50,9 @@ Card.propTypes = {
     abstract: PropTypes.string.isRequired,
     image: PropTypes.string,
     name: PropTypes.string.isRequired,
-    pi: PropTypes.array.isRequired,
+    pi: PropTypes.array,
     date: PropTypes.string,
-    reference: PropTypes.string.isRequired,
+    reference: PropTypes.string,
   }),
   slug: PropTypes.string.isRequired,
 };
