@@ -1,5 +1,4 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import Link from "next/link";
 import path from "path"
 import fs from "fs"
 import ReactMarkdown from 'react-markdown'
