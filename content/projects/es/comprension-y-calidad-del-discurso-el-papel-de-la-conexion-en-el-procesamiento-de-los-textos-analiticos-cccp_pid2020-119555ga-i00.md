@@ -1,46 +1,36 @@
 ---
 order: 1
 id: PID2020-119555GA-I00
-name: "Discourse comprehension & text quality: the role of connectivity in the
-  processing of analytical texts (CCCP)"
+name: "Comprensión y calidad del discurso: el papel de la conexión en el
+  procesamiento de los textos analíticos (CCCP)"
 reference: PID2020-119555GA-I00
-funding_agency: "Ministry of Science and Innovation "
+funding_agency: "Ministerio de Ciencia e Innovación (Proyectos I+D+i) "
 amount: 54571
 currency_type: EUR
 running_from: 2021-2024
 pi:
   - Melina Aparici
 abstract: >-
-  Written language proficiency, key to academic and professional success,
-  constitutes a developmental milestone that implies the combination of two
-  fundamental abilities: reading comprehension and written text production.
-  Moreover, when we read a text, we inevitably judge and evaluate its quality,
-  and our judgments are determined by factors of diverse nature that include,
-  crucially, how information is structured and connected.
+  El dominio de la lengua escrita, clave para el éxito escolar y profesional del
+  individuo, constituye un hito evolutivo que implica la combinación de dos
+  habilidades fundamentales: la comprensión lectora y la producción de textos.
+  Por otra parte, en tanto receptores de un texto, nos convertimos
+  inevitablemente en jueces que evalúan la calidad de aquello que leemos y
+  nuestros juicios vienen determinados por factores de índole diversa que
+  incluyen, de manera crucial, el modo en que se estructura y conecta la
+  información. 
 
 
-   
+  El estudio que proponemos examina la relación entre comprensión y evaluación de los textos escritos a través de los recursos de conexión textual que, según estudios previos, guían los procesos de comprensión y son valorados en la evaluación de la calidad de un texto. Para ello se investigara de manera experimental el papel de mecanismos de cohesión (conectores sintácticos y marcadores discursivos) en la comprensión del discurso escrito, combinando medidas online y offline de comprensión lectora, que se comparara con el uso y la evaluación de estos mecanismos en textos ya disponibles. Los trabajos sobre procesos de comprensión lectora raramente han considerado su relación con la calidad del texto: ambos aspectos se han estudiado por separado y la relación entre ellos es poco conocida. 
 
 
-  The study we propose examines the connections between the comprehension and evaluation of written texts in relation to connectivity devices which, according to previous studies, guide comprehension processes, and affect external evaluations of text quality. To do so, we will design experimental tasks for investigating the role of cohesive devices in written text comprehension. Our analysis will compare online and offline measures of reading comprehension with actual use of devices and the evaluations provided by external judges.
+  Estudios previos han revelado que el uso de mecanismos explícitos de conectividad es un indicador de calidad textual. Sin embargo, no esta claro como su presencia incide en la comprensión lectora: mientras algunos estudios observan que facilitan el procesamiento porque guían las relaciones entre partes del discurso, otros indican que determinados conectores y estructuras oracionales resultan difíciles de procesar. Cabe preguntarse, pues, como el efecto facilitador de los elementos cohesivos en el discurso compensa la dificultad resultante de la complejidad oracional, y si el efecto facilitador se produce con todo tipo de relación semántica. 
 
 
-   
+  El objetivo del proyecto es determinar si estos indicadores de calidad textual repercuten en el procesamiento del discurso y facilitan su comprensión, en distintos niveles educativos y en los textos analíticos, típicos de contextos académicos. Pretendemos con ello esclarecer si existe una diferencia entre “leer para evaluar” y “leer para comprender”. Diseñaremos una serie de experimentos de comprensión lectora adaptados al nivel educativo de los participantes (12, 16 años y adultos) y a su condición lingüística (nativos de español vs. Aprendices de l2) en los que se controlara la presencia de elementos de conexión (sintácticos y discursivos) para obtener medidas de tiempo de lectura y de comprensión de texto. Asimismo, diseñaremos una tarea para valorar la adecuación de las marcas de conexión que proporcionara información sobre como se evalúa su presencia en el texto. 
 
 
-  Studies on reading comprehension processes have rarely considered their relation with the quality of the text: both aspects have been studied independently and the relation between them is little known. Previous research has shown that the use of explicit connectivity mechanisms is an indicator of text quality. However, it is unclear how their presence influences reading comprehension: while some studies find that they facilitate text processing and guide the relation among sections of discourse, others indicate that certain subordinating connectives are difficult to process. Consequently, we speculate whether the facilitating effect of cohesive elements at the discourse level can compensate for the difficulty implied in syntactic complexity, and whether such facilitating effect operates with all types of semantic relations.
-
-
-   
-
-
-  The goal of this project is to determine whether these text quality indicators affect discourse processing and facilitate their comprehension, at different school levels and in analytical texts, particularly important in academic contexts. We aim at discerning the possible differences between reading to evaluate and reading to comprehend. We will design a series of reading comprehension experiments adapted to the school level of the participants (12, 16 years, and adults) and to their linguistic condition (Spanish native speakers vs L2 learners). In such experiments, to obtain measures of reading time and text comprehension, the presence of connective elements (syntactic and discursive) will be controlled. We will also design a task for evaluating the appropriateness of syntactic and discourse connectives in specific discourse contexts; this will provide information on how their presence is evaluated by the participants.
-
-
-   
-
-
-  Determining how the occurrence of text connectives facilitates reading comprehension will shed light on the nature and development of text comprehension abilities. The comparison of two types of data will unveil the specific nature of the relation between what facilitates reading and what is valued in the assessment of text quality. All in all, we expect to contribute to the actual knowledge about how the comprehension and production of analytical texts interact and develop.
+  Determinar como la presencia de marcas de conexión textual facilita la comprensión lectora arrojara luz sobre las habilidades de comprensión del texto y su desarrollo evolutivo. La comparación con datos de evaluación de producción textual revelara la naturaleza de la relación entre aquello que se valora al evaluar un texto y aquello que facilita su lectura. En conjunto, se espera contribuir al conocimiento sobre los procesos de aprendizaje y enseñanza de lenguas y, en particular, sobre el desarrollo de la habilidad de comprender y producir textos analíticos que implican un posicionamiento critico por parte del autor/receptor.
 members:
   - Melina Aparici
 ---
