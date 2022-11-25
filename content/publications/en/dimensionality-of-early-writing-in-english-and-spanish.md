@@ -1,6 +1,6 @@
 ---
 publication_type: Article
-eds: Liliana Tolchinsky, Anat Stavans
+eds: "  "
 name: Dimensionality of early writing in English and Spanish
 journal: Journal of Literacy Research
 publishing_house: SAGE Journals
