@@ -3,7 +3,7 @@ publication_type: Article
 eds: "  "
 name: Dimensionality of early writing in English and Spanish
 journal: Journal of Literacy Research
-publishing_house: SAGE Journals
+publishing_house: "  "
 year: "2019"
 doi: https://doi.org/10.1177/1086296X19858146
 abstract: Writing development is understood to be a multidimensional task,
