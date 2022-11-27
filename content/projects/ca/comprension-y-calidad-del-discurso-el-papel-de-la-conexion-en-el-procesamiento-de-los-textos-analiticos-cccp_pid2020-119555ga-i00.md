@@ -12,4 +12,9 @@ pi:
 abstract: El domini
 members:
   - Melina Aparici
+  - Alondra Camus
+  - Elisa Rosado
+  - Iban Mañas
+  - Remei González
+  - Rocío Cuberos
 ---

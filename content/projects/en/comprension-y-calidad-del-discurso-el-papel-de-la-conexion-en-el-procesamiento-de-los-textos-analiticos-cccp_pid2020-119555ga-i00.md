@@ -31,4 +31,9 @@ abstract: >-
   Determining how the occurrence of text connectives facilitates reading comprehension will shed light on the nature and development of text comprehension abilities. The comparison of two types of data will unveil the specific nature of the relation between what facilitates reading and what is valued in the assessment of text quality. All in all, we expect to contribute to the actual knowledge about how the comprehension and production of analytical texts interact and develop.
 members:
   - Melina Aparici
+  - Remei González
+  - Iban Mañas
+  - Rocío Cuberos
+  - Elisa Rosado
+  - Alondra Camus
 ---
