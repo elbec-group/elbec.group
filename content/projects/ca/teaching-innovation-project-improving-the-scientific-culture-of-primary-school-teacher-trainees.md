@@ -6,7 +6,7 @@ name: "Projecte d’innovació docent: Millorar la formació científica de l’
 image: ""
 reference: "  "
 funding_agency: Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB
-amount: 100
+amount: 1000
 currency_type: EUR
 running_from: 2020-2020
 pi:
