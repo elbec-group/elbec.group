@@ -5,30 +5,31 @@ id: Pr2
 name: "Proyecto de innovación docente: Mejorar la formación científica del
   alumnado de Educación Primaria"
 image: ""
-reference: weqrwrqw
-funding_agency: qwerqwerqwe
-amount: "21321321"
-currency_type: GBP
-running_from: 2000-2010
+reference: "  "
+funding_agency: "  "
+amount: 1000
+currency_type: EUR
+running_from: 2020-2020
 pi:
   - Naymé Salas
 abstract: >-
-  L'ensenyament de la llengua escrita al nostre context és víctima de nombrosos
-  malentesos al voltant del seu desenvolupament i aprenentatge. Sovint, això
-  provoca que l'ensenyament a les aules no estigui basat en teories actuals
-  sobre com s'aprèn a llegir i a escriure. Els resultats en expressió escrita
-  solen deixar insatisfets als docents de tots els nivells educatius. Aquests, a
-  més, se senten poc preparats per abordar l'ensenyament de l'escriptura, segons
-  enquestes recents a nivell nacional i internacional (Brindle et al., 2016;
-  Sánchez et al., 2018). L'empoderament dels futurs mestres passarà per
-  proporcionar-los les eines necessàries per afrontar aquest i d'altres reptes
-  semblants. 
+  La enseñanza de la lengua escrita en nuestro contexto es víctima de numerosos
+  malentendidos alrededor de su desarrollo y aprendizaje. A menudo, esto provoca
+  que la enseñanza en las aulas no esté basado en teorías actuales sobre cómo se
+  aprende a leer y a escribir. Los resultados en expresión escrita suelen dejar
+  insatisfechos a los docentes de todos los niveles educativos. Estos, además,
+  se sienten poco preparados para abordar la enseñanza de la escritura, según
+  encuestas recientes a nivel nacional e internacional (Brindle et al., 2016;
+  Sánchez et al., 2018). El empoderamiento de los futuros maestros implica
+  proporcionarles las herramientas necesarias para afrontar este y otros retos
+  parecidos. 
 
 
-  En aquest sentit, el projecte d’innovació docent va pretendre contribuir a la cultura científica de docents i altres educadors de l’àmbit del llenguatge. L’objectiu era que els futurs professionals educatius donin importància a les pràctiques d'aula informades per l'evidència científica (Davies, 1999; Ferrero et al., 2016). La formació en ciència dels futurs educadors permetrà que (1) tinguin facilitat per estar al corrent de noves troballes i innovacions pedagògiques en el camp de l'escriptura (i d'altres dominis); (2) siguin capaços d'integrar els seus coneixements previs i experiència amb evidència empírica de qualitat; (3) evitin aplicar metodologies que no han estat provades amb rigor; i (4) transmetin el valor de la ciència com a productora de coneixement als seus alumnes.
+  En este sentido, el proyecto de innovación docente pretendió contribuir a la cultura científica de docentes y otros educadores del ámbito del lenguaje. El objetivo fue que los futuros profesionales educativos den importancia a las prácticas de aula informadas por la evidencia científica (Davies, 1999; Ferrero et al., 2016). La formación en ciencia de los futuros educadores permitirá que (1) tengan facilidad para estar al corriente de nuevos hallazgos e innovaciones pedagógicas en el campo de la escritura (y otros dominios); (2) sean capaces de integrar sus conocimientos previos y experiencia con evidencia empírica de calidad; (3) eviten aplicar metodologías que no han sido probadas con rigor; y (4) transmitan el valor de la ciencia como productora de conocimiento a sus alumnos. 
 
 
-  En concret, el projecte va dissenyar un programa de 10 sessions de tutorització en el marc de l’assignatura de TFG dels graus implicats (GEP i GL). Hem considerat que la realització d’un TFG de tipus empíric era una excel·lent oportunitat per confrontar els alumnes amb el funcionament científic en un àmbit de màxima rellevància per a ells com a futurs educadors: la didàctica de la llengua escrita. Donat que la durada del projecte era només d’un semestre (octubre-gener), la implementació encara estava en curs en el moment de la confecció d’aquesta memòria final.
+  En concreto, el proyecto diseñó un programa de 10 sesiones de tutorización en el marco de la asignatura de TFG de los grados implicados (GIBA y GL). Hemos considerado que la realización de un TFG de tipo empírico era una excelente oportunidad para confrontar los alumnos con el funcionamiento científico en un ámbito de máxima relevancia para ellos como futuros educadores: la didáctica de la lengua escrita. Dado que la duración del proyecto era solo de un semestre (octubre-enero), la implementación todavía estaba en curso en el momento de la confección de esta memoria final.
 relevant_outputs: []
-members: []
+members:
+  - Naymé Salas
 ---

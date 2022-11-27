@@ -4,11 +4,11 @@ id: Pr2
 name: "Projecte d’innovació docent: Millorar la formació científica de l’alumnat
   d’Educació Primària"
 image: ""
-reference: weqrwrqw
-funding_agency: qwerqwerqwe
-amount: "21321321"
-currency_type: GBP
-running_from: 2000-2010
+reference: "  "
+funding_agency: Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB
+amount: 100
+currency_type: EUR
+running_from: 2020-2020
 pi:
   - Naymé Salas
 abstract: >-
@@ -29,5 +29,6 @@ abstract: >-
 
   En concret, el projecte va dissenyar un programa de 10 sessions de tutorització en el marc de l’assignatura de TFG dels graus implicats (GEP i GL). Hem considerat que la realització d’un TFG de tipus empíric era una excel·lent oportunitat per confrontar els alumnes amb el funcionament científic en un àmbit de màxima rellevància per a ells com a futurs educadors: la didàctica de la llengua escrita. Donat que la durada del projecte era només d’un semestre (octubre-gener), la implementació encara estava en curs en el moment de la confecció d’aquesta memòria final.
 relevant_outputs: []
-members: []
+members:
+  - Naymé Salas
 ---
