@@ -12,47 +12,34 @@ running_from: 2016-2019
 pi:
   - Naymé Salas
 abstract: >-
-  *The goal of the project was to make a positive impact on the current written
-  composition performance of students at compulsory-education levels attending
-  schools in disadvantaged areas.* The underlying assumption was that written
-  composition is part of students’ basic competencies and must be enhanced from
-  the initial school levels upwards, in order to ensure equal opportunities. The
-  project’s main goal was realized via three specific aims: (1) to generate
-  knowledge about writing development in disadvantaged contexts; (2) to provide
-  empirical and pedagogical evidence on educational practices that are most
-  effective for the written composition of school and academic discourse genres;
-  and (3) to contribute to set the bases for the teaching of scientific and
-  technical skills at all educational levels, in line with one the priority
-  goals of the **“Estrategia Española de Ciencia y Tecnología y de
-  Investigación”**.
+  *El objetivo del proyecto fue influir positivamente en el rendimiento actual
+  de la composición escrita de los alumnos de los niveles de enseñanza
+  obligatoria que asisten a escuelas de zonas desfavorecidas.* El supuesto
+  subyacente era que la composición escrita forma parte de las competencias
+  básicas de los alumnos y debe mejorarse desde los niveles escolares iniciales
+  para garantizar la igualdad de oportunidades. El objetivo principal del
+  proyecto se materializó a través de tres objetivos específicos: (1) generar
+  conocimiento sobre el desarrollo de la escritura en contextos desfavorecidos;
+  (2) aportar evidencias empíricas y pedagógicas sobre las prácticas educativas
+  más eficaces para la composición escrita de géneros discursivos escolares y
+  académicos; y (3) contribuir a sentar las bases para la enseñanza de las
+  competencias científicas y técnicas en todos los niveles educativos, en línea
+  con uno de los objetivos prioritarios de la **"Estrategia Española de Ciencia
+  y Tecnología y de Investigación "**. 
 
 
-  1. a
-
-  2. b
-
-  3. c
-
-  4. d
+  ![Unicorn]()
 
 
+  Aplicamos un enfoque de métodos mixtos (cuantitativo-cualitativo) basado en una serie de estudios de intervención que se llevaron a cabo en todos los niveles de la enseñanza obligatoria, que se complementó con observaciones sistemáticas y entrevistas en profundidad a una submuestra. Dos grupos experimentales y un grupo de control recibieron las intervenciones, que consistieron en puntos de prueba previos y posteriores y de mantenimiento.
 
 
-  ![Unicorn](/images/1641942042218.jpg)
-
-
-  We implemented a mixed-methods approach (quantitative-qualitative) based on a series of intervention studies that were carried out across levels of compulsory education, which was complemented by systematic observations and in-depth interviews to a subsample. Two experimental groups and one control group received the interventions, which consisted of pre-test/post-test and maintenance testing points.
-
-
-
-
-  One experimental group reflected on the use of grammar for writing, while the other group was taught self-regulation strategies for written composition. All groups were taught to write discourse genres typical of school and academia. Participating teachers were specifically trained to carry out the interventions. Findings from this project have been disseminated in several national and international conferences and peer-reviewed journals.
+  Un grupo experimental reflexionó sobre el uso de la gramática para la escritura, mientras que al otro grupo se le enseñaron estrategias de autorregulación para la composición escrita. A todos los grupos se les enseñó a escribir géneros discursivos típicos del ámbito escolar y académico. Los profesores participantes recibieron formación específica para llevar a cabo las intervenciones. Los resultados de este proyecto se han difundido en varias conferencias nacionales e internacionales y en revistas especializadas.
 relevant_outputs:
   - resource_name: Netlify CMS
     resource_link: https://www.netlifycms.org/
   - resource_name: Publication Title
     resource_link: https://625ed483418ef50008ebcd50--elbec.netlify.app/ca/publications/title
 members:
-  - Marilisa Birello
-  - Naimé Salas
+  - Naymé Salas
 ---

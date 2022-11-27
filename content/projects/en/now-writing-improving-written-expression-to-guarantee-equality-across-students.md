@@ -28,23 +28,12 @@ abstract: >-
   Investigación”**.
 
 
-  1. a
-
-  2. b
-
-  3. c
-
-  4. d
 
 
-
-
-  ![Unicorn](/images/1641942042218.jpg)
+  ![]()
 
 
   We implemented a mixed-methods approach (quantitative-qualitative) based on a series of intervention studies that were carried out across levels of compulsory education, which was complemented by systematic observations and in-depth interviews to a subsample. Two experimental groups and one control group received the interventions, which consisted of pre-test/post-test and maintenance testing points.
-
-
 
 
   One experimental group reflected on the use of grammar for writing, while the other group was taught self-regulation strategies for written composition. All groups were taught to write discourse genres typical of school and academia. Participating teachers were specifically trained to carry out the interventions. Findings from this project have been disseminated in several national and international conferences and peer-reviewed journals.
@@ -54,6 +43,5 @@ relevant_outputs:
   - resource_name: Publication Title
     resource_link: https://625ed483418ef50008ebcd50--elbec.netlify.app/ca/publications/title
 members:
-  - Marilisa Birello
-  - Naimé Salas
+  - Naymé Salas
 ---
