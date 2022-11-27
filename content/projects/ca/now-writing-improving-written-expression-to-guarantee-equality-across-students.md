@@ -12,41 +12,34 @@ running_from: 2016-2019
 pi:
   - Naymé Salas
 abstract: >-
-  *The goal of the project was to make a positive impact on the current written
-  composition performance of students at compulsory-education levels attending
-  schools in disadvantaged areas.* The underlying assumption was that written
-  composition is part of students’ basic competencies and must be enhanced from
-  the initial school levels upwards, in order to ensure equal opportunities. The
-  project’s main goal was realized via three specific aims: (1) to generate
-  knowledge about writing development in disadvantaged contexts; (2) to provide
-  empirical and pedagogical evidence on educational practices that are most
-  effective for the written composition of school and academic discourse genres;
-  and (3) to contribute to set the bases for the teaching of scientific and
-  technical skills at all educational levels, in line with one the priority
-  goals of the **“Estrategia Española de Ciencia y Tecnología y de
-  Investigación”**.
-
-
-  1. a
-
-  2. b
-
-  3. c
-
-  4. d
+  *L'objectiu del projecte era tenir un impacte positiu en l'actual rendiment de
+  la composició escrita dels estudiants en els nivells d'educació obligatòria
+  que assisteixen a les escoles en zones desfavorides*. El supòsit subjacent era
+  que la composició escrita forma part de les competències bàsiques dels
+  estudiants i ha de millorar-se des dels nivells escolars inicials a l'alça,
+  per tal de garantir la igualtat d'oportunitats. L'objectiu principal del
+  projecte es va realitzar a través de tres objectius específics: (1) generar
+  coneixement sobre el desenvolupament de l'escriptura en contextos desfavorits;
+  (2) proporcionar proves empíriques i pedagògiques sobre pràctiques educatives
+  que són més efectives per a la composició escrita dels gèneres escolars i
+  acadèmics; i (3) contribuir a establir les bases per a l'ensenyament de les
+  habilitats científiques i tècniques a tots els nivells educatius, d'acord amb
+  un dels objectius prioritaris de l' **"Estrategia Española de Ciencia y
+  Tecnología y de Investigación"**.
 
 
 
 
-  ![Unicorn](/images/1641942042218.jpg)
 
 
-  We implemented a mixed-methods approach (quantitative-qualitative) based on a series of intervention studies that were carried out across levels of compulsory education, which was complemented by systematic observations and in-depth interviews to a subsample. Two experimental groups and one control group received the interventions, which consisted of pre-test/post-test and maintenance testing points.
+  ![Unicorn]()
 
 
+  Vam implementar un enfocament de metòdics mixtos (quantitatiu-qualitatiu) basat en una sèrie d'estudis d'intervenció que es van dur a terme a través dels nivells d'educació obligatòria, que es va complementar amb observacions sistemàtiques i entrevistes en profunditat a una submostra. Dos grups experimentals i un grup de control van rebre les intervencions, que consistien en punts de prova prèvia/post-prova i de manteniment.\
 
+  \
 
-  One experimental group reflected on the use of grammar for writing, while the other group was taught self-regulation strategies for written composition. All groups were taught to write discourse genres typical of school and academia. Participating teachers were specifically trained to carry out the interventions. Findings from this project have been disseminated in several national and international conferences and peer-reviewed journals.
+  Un grup experimental es va reflectir en l'ús de la gramàtica per a l'escriptura, mentre que a l'altre grup se li van ensenyar estratègies d'autoregulació per a la composició escrita. A tots els grups se'ls va ensenyar a escriure gèneres de discurs típics de l'escola i l'acadèmia. Els professors participants van ser entrenats específicament per dur a terme les intervencions. Les troballes d'aquest projecte s'han difós en diverses conferències nacionals i internacionals i revistes analitzades per experts.
 relevant_outputs:
   - resource_name: Netlify CMS
     resource_link: https://www.netlifycms.org/
