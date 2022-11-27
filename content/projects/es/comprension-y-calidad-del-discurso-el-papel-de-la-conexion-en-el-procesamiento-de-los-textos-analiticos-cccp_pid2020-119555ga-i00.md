@@ -33,4 +33,9 @@ abstract: >-
   Determinar como la presencia de marcas de conexión textual facilita la comprensión lectora arrojara luz sobre las habilidades de comprensión del texto y su desarrollo evolutivo. La comparación con datos de evaluación de producción textual revelara la naturaleza de la relación entre aquello que se valora al evaluar un texto y aquello que facilita su lectura. En conjunto, se espera contribuir al conocimiento sobre los procesos de aprendizaje y enseñanza de lenguas y, en particular, sobre el desarrollo de la habilidad de comprender y producir textos analíticos que implican un posicionamiento critico por parte del autor/receptor.
 members:
   - Melina Aparici
+  - Alondra Camus
+  - Elisa Rosado
+  - Iban Mañas
+  - Remei González
+  - Rocío Cuberos
 ---
