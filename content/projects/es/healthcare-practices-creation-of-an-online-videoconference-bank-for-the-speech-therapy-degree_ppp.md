@@ -1,9 +1,9 @@
 ---
 order: 4
-id: ppp
+id: "    "
 name: "Prácticas sanitarias al alcance: creación de un banco de
   videoconferencias online para el Grado de Logopedia"
-reference: ppp
+reference: "   "
 funding_agency: "UAB "
 amount: 4000
 currency_type: EUR
@@ -23,4 +23,6 @@ abstract: >-
   Esperamos que este proyecto contribuya a cubrir las necesidades de formación práctica del alumnado de Logopedia, grado sanitario que requiere de una alta carga de prácticas, a partir de poner a su disposición un recurso para (a) poder enfrentarse con una masa crítica de casos y practicar su análisis en base a unos objetivos diagnósticos, (b) tener acceso a la explicación y aplicación de técnicas y estrategias de intervención poco conocidas o de difícil dominio y (c) practicar el razonamiento clínico sobre casos de difícil acceso, sin que haya necesariamente docentes y centros implicados presencialmente.
 members:
   - Melina Aparici
+  - Alondra Camus
+  - Paula Resina
 ---
