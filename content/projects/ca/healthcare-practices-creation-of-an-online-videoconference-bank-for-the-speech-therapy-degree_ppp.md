@@ -1,8 +1,8 @@
 ---
 order: 4
 id: "    "
-name: Creació d’un banc virtual de pràctiques sanitàries a través de
-  videoconferències pel Grau en Logopèdia
+name: " Pràctiques sanitàries a l'abast: Creació d’un banc virtual de pràctiques
+  sanitàries a través de videoconferències pel Grau en Logopèdia"
 image: null
 reference: "   "
 funding_agency: "UAB "
