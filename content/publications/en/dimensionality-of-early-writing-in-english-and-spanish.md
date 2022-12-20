@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: "  "
-name: Dimensionality of early writing in English and Spanish...
+name: Dimensionality of early writing in English and Spanish
 journal: Journal of Literacy Research
 publishing_house: "  "
 year: "2019"
