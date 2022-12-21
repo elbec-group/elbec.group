@@ -15,7 +15,7 @@ abstract: The availability of computerized statistical packages allows us to
   which will yield reliable answers for the study questions within the
   theoretical setting. Journals of all types require authors to deploy
   innovative statistical models when analysing collected data. Yet, the problem
-  of advanced modelling strategies still remains — authors disregard key
+  of advanced modelling strategies still remains  authors disregard key
   assumptions, choose the wrong analytical strategies and are not aware of
   alternative strategies to support or reject their hypotheses. This special
   issue provides readers with a reference framework for some of the most common
