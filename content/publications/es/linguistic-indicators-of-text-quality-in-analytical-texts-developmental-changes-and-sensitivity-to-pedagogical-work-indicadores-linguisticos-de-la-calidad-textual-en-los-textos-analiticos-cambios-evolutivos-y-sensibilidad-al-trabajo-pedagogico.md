@@ -3,9 +3,9 @@ publication_type: Article
 eds: .
 name: "Indicadores lingüísticos de la calidad textual en los textos analíticos:
   cambios evolutivos y sensibilidad al trabajo pedagógico"
-journal: Infancia y Aprendizaje
+journal: Journal for the Study of Education and Development
 publishing_house: .
-year: "2020"
+year: "2021"
 doi: https://doi.org/10.1080/02103702.2020.1848093
 abstract: El dominio de la escritura analítica requiere un uso avanzado de
   diversas funciones gramaticales, léxicas y discursivas de adquisición tardía.
