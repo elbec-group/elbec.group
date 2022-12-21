@@ -29,6 +29,5 @@ authors:
 elbec_members_involved:
   - Maria Andriá
 projects:
-  - "Teaching innovation project: Improving the scientific culture of Primary
-    School teacher trainees"
+  - .
 ---
