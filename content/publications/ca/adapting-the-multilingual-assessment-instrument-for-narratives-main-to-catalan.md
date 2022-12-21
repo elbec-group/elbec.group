@@ -1,8 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: Adaptación del Multilingual Assessment Instrument for Narratives (MAIN) al
-  Catalan
+name: Adaptació del Multilingual Assessment Instrument for Narratives (MAIN) al
+  català
 journal: ZAS Papers in Linguistics
 publishing_house: .
 year: "2020"
