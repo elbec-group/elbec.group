@@ -1,12 +1,12 @@
 ---
 publication_type: Article
 eds: "  "
-name: Estrategias ortográficas no fonológicas
+name: .
 journal: Frontiers in Psychology
 publishing_house: "  "
 year: "2020"
 doi: https://doi.org/10.1075/wll.00060.sal
-abstract: CA
+abstract: .
 authors:
   - Naymé Salas
 elbec_members_involved:
