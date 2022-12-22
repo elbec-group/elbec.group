@@ -11,7 +11,7 @@ currency_type: EUR
 running_from: 2021-2021
 pi:
   - Marilisa Birello
-abstract: The goal ...
+abstract: .
 members:
   - Marilisa Birello
 ---
