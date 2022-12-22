@@ -6,7 +6,7 @@ name: "Proyecto de innovación docente: Mejorar la formación científica del
   alumnado de Educación Primaria"
 image: ""
 reference: "  "
-funding_agency: "  "
+funding_agency: "  Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB"
 amount: 1000
 currency_type: EUR
 running_from: 2020-2020
