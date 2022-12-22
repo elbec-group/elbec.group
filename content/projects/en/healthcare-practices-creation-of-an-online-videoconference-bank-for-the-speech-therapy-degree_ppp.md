@@ -10,7 +10,7 @@ currency_type: EUR
 running_from: 2021-2022
 pi:
   - Melina Aparici
-abstract: The goal ...
+abstract: .
 members:
   - Melina Aparici
   - Alondra Camus
