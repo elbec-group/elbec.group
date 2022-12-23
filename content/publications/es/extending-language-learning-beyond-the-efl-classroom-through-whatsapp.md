@@ -1,0 +1,16 @@
+---
+publication_type: Article
+eds: .
+name: Ampliar el aprendizaje de idiomas más allá del aula de EFL a través de WhatsApp
+journal: Computer Assisted Language Learning (CALL)
+publishing_house: .
+year: "2021"
+doi: https://doi.org/10.1080/09588221.2020.1854310
+abstract: .
+authors:
+  - Maria Andriá
+elbec_members_involved:
+  - Maria Andriá
+projects:
+  - .
+---
