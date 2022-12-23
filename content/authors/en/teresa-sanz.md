@@ -1,4 +1,4 @@
 ---
 order: 16
-name: Teresa Sanz
+name: Teresa Sans
 ---
