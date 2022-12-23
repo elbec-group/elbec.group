@@ -27,10 +27,10 @@ abstract: In recent years, corrective feedback has aroused much interest and a
   lead students to a correction of the error by the students.
 authors:
   - Marilisa Birello
-  - Teresa Sanz
+  - Teresa Sans
 elbec_members_involved:
   - Marilisa Birello
-  - Teresa Sanz
+  - Teresa Sans
 projects:
   - .
 ---
