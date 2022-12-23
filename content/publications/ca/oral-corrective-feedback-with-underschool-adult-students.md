@@ -30,8 +30,10 @@ abstract: En els últims anys, la retroacció correctiva ha despertat molt inter
   més freqüència.
 authors:
   - Marilisa Birello
+  - Teresa Sans
 elbec_members_involved:
   - Marilisa Birello
+  - Teresa Sans
 projects:
   - .
 ---
