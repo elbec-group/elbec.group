@@ -30,8 +30,10 @@ abstract: En los últimos años, la retroacción correctiva ha despertado mucho
   corrección del error por parte de los alumnos con más frecuencia.
 authors:
   - Marilisa Birello
+  - Teresa Sanz
 elbec_members_involved:
   - Marilisa Birello
+  - Teresa Sanz
 projects:
   - .
 ---
