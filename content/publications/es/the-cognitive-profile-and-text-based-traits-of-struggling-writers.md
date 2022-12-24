@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: The cognitive profile and text-based traits of struggling writers
+name: .
 journal: Journal for the Study of Education and Development
 publishing_house: .
 year: "2021"
