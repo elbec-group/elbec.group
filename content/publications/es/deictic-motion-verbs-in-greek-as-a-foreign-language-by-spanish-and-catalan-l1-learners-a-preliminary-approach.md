@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: "erbos de movimiento deíctico en griego como lengua extranjera por
+name: "Verbos de movimiento deíctico en griego como lengua extranjera por
   aprendices de L1 español y catalán: una aproximación preliminar "
 journal: Glossologia
 publishing_house: .
