@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: El perfil cognitivo y los rasgos textuales de los escritores con dificultades
 journal: Journal for the Study of Education and Development
 publishing_house: .
 year: "2021"
