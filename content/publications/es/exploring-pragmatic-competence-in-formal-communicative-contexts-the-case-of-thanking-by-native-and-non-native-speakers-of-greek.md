@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Explorando la competencia pragmática en contesxtos comunicativos
+  formales: el caso del agradecimiento por hablantes de griego"
 journal: CLIL Journal of Innovation and Research in Plurilingual and
   Pluricultural Education
 publishing_house: .
