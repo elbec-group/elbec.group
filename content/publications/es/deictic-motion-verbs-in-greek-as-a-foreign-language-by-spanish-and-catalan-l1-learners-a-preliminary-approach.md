@@ -1,8 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: "Deictic motion verbs in Greek as a Foreign Language by Spanish and
-  Catalan L1 learners: A preliminary approach."
+name: "erbos de movimiento deíctico en griego como lengua extranjera por
+  aprendices de L1 español y catalán: una aproximación preliminar "
 journal: Glossologia
 publishing_house: .
 year: "2018"
