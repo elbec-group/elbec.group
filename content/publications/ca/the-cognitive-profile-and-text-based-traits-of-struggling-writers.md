@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: El perfil cognitiu i els trets textuals dels escriptors amb dificultats
 journal: Journal for the Study of Education and Development
 publishing_house: .
 year: "2021"
