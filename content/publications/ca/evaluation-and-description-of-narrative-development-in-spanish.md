@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: Avaluació i descripció del desenvolupament del discurs narratiu en espanol
 journal: Revista de Logopedia, Foniatría y Audiología
 publishing_house: .
 year: "2022"
