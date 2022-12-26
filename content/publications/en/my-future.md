@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: My future
+name: My future, my favourite passion or a path to ancient culture... The
+  meaning of motivations in learners of Modern Greek as a second language
 journal: CLIL Journal of Innovation and Research in Plurilingual and
   Pluricultural Education
 publishing_house: .
