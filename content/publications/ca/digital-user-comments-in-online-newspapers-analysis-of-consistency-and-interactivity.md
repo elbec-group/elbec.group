@@ -1,0 +1,16 @@
+---
+publication_type: Article
+eds: .
+name: .
+journal: Círculo de Lingüística Aplicada a la Comunicación
+publishing_house: .
+year: "2020"
+doi: "https://doi.org/10.5209/clac.70565 "
+abstract: .
+authors:
+  - Remei González
+elbec_members_involved:
+  - Remei González
+projects:
+  - .
+---
