@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Els comentaris digitals dels usuaris en els periòdics en línia: anàlisi
+  de la coherència i la interactivitat"
 journal: Círculo de Lingüística Aplicada a la Comunicación
 publishing_house: .
 year: "2020"
