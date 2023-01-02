@@ -2,7 +2,7 @@
 order: 1
 id: PID2020-119555GA-I00
 name: Comprensió i qualitat del discurs
-image: https://img.freepik.com/vector-gratis/ilustracion-concepto-lista-verificacion_114360-479.jpg?w=740&t=st=1671716229~exp=1671716829~hmac=7332d162ea25fd2786557b977ed1b2ddb4cc20f8192df2ddd892275a79414e91
+image: /public/images/ilustracion-concepto-equipo-creativo_114360-3894.jpg
 reference: PID2020-119555GA-I00
 funding_agency: "Ministerio de Ciencia e Innovación (Proyectos I+D+i) "
 amount: 54571
