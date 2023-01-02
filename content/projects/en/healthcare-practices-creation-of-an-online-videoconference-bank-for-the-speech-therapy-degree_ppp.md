@@ -1,7 +1,7 @@
 ---
 order: 4
 id: "  "
-name: "Teaching innovation project: Healthcare practices Creation of an online
+name: "Teaching innovation project: Healthcare practices: Creation of an online
   videoconference bank for the Speech Therapy degree"
 reference: "    "
 funding_agency: Projectes d'Innovació Docent - UAB
