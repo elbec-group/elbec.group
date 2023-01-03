@@ -1,8 +1,8 @@
 ---
 order: 4
 id: "    "
-name: "Prácticas sanitarias al alcance: creación de un banco de
-  videoconferencias online para el Grado de Logopedia"
+name: "Proyecto de innovación docente: Prácticas sanitarias al alcance: creación
+  de un banco de videoconferencias online para el Grado de Logopedia"
 reference: "   "
 funding_agency: "UAB "
 amount: 4000
