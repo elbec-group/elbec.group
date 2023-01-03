@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 3
 id: Pr1
 name: Ara, l’escriptura! Millorar l’expressió escrita per garantir l’equitat de
   l’alumnat
