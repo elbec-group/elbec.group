@@ -1,7 +1,8 @@
 ---
-order: 6
+order: 8
 id: .
-name: Programa virtual d’anàlisi de mostres de llenguatge amb feedback formatiu
+name: "Projecte d'Innovació Docent: Programa virtual d’anàlisi de mostres de
+  llenguatge amb feedback formatiu"
 reference: .
 funding_agency: Projectes d’Innovació Docent, MQD, Institut de Ciències de l’Educació, UAB
 amount: 1000
