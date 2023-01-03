@@ -1,7 +1,9 @@
 ---
 order: 5
 id: "1656"
-name: (LETEGR2)
+name: "Aprender, enseñar y aprender a enseñar griego como lengua
+  extranjera/segunda lengua: evidencias de diferentes contextos de aprendizaje
+  (LETEGR2)"
 image: null
 reference: "1656"
 funding_agency: Hellenic Foundation for Research and Innovation & Greek General
