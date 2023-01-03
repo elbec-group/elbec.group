@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 6
 id: "00"
 name: We want to be scientists! STEM project with a gender perspective
 image: null
