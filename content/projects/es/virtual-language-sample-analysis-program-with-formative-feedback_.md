@@ -1,7 +1,8 @@
 ---
 order: 6
 id: .
-name: Programa virtual de análisis de muestras de lenguaje con feedback formativo
+name: "Proyecto de innovación docente: Programa virtual de análisis de muestras
+  de lenguaje con feedback formativo"
 image: null
 reference: .
 funding_agency: Projectes d’Innovació Docent, MQD, Institut de Ciències de l’Educació, UAB
