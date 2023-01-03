@@ -1,7 +1,7 @@
 ---
-order: 1
+order: 2
 id: PID2019-108791GA-I00
-name: .
+name: Des de l'avaluació de qualitat fins a l'bastida (FAQTS)
 image: null
 reference: PID2019-108791GA-I00
 funding_agency: Ministerio de Ciencia e Innovación
