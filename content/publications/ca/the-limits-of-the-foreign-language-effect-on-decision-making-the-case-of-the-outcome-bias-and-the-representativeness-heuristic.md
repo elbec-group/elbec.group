@@ -1,8 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: "The limits of the foreign language effect on decision-making: The case of
-  the outcome bias and the representativeness heuristic"
+name: .
 journal: PLoS ONE
 publishing_house: .
 year: "2018"
