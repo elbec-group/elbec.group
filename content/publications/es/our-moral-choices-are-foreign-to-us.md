@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Nuestras opciones morales nos son extranjeras "
 journal: "Journal of Experimental Psychology: Learning Memory and Cognition"
 publishing_house: .
 year: "2017"

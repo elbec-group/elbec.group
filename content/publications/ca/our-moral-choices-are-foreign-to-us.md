@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: Les nostres decisions morals són estrangeres per a nosaltres
 journal: "Journal of Experimental Psychology: Learning Memory and Cognition"
 publishing_house: .
 year: "2017"
