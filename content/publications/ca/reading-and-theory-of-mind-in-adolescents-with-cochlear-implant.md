@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: Lectura i teoria de la ment en adolescents amb implants coclears
 journal: Journal of Deaf Studies and Deaf Education
 publishing_house: .
 year: "2020"

@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: Lectura y teoría de la mente en adolescentes con implante coclear
 journal: Journal of Deaf Studies and Deaf Education
 publishing_house: .
 year: "2020"
