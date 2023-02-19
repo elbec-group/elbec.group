@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: Tasca EF específica i lectura en adolescents amb audició típica o implants
+  coclears
 journal: Communication Disorders Quarterly
 publishing_house: .
 year: "2022"

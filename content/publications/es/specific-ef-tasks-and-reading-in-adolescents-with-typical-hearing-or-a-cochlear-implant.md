@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: Tareas específicas de EF y lectura en adolescentes con audición típica o
+  con implante coclear
 journal: Communication Disorders Quarterly
 publishing_house: .
 year: "2022"
