@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: "  "
-name: .
+name: Estratègies ortogràfiques no fonològiques
 journal: Frontiers in Psychology
 publishing_house: "  "
 year: "2020"
