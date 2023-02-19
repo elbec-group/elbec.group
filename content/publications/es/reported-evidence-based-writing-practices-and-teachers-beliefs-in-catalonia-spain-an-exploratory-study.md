@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Prácticas de escritura basadas en la evidencia y creencias de los
+  profesores en Cataluña, España: Un estudio exploratorio"
 journal: L1 – Educational Studies in Language & Literature
 publishing_house: .
 year: "2022"
