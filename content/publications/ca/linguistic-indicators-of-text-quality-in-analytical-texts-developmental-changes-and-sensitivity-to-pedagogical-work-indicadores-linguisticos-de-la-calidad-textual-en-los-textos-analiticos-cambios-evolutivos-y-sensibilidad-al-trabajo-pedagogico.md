@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: " Indicadors lingüístics de la qualitat textual en els textos analítics:
+  canvis evolutius i sensibilitat al treball pedagògic"
 journal: Journal for the Study of Education and Development
 publishing_house: .
 year: "2021"
