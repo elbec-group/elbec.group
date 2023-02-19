@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: El rol de les intencions i l'efecte de la llengua estrangera en els
+  judicis morals
 journal: Quarterly Journal of Experimental Psychology
 publishing_house: .
 year: "2019"
