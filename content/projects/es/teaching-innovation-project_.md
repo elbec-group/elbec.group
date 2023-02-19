@@ -1,7 +1,7 @@
 ---
 order: 5
 id: .
-name: "Proyecto de innovación docente: diseñar e implementar el portafolio
+name: "Proyecto de innovación docente: Diseñar e implementar el portafolio
   digital para el desarrollo de la práctica reflexiva de los futuros maestros
   sobre lengua escrita"
 image: null
