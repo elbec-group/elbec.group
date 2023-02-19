@@ -1,7 +1,9 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: " Percepcions dels professors d'idiomes en formació sobre l'aprenentatge i
+  el desenvolupament professional a través de pràctiques en l'ensenyança del
+  grec com a llengua estrangera"
 journal: EDUCAR
 publishing_house: .
 year: "2022"
