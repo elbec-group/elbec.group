@@ -1,8 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: '"Repertori i usos lingüístics d’un alumne intern d’origen marroquí d’un
-  centre penitenciari de l’àrea metropolitana de Barcelona"'
+name: Repertori i usos lingüístics d’un alumne intern d’origen marroquí d’un
+  centre penitenciari de l’àrea metropolitana de Barcelona
 journal: Bellaterra Journal of Teaching & Learning Language & Literature
 publishing_house: .
 year: "2018"
