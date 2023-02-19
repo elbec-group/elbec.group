@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "El rol de las funciones ejecutivas y las habilidades de transcripción en
+  la escritura: un estudio transversal a lo largo de 7 años de escolarización"
 journal: Reading and Writing
 publishing_house: .
 year: "2019"

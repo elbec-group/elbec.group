@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "El rol de les funcions executives i les habilitats de transcripció en
+  l'escriptura: un estudi transversal al llarg de 7 anys d'escolarització"
 journal: Reading and Writing
 publishing_house: .
 year: "2019"
