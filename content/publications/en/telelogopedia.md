@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: "Telelogopedia "
+name: "Telelogopedia in the context of the COVID-19 pandemic: Analysis of the
+  adaptations and perceptions of speech therapists"
 journal: Revista de Investigación en Logopedia
 publishing_house: .
 year: "2022"

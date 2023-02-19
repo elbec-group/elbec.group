@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: "Telelogopedia "
+name: "Telelogopèdia en el context de la pandèmia de la COVID-19: Anàlisi de les
+  adaptacions i les percepcions dels logopedes"
 journal: Revista de Investigación en Logopedia
 publishing_house: .
 year: "2022"
