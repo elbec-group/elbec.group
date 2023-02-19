@@ -2,7 +2,7 @@
 publication_type: Article
 eds: .
 name: "Una unitat didàctica basada en l’enfocament per tasques: reflexions i
-  exemples."
+  exemples"
 journal: CLIL Journal of Innovation and Research in Plurilingual and
   Pluricultural Education
 publishing_house: .
