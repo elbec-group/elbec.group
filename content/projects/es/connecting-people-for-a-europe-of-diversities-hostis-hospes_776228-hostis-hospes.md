@@ -1,7 +1,7 @@
 ---
 order: 4
 id: 776228-Hostis-Hospes
-name: (HOSTIS-HOSPES)
+name: Conectando a las personas para una Europa de las diversidades (HOSTIS-HOSPES)
 image: null
 reference: 776228-Hostis-Hospes
 funding_agency: EU. Rights, Equality and Citizenship Programme (REC Progr.) 2014-2020
