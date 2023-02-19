@@ -3,7 +3,7 @@ order: 5
 id: .
 name: "Teaching innovation project: Design and implementation of a digital
   portfolio for the development of the reflective practice of future teachers on
-  written language."
+  written language"
 reference: .
 funding_agency: Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB
 amount: 1800
