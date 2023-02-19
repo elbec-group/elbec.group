@@ -1,6 +1,6 @@
 ---
 order: 6
-id: "00"
+id: .
 name: Volem ser científiques! Projecte STEM amb perspectiva de gènere
 image: null
 reference: .

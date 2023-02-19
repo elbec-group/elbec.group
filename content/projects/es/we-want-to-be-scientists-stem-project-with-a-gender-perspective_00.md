@@ -1,6 +1,6 @@
 ---
 order: 6
-id: "00"
+id: .
 name: ¡Queremos ser científicas! Proyecto STEM con perspectiva de género
 reference: .
 funding_agency: FECYT (Fundación Española para la Ciencia y la Tecnología),
