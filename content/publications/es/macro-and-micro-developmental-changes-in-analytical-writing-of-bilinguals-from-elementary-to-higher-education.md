@@ -1,8 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: Macro- and micro-developmental changes in analytical writing of bilinguals
-  from elementary to higher education
+name: Cambios macro y microevolutivos en la escritura analítica de bilingües
+  desde la educación primaria hasta la superior
 journal: .
 publishing_house: .
 year: "2021"
