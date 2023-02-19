@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Els limits de l'efecte del llenguatge extranger en la presa de decisions:
+  El cas dels resultats amb biaix i la representativitat "
 journal: PLoS ONE
 publishing_house: .
 year: "2018"

@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Los límites del efecto de la lengua extranjera en la toma de decisiones:
+  el sesgo de los resultados y la heurística de la representatividad "
 journal: PLoS ONE
 publishing_house: .
 year: "2018"
