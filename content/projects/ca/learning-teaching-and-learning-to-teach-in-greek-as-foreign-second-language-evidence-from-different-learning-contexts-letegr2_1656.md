@@ -2,8 +2,7 @@
 order: 5
 id: "1656"
 name: "Aprendre, ensenyar i aprendre a ensenyar grec com a llengua
-  estrangera/segona llengua: evidències de diferents contextos d'aprenentatge
-  (LETEGR2)"
+  estrangera/segona llengua: evidències de diferents contextos d'aprenentatge  "
 image: null
 reference: "1656"
 funding_agency: Hellenic Foundation for Research and Innovation & Greek General
