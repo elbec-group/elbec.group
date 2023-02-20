@@ -7,26 +7,28 @@ journal: Revista de Investigación en Logopedia
 publishing_house: .
 year: "2023"
 doi: https://dx.doi.org/10.5209/rlog.82548
-abstract: "The identification of bilingual children with Developmental Language
-  Disorder (DLD) is complex, and the assessment of narratives may be
-  particularly valuable in this context. Therefore, the aim of this study is to
-  contribute to systematize and disseminate the growing body of literature
-  investigating the narrative skills of bilingual children with DLD through a
-  systematic review guided by the following questions: What aspects at the level
-  of narrative macrostructure and microstructure have been studied in bilingual
-  children with DLD? What features of narrative macrostructure and
-  microstructure differentiate bilingual children with DLD from typically
-  developing bilinguals? What features of narrative macrostructure and
-  microstructure differentiate bilinguals with DLD from monolinguals with DLD?
-  25 articles were selected from WoS and Scopus databases. Overall, results
-  point to a lower performance both in the bilingual and monolingual DLD
-  population on several measures at both levels, although the core problem is
-  considered to be microstructure. However, there are some contradictory
-  results, so that further research on specific narrative features in both
-  children’s languages is encouraged in order to find clinical markers
-  contributing to a greater efficiency in the assessment of bilingual children.
-  Furthermore, it is suggested that narrative assessment could be combined with
-  other measures to increase the diagnostic accuracy of DLD."
+abstract: "La identificación de niños bilingües con Trastorno del Desarrollo del
+  Lenguaje (TDL) es compleja, y la evaluación de la narración puede ser
+  particularmente valiosa en este contexto. Por ello, el objetivo de este
+  estudio es contribuir a sistematizar y difundir el creciente cuerpo de
+  literatura que investiga las habilidades narrativas de población infantil
+  bilingüe con TDL, a través de una revisión sistemática guiada por las
+  siguientes preguntas: ¿Qué elementos a nivel de macroestructura y
+  microestructura narrativa se han estudiado en la población infantil bilingüe
+  con TDL? ¿Qué aspectos de la macroestructura y microestructura narrativa
+  diferencian a los niños bilingües con TDL de los bilingües con desarrollo
+  típico? ¿Qué aspectos de la macroestructura y microestructura narrativa
+  diferencian a los bilingües con TDL de los monolingües con TDL? Se
+  seleccionaron 25 artículos desde las bases de datos WoS y Scopus. En general,
+  los resultados apuntan a un menor desempeño en la población tanto bilingüe
+  como monolingüe con TDL en varias medidas de ambos niveles, aunque se
+  considera que el núcleo del problema es la microestructura. Sin embargo,
+  existen algunos resultados contradictorios, por lo que se incentiva continuar
+  la investigación de características narrativas específicas en ambas lenguas
+  con el propósito de encontrar marcadores clínicos que contribuyan a una mayor
+  eficiencia en la evaluación de niños bilingües. Además, se sugiere que la
+  evaluación narrativa se combine con otras medidas para aumentar la precisión
+  diagnóstica de TDL."
 authors:
   - Alondra Camus
   - Melina Aparici
