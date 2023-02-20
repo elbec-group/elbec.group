@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: L'ús dels temps de passat en la construcció de la temporalitat en espanyol
+  L2 en nivells avançats de competencia
 journal: Círculo de Lingüística aplicada a la comunicación
 publishing_house: .
 year: "2021"
