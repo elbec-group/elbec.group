@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Idees sobre models estadístics avançats: Un desafiament per a la
+  investigació en cultura i educació"
 journal: Culture and Education
 publishing_house: .
 year: "2017"
