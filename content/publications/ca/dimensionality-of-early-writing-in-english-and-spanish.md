@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: "   "
-name: " Dimensionalitat de l'escriptura primerenca en anglès i castellà"
+name: Dimensionalitat de l'escriptura primerenca en Anglès i Castellà
 journal: Journal of Literacy Research
 publishing_house: "  "
 year: "2019"
