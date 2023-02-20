@@ -1,7 +1,9 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Ser un hablante plurilingüe versus convertirse en un profesor con
+  sensibilidad lingüística: contradicciones en los discursos de la formación
+  inicial del profesorado"
 journal: International Journal of Multilingualism
 publishing_house: .
 year: "2021"

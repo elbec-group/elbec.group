@@ -1,7 +1,9 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Essent un parlant plurilingüe versus esdevenir un professor sensible
+  lingüísticament: contradiccions en els discursos de la formació inicial del
+  professorat"
 journal: International Journal of Multilingualism
 publishing_house: .
 year: "2021"
