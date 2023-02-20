@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: Prejuicios étnicos, resiliencia y percepción de la inclusión de alumnos
+  inmigrantes entre profesores italianos y catalanes
 journal: Journal of Child and Family Studies
 publishing_house: .
 year: "2022"
