@@ -1,7 +1,9 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: Predictores concurrentes de la precisión ortográfica en educación
+  secundaria en una ortografía semiconsistente. El papel de las estrategias
+  ortográficas no fonológicas
 journal: Written Language and Literacy
 publishing_house: .
 year: "2021"
