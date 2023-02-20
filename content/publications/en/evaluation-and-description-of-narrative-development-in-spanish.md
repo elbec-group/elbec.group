@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: Assessment and description of narrative development in Spanish
+name: Evaluation and description of narrative development in Spanish
 journal: Revista de Logopedia, Foniatría y Audiología
 publishing_house: .
 year: "2022"
