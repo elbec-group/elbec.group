@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: Effectiveness of and SRSD writing intervention for low- and high-SES children
+name: L'eficàcia d'una intervenció d'escriptura SRSD per a nens de nivell
+  socioeconòmic baix i alt
 journal: Reading and Writing
 publishing_house: .
 year: "2021"
