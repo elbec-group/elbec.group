@@ -2,6 +2,7 @@
 order: 4
 id: 776228-Hostis-Hospes
 name: Connecting People for a Europe of Diversities (HOSTIS-HOSPES)
+image: /public/images/ilustracion-diversos-personajes-sosteniendo-piezas-rompecabezas_53876-40806.jpg
 reference: 776228-Hostis-Hospes
 funding_agency: EU. Rights, Equality and Citizenship Programme (REC Progr.) 2014-2020
 amount: 19953
