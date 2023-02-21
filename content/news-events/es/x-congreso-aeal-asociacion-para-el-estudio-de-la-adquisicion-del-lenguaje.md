@@ -1,7 +1,7 @@
 ---
 name: "X Congreso Internacional AEAL "
 date: 2022-09-07T09:20:18.291Z
-image: /public/images/aeal-copia.png
+image: /public/images/web-congreso-girona.jpg
 abstract: >-
   Participaremos con varias comunicaciones en el  X Congreso Internacional AEAL
   (Asociación para el Estudio de la Adquisición del Lenguaje) que se celebrara
