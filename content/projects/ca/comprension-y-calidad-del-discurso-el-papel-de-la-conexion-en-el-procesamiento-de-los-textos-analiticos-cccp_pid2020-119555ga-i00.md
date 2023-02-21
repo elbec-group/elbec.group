@@ -3,7 +3,7 @@ order: 1
 id: PID2020-119555GA-I00
 name: "Comprensió i qualitat del discurs: el paper de la connexió en el
   processament dels textos analítics"
-image: /public/images/ilustracion-concepto-equipo-creativo_114360-3894.jpg
+image: ""
 reference: PID2020-119555GA-I00
 funding_agency: "Ministerio de Ciencia e Innovación (Proyectos I+D+i) "
 amount: 54571
