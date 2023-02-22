@@ -22,6 +22,5 @@ authors:
 elbec_members_involved:
   - Mario Figueroa
 projects:
-  - "Discourse comprehension & text quality: the role of connectivity in the
-    processing of analytical texts (CCCP)"
+  - .
 ---
