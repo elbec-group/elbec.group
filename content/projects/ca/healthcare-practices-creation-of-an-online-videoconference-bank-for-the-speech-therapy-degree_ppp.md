@@ -4,7 +4,7 @@ id: "    "
 name: " Projecte d’innovació docent: Pràctiques sanitàries a l'abast: creació
   d’un banc virtual de pràctiques sanitàries a través de videoconferències pel
   Grau en Logopèdia"
-image: /public/images/iii-jornadas.png
+image: ""
 reference: "   "
 funding_agency: "UAB "
 amount: 4000

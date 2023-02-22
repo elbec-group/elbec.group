@@ -3,7 +3,7 @@ order: 4
 id: "  "
 name: "Teaching innovation project: Healthcare practices: creation of an online
   videoconference bank for the Speech Therapy degree"
-image: /public/images/iii-jornadas.png
+image: ""
 reference: "    "
 funding_agency: Projectes d'Innovació Docent - UAB
 amount: 4000
