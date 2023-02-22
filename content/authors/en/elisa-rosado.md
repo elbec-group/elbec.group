@@ -3,7 +3,7 @@ order: 2
 name: Elisa Rosado
 photo: /public/images/elisa_rosado.jpg
 url: https://www.researchgate.net/profile/Elisa-Rosado-2
-bio: "**Elisa Rosado és doctora en Ciències de l'Educació i professora i
+bio: Elisa Rosado és doctora en Ciències de l'Educació i professora i
   investigadora a la Facultat d’Educació i la Facultat de Filologia i
   Comunicació de la Universitat de Barcelona. Actualment coordina el Màster de
   Formació de Professors d'Espanyol com a Llengua Estrangera a la mateixa
@@ -16,5 +16,5 @@ bio: "**Elisa Rosado és doctora en Ciències de l'Educació i professora i
   atenció especial al desenvolupament de la competència discursiva oral i
   escrita en L1 i L2. En projectes i treballs recents s'ha interessat de manera
   especial per la integració i promoció de la investigació en els programes de
-  formació docent.**"
+  formació docent.
 ---
