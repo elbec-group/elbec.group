@@ -3,7 +3,7 @@ order: 6
 id: .
 name: "Teaching innovation project: Virtual language sample analysis program
   with formative feedback"
-image: null
+image: /public/images/pexels-ann-h-6732757.jpg
 reference: .
 funding_agency: Projectes d’Innovació Docent, MQD, Institut de Ciències de l’Educació, UAB
 amount: 1000
