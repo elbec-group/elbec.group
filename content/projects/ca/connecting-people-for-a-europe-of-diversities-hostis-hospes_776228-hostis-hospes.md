@@ -2,7 +2,7 @@
 order: 4
 id: 776228-Hostis-Hospes
 name: (HOSTIS-HOSPES)
-image: ""
+image: /public/images/pexels-fauxels-3184396.jpg
 reference: 776228-Hostis-Hospes
 funding_agency: EU. Rights, Equality and Citizenship Programme (REC Progr.) 2014-2020
 amount: 19953
