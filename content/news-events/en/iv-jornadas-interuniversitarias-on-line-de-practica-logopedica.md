@@ -1,14 +1,17 @@
 ---
-name: IV Jornadas interuniversitarias on-line de práctica logopédica
+name: IV Interuniversity Conference on Speech Therapy Practice
 date: 2023-02-22T16:24:58.922Z
 image: /public/images/banner.png
 abstract: >-
-  Algunos de los integrantes de Elbec participan en IV Jornadas
-  interuniversitarias on-line de práctica logopédica.  
+  Some of the members of Elbec participate in the IV Interuniversity Conference
+  on Speech Therapy Practice.
 
 
-  Las IV Jornadas, en las que participan 16 universidades asociadas a la CDLUE (Conferencia de Decanos de Logopedia de las Universidades Españolas), se realizarán través de la plataforma Zoom durante la segunda quincena de febrero y la primera de marzo. 
+  The IV Conference, in which 16 universities associated to the CDLUE (Conference of Deans of Speech Therapy of Spanish Universities) are participating, will be held through the Zoom platform during the second half of February and the first half of March.
 
 
-  Para ms información: https://www.um.es/practicaslogopedia/
+  For more information: https://www.um.es/practicaslogopedia/
+
+
+  Translated with www.DeepL.com/Translator (free version)
 ---
