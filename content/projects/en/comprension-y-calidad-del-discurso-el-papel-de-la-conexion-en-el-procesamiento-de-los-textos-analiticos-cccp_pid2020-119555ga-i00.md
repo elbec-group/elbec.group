@@ -3,7 +3,7 @@ order: 1
 id: PID2020-119555GA-I00
 name: "Discourse comprehension & text quality: the role of connectivity in the
   processing of analytical texts (CCCP)"
-image: ""
+image: /public/images/cccp.png
 reference: PID2020-119555GA-I00
 funding_agency: "Ministry of Science and Innovation "
 amount: 54571
