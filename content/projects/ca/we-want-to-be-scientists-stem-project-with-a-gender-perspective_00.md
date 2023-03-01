@@ -2,7 +2,7 @@
 order: 6
 id: .
 name: Volem ser científiques! Projecte STEM amb perspectiva de gènere
-image: null
+image: /public/images/notvolemsercientifiquesenginyeresgran.jpg
 reference: .
 funding_agency: FECYT (Fundación Española para la Ciencia y la Tecnología),
   Ministerio de Ciencia, Innovación y Universidades

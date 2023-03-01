@@ -2,7 +2,7 @@
 order: 6
 id: .
 name: We want to be scientists! STEM project with a gender perspective
-image: null
+image: /public/images/notvolemsercientifiquesenginyeresgran.jpg
 reference: .
 funding_agency: FECYT (Fundación Española para la Ciencia y la Tecnología),
   Ministerio de Ciencia, Innovación y Universidades
