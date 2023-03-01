@@ -2,7 +2,7 @@
 order: 2
 id: PID2019-108791GA-I00
 name: Desde la evaluación de la calidad al andamiaje (FAQTS)
-image: null
+image: /public/images/pexels-pixabay-261763-copia.jpg
 reference: PID2019-108791GA-I00
 funding_agency: Ministerio de Ciencia e Innovación
 amount: 52030

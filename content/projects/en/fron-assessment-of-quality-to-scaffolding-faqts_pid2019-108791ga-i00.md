@@ -2,6 +2,7 @@
 order: 2
 id: PID2019-108791GA-I00
 name: From Assessment of Quality to Scaffolding (FAQTS)
+image: /public/images/pexels-pixabay-261763-copia.jpg
 reference: PID2019-108791GA-I00
 funding_agency: Ministerio de Ciencia e Innovación
 amount: 52030
