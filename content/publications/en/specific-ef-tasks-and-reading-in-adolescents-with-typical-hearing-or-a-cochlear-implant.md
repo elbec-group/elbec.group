@@ -2,7 +2,7 @@
 publication_type: Article
 eds: .
 name: Specific EF tasks and reading in adolescents with typical hearing or a
-  cochlear implant.
+  cochlear implant
 journal: Communication Disorders Quarterly
 publishing_house: .
 year: "2022"
