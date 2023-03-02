@@ -5,7 +5,7 @@ name: " Causal connectivity in discourse: Towards a global characterisation of
   causal constructions in Spanish"
 journal: Revista Signos. Estudios de Lingüística
 publishing_house: .
-year: "2023"
+year: "2022"
 doi: http://dx.doi.org/10.4067/S0718-09342022000300790
 abstract: "In this paper, a classification proposal of causal constructions and
   causal connectivity between clauses and larger discursive segments is

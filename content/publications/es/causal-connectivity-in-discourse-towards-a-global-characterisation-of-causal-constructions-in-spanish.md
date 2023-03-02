@@ -5,7 +5,7 @@ name: "Conectividad causal en el discurso: hacia una caracterización global de
   las construcciones causales en español"
 journal: Revista Signos. Estudios de Lingüística
 publishing_house: .
-year: "2023"
+year: "2022"
 doi: http://dx.doi.org/10.4067/S0718-09342022000300790
 abstract: "En este artículo se presenta una propuesta de clasificación de las
   construcciones causales y la conectividad causal entre cláusulas y segmentos
