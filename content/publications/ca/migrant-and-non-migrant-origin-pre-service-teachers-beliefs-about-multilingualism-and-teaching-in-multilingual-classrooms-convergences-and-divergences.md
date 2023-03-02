@@ -1,7 +1,9 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Creences dels professors en formació d'origen migrant i no migrant sobre
+  el multilingüisme i l'ensenyança en aules multilingües: convergències i
+  divergències"
 journal: Sustainable Multilingualism
 publishing_house: .
 year: "2020"
