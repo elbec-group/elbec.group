@@ -6,7 +6,7 @@ name: "Connectivitat causal en el discurs: cap a una caracterització global de
 journal: Revista Signos. Estudios de Lingüística
 publishing_house: .
 year: "2023"
-doi: .
+doi: http://dx.doi.org/10.4067/S0718-09342022000300790
 abstract: .
 authors:
   - Remei González
