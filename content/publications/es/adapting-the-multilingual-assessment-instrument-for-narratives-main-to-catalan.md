@@ -13,15 +13,15 @@ abstract: La adaptación del Multilingual Assessment Instrument for Narratives
   diversidad de lenguas utilizando el mismo protocolo, haciendo posible la
   evaluación de narrativas también en catalanohablantes. La adaptación del MAIN
   será muy útil en Cataluña, ya que es una región donde coexisten dos lenguas
-  oficiales (catalán y castellano). El catalán la lengua vehicular de la
+  oficiales (catalán y castellano). El catalán es la lengua vehicular de la
   escolarización, por lo que la mayoría de la población es bilingüe. Sin
-  embargo, actualmente no existe ningún instrumento de evaluación de las
-  habilidades narrativas que permita evaluar paralelamente el catalán en niños
-  bilingües. Por estos motivos, esta adaptación será de gran valor para promover
-  el estudio de las narraciones en la población bilingüe considerando el catalán
-  dentro de las posibles combinaciones lingüísticas. El presente trabajo
-  describe el proceso de adaptación del instrumento al catalán e informa de los
-  resultados del primer estudio piloto utilizando la versión catalana del MAIN.
+  embargo, actualmente no existe ningún instrumento de evaluación narrativa que
+  permita evaluar el catalán paralelamente a otra lengua en niños bilingües. Por
+  estos motivos, esta adaptación será de gran valor para promover el estudio de
+  las narraciones en la población bilingüe considerando el catalán dentro de las
+  posibles combinaciones lingüísticas. El presente trabajo describe el proceso
+  de adaptación del instrumento al catalán e informa de los resultados del
+  primer estudio piloto utilizando la versión catalana del MAIN.
 authors:
   - Alondra Camus
   - Melina Aparici
