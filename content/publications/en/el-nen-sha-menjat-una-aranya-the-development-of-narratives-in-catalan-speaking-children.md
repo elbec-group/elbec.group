@@ -3,7 +3,7 @@ publication_type: Article
 eds: .
 name: "“El nen s'ha menjat una aranya”: The development of narratives in Catalan
   speaking children"
-journal: Journal of Child Language,
+journal: Journal of Child Language
 publishing_house: .
 year: "2020"
 doi: https://doi.org/10.1017/S0305000920000057
