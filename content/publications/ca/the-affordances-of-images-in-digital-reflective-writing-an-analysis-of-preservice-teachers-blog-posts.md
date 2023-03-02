@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: "Les possibilitats de les imatges en l'escriptura reflexiva digital: una
+  anàlisi de les entrades de blog dels professors "
 journal: Reflective Practice
 publishing_house: .
 year: "2020"
