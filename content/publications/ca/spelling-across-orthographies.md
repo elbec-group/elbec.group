@@ -1,7 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: .
+name: L'ortografia en diverses llengües
 journal: Frontiers in Psychology
 publishing_house: .
 year: "2021"
