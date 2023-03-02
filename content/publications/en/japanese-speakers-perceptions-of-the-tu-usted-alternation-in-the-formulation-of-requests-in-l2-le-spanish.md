@@ -1,24 +1,25 @@
 ---
 publication_type: Article
 eds: .
-name: Japanese speakers' perceptions of the "tú/usted" alternation in the
-  formulation of requests in L2/LE Spanish
+name: The perceptions of Japanese speakers about the alternation between
+  tú/usted in Spanish L2/FL requests
 journal: Revista Española de Lingüística Aplicada
 publishing_house: .
 year: "2022"
 doi: https://doi.org/10.1075/resla.20014.ser
-abstract: This paper assesses the perceptions of Japanese speakers of L2/FL
-  Spanish on the 'tú'/'usted' alternation in the formulation of requests. This
-  choice regulates formality in Spanish, whereas in Japanese it regulates verb
-  inflection and certain lexical variations that are used more frequently than
-  'usted' in Peninsular Spanish. It is suggested that Japanese learners may
-  experience difficulties in acquiring Spanish politeness due to this
-  cross-linguistic contrast. To examine this phenomenon, a discourse selection
-  task (MDCT) in Spanish was administered to two groups of learners (L1 =
-  Japanese; L1 = other languages) and a group of native Spanish speakers. The
-  results suggest that Japanese speakers perceive 'tú' as a less appropriate
-  address in favour of 'usted'. However, such speakers can achieve native-like
-  proficiency as proficiency level increases.
+abstract: The goal of this study is to assess the perceptions of Japanese
+  speakers about the alternation tú/usted in Spanish L2/FL requests. In Spanish,
+  this choice changes the formality, while in Japanese both lexical variations
+  and verbal inflection regulate the degree of politeness. Also, honorific
+  speech is more common in Japanese than usted in Peninsular Spanish. If based
+  on this comparison, Japanese learners might find it difficult to acquire
+  adequate politeness marking in Peninsular Spanish. To analyze this phenomenon,
+  a Spanish MDCT was administered to two experimental groups of learners
+  (L1=Japanese; L1=other languages), as well as to a control group of native
+  speakers of Spanish. Results show that Japanese speakers perceive tú as a less
+  appropriate form of address and favor the use of usted. Nonetheless, Japanese
+  speakers approach native-like performance as the level of competence
+  increases.
 authors:
   - Iban Mañas
   - Elisa Rosado
