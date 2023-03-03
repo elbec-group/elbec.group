@@ -6,7 +6,7 @@ journal: Journal of Literacy Research
 publishing_house: "  "
 year: "2019"
 doi: https://doi.org/10.1177/1086296X19858146
-abstract: CA
+abstract: .
 authors:
   - Naymé Salas
 elbec_members_involved:
