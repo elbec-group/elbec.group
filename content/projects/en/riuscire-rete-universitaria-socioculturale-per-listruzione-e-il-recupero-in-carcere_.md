@@ -1,8 +1,8 @@
 ---
 order: 1
 id: .
-name: RiUscire - Rete Universitaria SocioCulturale per l'Istruzione e il
-  Recupero in Carcere
+name: "Rete Universitaria SocioCulturale per l'Istruzione e il Recupero in
+  Carcere (RiUscire) "
 image: /public/images/riuscere.png
 reference: 2014-1-IT02-KA204-003517
 funding_agency: Erasmus+ Key Action 2 – Strategic Partnerships for adult education
