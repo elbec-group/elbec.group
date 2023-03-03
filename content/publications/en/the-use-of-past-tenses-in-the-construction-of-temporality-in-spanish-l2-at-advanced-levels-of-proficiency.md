@@ -2,7 +2,7 @@
 publication_type: Article
 eds: .
 name: The use of past tenses in the construction of temporality in Spanish L2 at
-  advanced levels of proficiency.
+  advanced levels of proficiency
 journal: "Revista Signos: Estudios de Lengua y Literatura"
 publishing_house: .
 year: "2021"
