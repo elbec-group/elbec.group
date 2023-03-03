@@ -1,6 +1,6 @@
 ---
 order: 8
-id: .
+id: PID - UAB
 name: "Projecte d'Innovació Docent: Programa virtual d’anàlisi de mostres de
   llenguatge amb feedback formatiu"
 image: /public/images/pexels-ann-h-6732757.jpg
