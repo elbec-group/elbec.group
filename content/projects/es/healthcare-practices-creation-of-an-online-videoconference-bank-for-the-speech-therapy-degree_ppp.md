@@ -1,6 +1,6 @@
 ---
 order: 4
-id: "    "
+id: PID - UAB
 name: "Proyecto de innovación docente: Prácticas sanitarias al alcance: creación
   de un banco de videoconferencias online para el Grado de Logopedia"
 image: /public/images/captura-de-pantalla-2023-02-22-a-las-17.13.04.png
