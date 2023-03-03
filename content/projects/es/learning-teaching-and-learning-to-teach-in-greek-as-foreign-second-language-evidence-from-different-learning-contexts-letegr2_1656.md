@@ -4,7 +4,7 @@ id: "1656"
 name: "Aprender, enseñar y aprender a enseñar griego como lengua
   extranjera/segunda lengua: evidencias de diferentes contextos de aprendizaje
   (LETEGR2)"
-image: /public/images/greek-language-720x481.jpg
+image: /public/images/letelogo_dig-02-1-1-1-.jpg
 reference: "1656"
 funding_agency: Hellenic Foundation for Research and Innovation & Greek General
   Secretariat for Research and Innovation
@@ -32,6 +32,9 @@ abstract: >-
   \
 
   El proyecto **LETEGR2** está financiado por la Secretaría General de Investigación e Innovación (GSTI) y por la Fundación Helénica para Investigación e Innovación (HFRI). Las instituciones de acogida son la Universidad Nacional y Kapodistríaca de Atenas y la Escuela de Griego Moderno de la Universidad de Atenas (Didaskaleio Neas Ellinikis Glossas).
+
+
+   [www.letegr2.gr](http://www.letegr2.gr/)
 relevant_outputs: null
 members:
   - Maria Andriá

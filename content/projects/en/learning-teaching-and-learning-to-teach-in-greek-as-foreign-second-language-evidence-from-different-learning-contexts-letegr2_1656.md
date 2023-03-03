@@ -3,7 +3,7 @@ order: 5
 id: "1656"
 name: "Learning, Teaching and Learning to Teach in Greek as Foreign/Second
   Language: Evidence from different learning contexts (LETEGR2)"
-image: /public/images/greek-language-720x481.jpg
+image: /public/images/letelogo_dig-02-1-1-1-.jpg
 reference: "1656"
 funding_agency: Hellenic Foundation for Research and Innovation & Greek General
   Secretariat for Research and Innovation
@@ -30,6 +30,10 @@ abstract: >-
   \
 
   The **LETEGR2** project was funded by the General Secretariat of Research and Innovation (GSRI) and by the Hellenic Foundation for Research and Innovation (HFRI). The Host Institutions for the LETEGR2 project were the National and Kapodistrian University of Athens, Greece and the Modern Greek Language Teaching Center.
+
+
+   [www.letegr2.gr](http://www.letegr2.gr/)
+relevant_outputs: []
 members:
   - Maria Andriá
 ---
