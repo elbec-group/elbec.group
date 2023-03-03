@@ -1,6 +1,6 @@
 ---
 order: 6
-id: .
+id: FCT-20-15569
 name: Volem ser científiques! Projecte STEM amb perspectiva de gènere
 image: /public/images/notvolemsercientifiquesenginyeresgran.jpg
 reference: .
