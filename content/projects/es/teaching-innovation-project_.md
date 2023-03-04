@@ -1,6 +1,6 @@
 ---
 order: 5
-id: PID - UAB
+id: PID-UAB2
 name: "Proyecto de innovación docente: Diseñar e implementar el portafolio
   digital para el desarrollo de la práctica reflexiva de los futuros maestros
   sobre lengua escrita"

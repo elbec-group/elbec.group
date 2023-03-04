@@ -1,6 +1,6 @@
 ---
 order: 5
-id: PID - UAB
+id: PID-UAB3
 name: "Projecte d'Innovació Docent: Dissenyar i implementar el portafolis
   digital per al desenvolupament de la pràctica reflexiva dels futurs mestres
   sobre llengua escrita"
