@@ -1,6 +1,6 @@
 ---
 order: 4
-id: "  PID - UAB"
+id: "  PID-UAB3"
 name: "Teaching innovation project: Healthcare practices: creation of an online
   videoconference bank for the Speech Therapy degree"
 image: /public/images/captura-de-pantalla-2023-02-22-a-las-17.13.04.png
