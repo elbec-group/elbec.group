@@ -1,6 +1,6 @@
 ---
 order: 8
-id: PID-UAB1
+id: Pr1
 name: "Projecte d'Innovació Docent: Programa virtual d’anàlisi de mostres de
   llenguatge amb feedback formatiu"
 image: /public/images/pexels-ann-h-6732757.jpg

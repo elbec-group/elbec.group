@@ -1,6 +1,6 @@
 ---
 order: 6
-id: PID-UAB1
+id: Pr1
 name: "Proyecto de innovación docente: Programa virtual de análisis de muestras
   de lenguaje con feedback formativo"
 image: /public/images/pexels-ann-h-6732757.jpg
