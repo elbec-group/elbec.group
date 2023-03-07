@@ -9,9 +9,9 @@ year: "2018"
 doi: .
 abstract: .
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---
