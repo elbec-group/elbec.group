@@ -25,9 +25,9 @@ abstract: Language teacher education research has convincingly shown that
   study concludes by discussing some implications for the design and development
   of L2 Greek teacher edu-cation programs.
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---
