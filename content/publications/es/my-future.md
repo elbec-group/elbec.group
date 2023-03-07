@@ -27,9 +27,9 @@ abstract: El estudio de la motivación como variable individual en el aprendizaj
   de su aprendizaje con otros aspectos extralingüísticos, como los vínculos
   intergeneracionales y el papel del legado histórico y cultural de esta lengua.
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---
