@@ -1,6 +1,6 @@
 ---
 order: 4
-id: PID-UAB3
+id: Pr3
 name: " Projecte d’innovació docent: Pràctiques sanitàries a l'abast: creació
   d’un banc virtual de pràctiques sanitàries a través de videoconferències pel
   Grau en Logopèdia"
