@@ -1,7 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: "Gratitude for compliance: A developmental study on the speech act of thanking"
+name: "Gratitud por respeto: Un estudio evolutivo sobre el acto de habla de dar
+  las gracias "
 journal: Lingua
 publishing_house: .
 year: "2023"
