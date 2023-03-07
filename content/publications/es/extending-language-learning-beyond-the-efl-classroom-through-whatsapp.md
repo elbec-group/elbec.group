@@ -33,9 +33,9 @@ abstract: WhatsApp es una herramienta poderosa para el aprendizaje de una L2 por
   (off-task) resultaron ser igual de productivos a la hora de conseguir que los
   alumnos utilizaran el inglés más allá del aula.
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---

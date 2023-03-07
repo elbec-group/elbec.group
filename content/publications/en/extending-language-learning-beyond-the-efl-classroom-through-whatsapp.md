@@ -27,9 +27,9 @@ abstract: WhatsApp is a powerful tool for L2 learning because of its capacity to
   off-task messages turned out to be equally productive in engaging students to
   use English beyond the walls of the classroom.
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---

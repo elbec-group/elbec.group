@@ -8,9 +8,9 @@ year: "2021"
 doi: https://doi.org/10.1080/09588221.2020.1854310
 abstract: .
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---
