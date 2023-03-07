@@ -30,9 +30,9 @@ abstract: El objetivo del presente estudio es investigar el rol de la
   también de la familiarización de los estudiantes con cada situación. El
   estudio concluye analizando algunas implicaciones para la pedagogía de las L2.
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---

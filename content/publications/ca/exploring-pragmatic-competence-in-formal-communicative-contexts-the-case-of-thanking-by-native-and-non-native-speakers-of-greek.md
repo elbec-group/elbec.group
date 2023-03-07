@@ -10,9 +10,9 @@ year: "2020"
 doi: https://doi.org/10.5565/rev/clil.48
 abstract: .
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---

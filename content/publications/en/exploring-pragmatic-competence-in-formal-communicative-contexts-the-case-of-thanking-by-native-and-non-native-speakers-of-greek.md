@@ -28,9 +28,9 @@ abstract: The aim of the current study is to investigate the role of second
   learners’ familiarization with each situation. The study concludes by
   discussing some implications for L2 pedagogy.
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---
