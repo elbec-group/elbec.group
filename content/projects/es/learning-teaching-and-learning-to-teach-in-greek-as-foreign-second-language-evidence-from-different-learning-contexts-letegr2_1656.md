@@ -37,5 +37,5 @@ abstract: >-
    [www.letegr2.gr](http://www.letegr2.gr/)
 relevant_outputs: null
 members:
-  - Maria Andriá
+  - Maria Andria
 ---
