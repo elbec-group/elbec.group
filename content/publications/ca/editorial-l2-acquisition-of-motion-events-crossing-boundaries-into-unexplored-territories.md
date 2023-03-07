@@ -1,8 +1,7 @@
 ---
 publication_type: Others
 eds: .
-name: " Editorial. L2 Acquisition of motion events: Crossing boundaries into
-  unexplored territories."
+name: " Editorial. "
 journal: Frontiers in Communication
 publishing_house: .
 year: "2023"
