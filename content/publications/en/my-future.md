@@ -25,9 +25,9 @@ abstract: The study of motivation as an individual variable in language learning
   and other extralinguistic aspects, such as intergenerational links and the
   role of the historical and cultural legacy of this language.
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---
