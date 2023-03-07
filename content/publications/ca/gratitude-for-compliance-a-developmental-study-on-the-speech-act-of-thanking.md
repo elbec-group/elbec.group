@@ -1,8 +1,7 @@
 ---
 publication_type: Article
 eds: .
-name: " Gratitud per respecte: Un estudi evolutiu sobre l'acte de parla de donar
-  les gràcies"
+name: .
 journal: Lingua
 publishing_house: .
 year: "2023"
