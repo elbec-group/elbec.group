@@ -20,9 +20,9 @@ abstract: "This study examines the results of an intervention conducted with
   We hope this study can serve as an example of the possibilities offered by the
   WhatsApp medium in an EFL context."
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---
