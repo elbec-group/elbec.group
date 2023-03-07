@@ -23,9 +23,9 @@ abstract: "Este estudio examina los resultados de una intervención llevada a
   estudio pueda servir como ejemplo de las posibilidades que ofrece el medio
   WhatsApp en un contexto de EFL."
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---

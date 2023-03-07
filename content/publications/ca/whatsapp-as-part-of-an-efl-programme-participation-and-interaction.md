@@ -8,9 +8,9 @@ year: "2021"
 doi: https://doi.org/10.1093/elt/ccab019
 abstract: .
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---
