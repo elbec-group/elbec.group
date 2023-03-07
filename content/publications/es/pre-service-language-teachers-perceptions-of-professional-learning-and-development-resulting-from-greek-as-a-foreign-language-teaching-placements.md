@@ -26,9 +26,9 @@ abstract: La investigación sobre la formación de profesorado de idiomas ha
   para el diseño y desarrollo de programas de formación de profesorado de griego
   como L2.
 authors:
-  - Maria Andriá
+  - Maria Andria
 elbec_members_involved:
-  - Maria Andriá
+  - Maria Andria
 projects:
   - .
 ---
