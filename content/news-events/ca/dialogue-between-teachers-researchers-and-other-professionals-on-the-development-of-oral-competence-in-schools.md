@@ -13,8 +13,16 @@ abstract: >-
   Marta Gràcia), a la qual us convidem. 
 
 
-  Trobareu informació sobre el programa https://www.ub.edu/idp/web/ca/noticies/jornada-dialeg-entre-docents-investigadores-i-altres-professionals-sobre-el
 
 
-  L'assistència és gratuïta amb prèvia inscripció a l'enllaç https://www.ub.edu/gidp-matice/faces/formatice;jsessionid=CbfK3vQIwC9F0GzTFTCpHgcpBt9m96RDMjhLtTdPnG6t168fZUR_!45960688?curs=56473
+  Trobareu informació sobre el programa 
+
+
+  https://www.ub.edu/idp/web/ca/noticies/jornada-dialeg-entre-docents-investigadores-i-altres-professionals-sobre-el
+
+
+  L'assistència és gratuïta amb prèvia inscripció a l'enllaç 
+
+
+  https://www.ub.edu/gidp-matice/faces/formatice;jsessionid=CbfK3vQIwC9F0GzTFTCpHgcpBt9m96RDMjhLtTdPnG6t168fZUR_!45960688?curs=56473
 ---

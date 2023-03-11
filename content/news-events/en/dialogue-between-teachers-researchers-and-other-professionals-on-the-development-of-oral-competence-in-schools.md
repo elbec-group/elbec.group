@@ -13,8 +13,16 @@ abstract: >-
   to attend.
 
 
-  You will find information about the program https://www.ub.edu/idp/web/ca/noticies/jornada-dialeg-entre-docents-investigadores-i-altres-professionals-sobre-el
 
 
-  Attendance is free with previous registration at the following link https://www.ub.edu/gidp-matice/faces/formatice;jsessionid=CbfK3vQIwC9F0GzTFTCpHgcpBt9m96RDMjhLtTdPnG6t168fZUR_!45960688?curs=56473
+  You will find information about the program 
+
+
+  https://www.ub.edu/idp/web/ca/noticies/jornada-dialeg-entre-docents-investigadores-i-altres-professionals-sobre-el
+
+
+  Attendance is free with previous registration at the following link 
+
+
+  https://www.ub.edu/gidp-matice/faces/formatice;jsessionid=CbfK3vQIwC9F0GzTFTCpHgcpBt9m96RDMjhLtTdPnG6t168fZUR_!45960688?curs=56473
 ---
