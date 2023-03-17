@@ -8,7 +8,7 @@ publishing_house: .
 year: "2022"
 doi: https://doi.org/10.21248/l1esll.2022.22.1.410
 abstract: Este trabajo investiga la frecuencia del uso de prácticas de escritura
-  basadas en la evidencia (EBWP) declarada por profesores (N = 51) en aulas de
+  basadas en la evidencia (PEBE) declarada por profesores (N = 51) en aulas de
   primaria y secundaria en una muestra de escuelas del área metropolitana de
   Barcelona (España), y cómo las creencias de los profesores contribuyen al uso
   declarado de las PEBE. Los resultados mostraron que los profesores declararon
