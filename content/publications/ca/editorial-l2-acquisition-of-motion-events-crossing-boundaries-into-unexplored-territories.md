@@ -1,7 +1,8 @@
 ---
 publication_type: Others
 eds: .
-name: " Editorial. "
+name: " Editorial. Adquisició d'esdeveniments de moviment en L2: Travessant
+  fronteres cap a territoris inexplorats"
 journal: Frontiers in Communication
 publishing_house: .
 year: "2023"
