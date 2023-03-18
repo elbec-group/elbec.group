@@ -4,6 +4,7 @@ id: Pr4
 name: "Teaching innovation project: Design and implementation of a digital
   portfolio for the development of the reflective practice of future teachers on
   written language"
+image: /public/images/porfolio.jpg
 reference: .
 funding_agency: Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB
 amount: 1800
