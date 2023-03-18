@@ -4,7 +4,7 @@ order: 3
 id: Pr2
 name: "Teaching innovation project: Improving the scientific culture of Primary
   School students"
-image: ""
+image: /public/images/scientific.jpg
 reference: "  "
 funding_agency: "  Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB"
 amount: 1000

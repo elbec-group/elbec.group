@@ -4,7 +4,7 @@ order: 3
 id: Pr2
 name: "Proyecto de innovación docente: Mejorar la formación científica del
   alumnado de Educación Primaria"
-image: ""
+image: /public/images/scientific.jpg
 reference: "  "
 funding_agency: "  Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB"
 amount: 1000
