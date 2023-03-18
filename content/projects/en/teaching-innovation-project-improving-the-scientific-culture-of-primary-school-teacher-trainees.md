@@ -2,7 +2,7 @@
 draft: false
 order: 3
 id: Pr2
-name: "Teaching innovation project: Improving the scientific culture of Primary
+name: "Teaching innovation project: Improving the scientific training of Primary
   School students"
 image: /public/images/scientific.jpg
 reference: "  "
