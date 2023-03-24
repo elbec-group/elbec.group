@@ -2,7 +2,7 @@
 name: 1st International Conference on Written Corrective Feedback in L1 and L2
   (WCF23)
 date: 2023-03-24T22:53:45.033Z
-image: /public/images/1st-international-conference-on-written-corrective-feedback-in-l1-and-l2-wcf23-.png
+image: /public/images/congresuvic.png
 abstract: >-
   On April 14th and 15th will take place the **1st International Conference on
   Written Corrective Feedback in L1 and L2 (WCF23)**, organized by the ELBEC
