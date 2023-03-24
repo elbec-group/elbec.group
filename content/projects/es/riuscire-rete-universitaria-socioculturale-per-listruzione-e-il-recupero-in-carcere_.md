@@ -3,7 +3,7 @@ order: 8
 id: .
 name: Red Universitaria Sociocultural para la Educación y Recuperación en
   Prisión (RiUscire)
-image: /public/images/riuscere.png
+image: /public/images/projecte-4.jpeg
 reference: 2014-1-IT02-KA204-003517
 funding_agency: Erasmus+ Key Action 2 – Strategic Partnerships for adult education
 amount: 27466
