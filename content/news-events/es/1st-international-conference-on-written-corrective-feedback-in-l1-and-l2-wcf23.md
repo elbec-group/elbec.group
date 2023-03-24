@@ -4,8 +4,8 @@ name: 1.er Congreso Internacional sobre Retroalimentación Correctiva Escrita en
 date: 2023-03-24T22:57:00.404Z
 image: /public/images/uvic.png
 abstract: >-
-  Los días 14 y 15 de abril tendrá lugar el 1er Congreso Internacional sobre
-  Retroalimentación Correctiva Escrita en L1 y L2 (WCF23), organizado por los
+  Los días 14 y 15 de abril tendrá lugar el **1er Congreso Internacional sobre
+  Retroalimentación Correctiva Escrita en L1 y L2 (WCF23)**, organizado por los
   miembros del grupo de investigación ELBEC en colaboración con el grupo de
   investigación GLOSSA de la Universidad de Vic. El congreso está en parte
   financiado por los proyectos "Mestres i retroacció correctiva escrita /
