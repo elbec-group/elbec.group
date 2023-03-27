@@ -5,7 +5,7 @@ name: "Projecte d’innovació docent: Dissenyar i implementar tasques per promo
   el pensament crític i reflexiu sobre l’ensenyament i aprenentatge de la
   llengua escrita de l’alumnat del Grau d’Educació Primària en el context del
   portafolis digital"
-image: null
+image: /public/images/projecte-1.png
 reference: .
 funding_agency: Programa Intern de Millora i Innovació Docent-Facultat de
   Ciències de l’Educació UAB
