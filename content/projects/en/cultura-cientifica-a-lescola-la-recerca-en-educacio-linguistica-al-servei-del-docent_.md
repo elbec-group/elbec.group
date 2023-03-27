@@ -3,7 +3,7 @@ order: 13
 id: .
 name: Cultura científica a l'escola. La recerca en educació lingüística al
   servei del docent
-reference: .
+reference: 21S01022-006
 funding_agency: "Ajuntament de Barcelona "
 amount: 2500
 currency_type: EUR
