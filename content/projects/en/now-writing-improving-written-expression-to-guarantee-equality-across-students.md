@@ -1,6 +1,6 @@
 ---
 draft: false
-order: 3
+order: 1
 id: Pr1
 name: Now, writing! Improving written expression to guarantee equality across
   students
