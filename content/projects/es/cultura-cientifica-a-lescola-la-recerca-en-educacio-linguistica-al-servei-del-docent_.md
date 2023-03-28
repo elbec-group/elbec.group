@@ -3,7 +3,7 @@ order: 13
 id: .
 name: Cultura científica en la escuela. La investigación en educación
   lingüística al servicio del docente
-image: null
+image: /public/images/10172.jpg
 reference: 21S01022-006
 funding_agency: "Ajuntament de Barcelona "
 amount: 2500
