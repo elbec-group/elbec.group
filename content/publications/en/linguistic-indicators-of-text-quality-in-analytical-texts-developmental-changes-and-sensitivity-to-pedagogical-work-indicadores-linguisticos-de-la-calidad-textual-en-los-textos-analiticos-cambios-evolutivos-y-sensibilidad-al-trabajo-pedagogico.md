@@ -2,9 +2,7 @@
 publication_type: Article
 eds: .
 name: "Linguistic indicators of text quality in analytical texts: developmental
-  changes and sensitivity to pedagogical work (Indicadores lingüísticos de la
-  calidad textual en los textos analíticos: cambios evolutivos y sensibilidad al
-  trabajo pedagógico)"
+  changes and sensitivity to pedagogical work "
 journal: Journal for the Study of Education and Development
 publishing_house: .
 year: "2021"
