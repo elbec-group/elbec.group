@@ -3,7 +3,7 @@ order: 6
 id: FCT-20-15569
 name: We want to be scientists! STEM project with a gender perspective
 image: /public/images/notvolemsercientifiquesenginyeresgran.jpg
-reference: .
+reference: FCT-20-15569
 funding_agency: FECYT (Fundación Española para la Ciencia y la Tecnología),
   Ministerio de Ciencia, Innovación y Universidades
 amount: 12500
@@ -33,8 +33,6 @@ abstract: >-
 
 
   The project involved 17 class groups from 7 primary and secondary schools (400 students in the fifth and sixth years of primary school and in the first and second years of ESO); 15 teachers from the participating schools, who received training and support from the UAB training team (team from the Research Centre for Scientific and Mathematical Research-CRECIM), as well as the involvement of the school management team and faculty, 30 university student mentors (mostly women), Finally, teachers from the Faculties of Science, Biosciences and the School of Engineering of the UAB were also involved in the organisation of workshops of a scientific and technological nature aimed at the students of the participating schools.
-relevant_outputs:
-  - resource_name: p
-    resource_link: https://www.netlifycms.org/
+relevant_outputs: []
 members: []
 ---
