@@ -5,7 +5,7 @@ name: "Projecte d'Innovació Docent: Dissenyar i implementar el portafolis
   digital per al desenvolupament de la pràctica reflexiva dels futurs mestres
   sobre llengua escrita"
 image: /public/images/projecte-3.png
-reference: .
+reference: N/A
 funding_agency: Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB
 amount: 1800
 currency_type: EUR
@@ -36,6 +36,5 @@ abstract: "L’objectiu d’aquest projecte d’innovació és dissenyar i imple
   retrospectiva. L’avaluació preveu tant activitats avaluades pel docent com
   activitats avaluades entre iguals."
 relevant_outputs: null
-members:
-  - Marilisa Birello
+members: []
 ---
