@@ -6,7 +6,7 @@ name: "Teaching innovation project: Design and implementation of tasks to
   written language of the students of Primary Education Degree in the context of
   the digital portfolio "
 image: /public/images/projecte-1.png
-reference: .
+reference: N/A
 funding_agency: Programa Intern de Millora i Innovació Docent-Facultat de
   Ciències de l’Educació UAB
 amount: 2359

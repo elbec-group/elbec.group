@@ -6,7 +6,7 @@ name: "Proyecto de innovación docente: Diseñar e implementar tareas para
   de la lengua escrita del alumnado del Grado de Educación Primaria en el
   contexto del portafolio digital"
 image: /public/images/projecte-1.png
-reference: .
+reference: N/A
 funding_agency: Programa Intern de Millora i Innovació Docent-Facultat de
   Ciències de l’Educació UAB
 amount: 2359
