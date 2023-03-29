@@ -3,7 +3,7 @@ order: 1
 id: PID2020-119555GA-I00
 name: "Comprensió i qualitat del discurs: el paper de la connexió en el
   processament dels textos analítics"
-image: /public/images/cccp.png
+image: /public/images/ilustracion-concepto-equipo-creativo_114360-3894.jpg
 reference: PID2020-119555GA-I00
 funding_agency: "Ministerio de Ciencia e Innovación (Proyectos I+D+i) "
 amount: 54571
@@ -32,7 +32,6 @@ abstract: >-
 
   Determinar com la presència de marques de connexió textual faciliten la comprensió lectora, aclarirà les habilitats de comprensió del text i el seu desenvolupament evolutiu. La comparació amb dades d'avaluació de producció textual revelarà la naturalesa de la relació entre allò que es valora en avaluar un text i allò que facilita la seva lectura. En conjunt, s'espera contribuir al coneixement sobre els processos d'aprenentatge i ensenyança de llengües i, en particular, sobre el desenvolupament de l'habilitat de comprendre i produir textos analítics que impliquen un posicionament crític per part de l'autor/receptor.
 members:
-  - Melina Aparici
   - Alondra Camus
   - Elisa Rosado
   - Iban Mañas

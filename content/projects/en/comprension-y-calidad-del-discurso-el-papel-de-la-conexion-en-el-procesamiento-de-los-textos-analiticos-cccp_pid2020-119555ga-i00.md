@@ -3,7 +3,7 @@ order: 2
 id: PID2020-119555GA-I00
 name: "Discourse comprehension & text quality: the role of connectivity in the
   processing of analytical texts (CCCP)"
-image: /public/images/cccp.png
+image: /public/images/ilustracion-concepto-equipo-creativo_114360-3894.jpg
 reference: PID2020-119555GA-I00
 funding_agency: "Ministry of Science and Innovation "
 amount: 54571
@@ -31,7 +31,6 @@ abstract: >-
 
   Determining how the occurrence of text connectives facilitates reading comprehension will shed light on the nature and development of text comprehension abilities. The comparison of two types of data will unveil the specific nature of the relation between what facilitates reading and what is valued in the assessment of text quality. All in all, we expect to contribute to the actual knowledge about how the comprehension and production of analytical texts interact and develop.
 members:
-  - Melina Aparici
   - Remei González
   - Iban Mañas
   - Rocío Cuberos

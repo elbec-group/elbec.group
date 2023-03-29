@@ -3,7 +3,7 @@ order: 1
 id: PID2020-119555GA-I00
 name: "Comprensión y calidad del discurso: el papel de la conexión en el
   procesamiento de los textos analíticos (CCCP)"
-image: /public/images/cccp.png
+image: /public/images/ilustracion-concepto-equipo-creativo_114360-3894.jpg
 reference: PID2020-119555GA-I00
 funding_agency: "Ministerio de Ciencia e Innovación (Proyectos I+D+i) "
 amount: 54571
@@ -33,7 +33,6 @@ abstract: >-
 
   Determinar como la presencia de marcas de conexión textual facilita la comprensión lectora arrojara luz sobre las habilidades de comprensión del texto y su desarrollo evolutivo. La comparación con datos de evaluación de producción textual revelara la naturaleza de la relación entre aquello que se valora al evaluar un texto y aquello que facilita su lectura. En conjunto, se espera contribuir al conocimiento sobre los procesos de aprendizaje y enseñanza de lenguas y, en particular, sobre el desarrollo de la habilidad de comprender y producir textos analíticos que implican un posicionamiento critico por parte del autor/receptor.
 members:
-  - Melina Aparici
   - Alondra Camus
   - Elisa Rosado
   - Iban Mañas
