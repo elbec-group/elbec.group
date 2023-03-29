@@ -33,7 +33,8 @@ abstract: >-
 
 
   The project involved 17 class groups from 7 primary and secondary schools (400 students in the fifth and sixth years of primary school and in the first and second years of ESO); 15 teachers from the participating schools, who received training and support from the UAB training team (team from the Research Centre for Scientific and Mathematical Research-CRECIM), as well as the involvement of the school management team and faculty, 30 university student mentors (mostly women), Finally, teachers from the Faculties of Science, Biosciences and the School of Engineering of the UAB were also involved in the organisation of workshops of a scientific and technological nature aimed at the students of the participating schools.
-relevant_outputs: null
-members:
-  - Anna Cros
+relevant_outputs:
+  - resource_name: p
+    resource_link: https://www.netlifycms.org/
+members: []
 ---
