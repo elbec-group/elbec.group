@@ -44,6 +44,5 @@ relevant_outputs:
   - resource_name: Netlify CMS
     resource_link: https://www.netlifycms.org/
 members:
-  - Naymé Salas
   - Marilisa Birello
 ---
