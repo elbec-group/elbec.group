@@ -30,6 +30,5 @@ abstract: >-
 
 
   The project involves five European universities in Italy, Germany, France, Spain and Portugal that are characterised by their commitment to language training and/or training in the prison context, as well as the Italian Higher Institute of Penitentiary Studies.
-members:
-  - Marilisa Birello
+members: []
 ---

@@ -14,6 +14,5 @@ pi:
 abstract: Erasmus + Strategic Partnership KA2 (KA2 – Cooperation and Innovation
   for Good Practices)
 relevant_outputs: null
-members:
-  - Marilisa Birello
+members: []
 ---
