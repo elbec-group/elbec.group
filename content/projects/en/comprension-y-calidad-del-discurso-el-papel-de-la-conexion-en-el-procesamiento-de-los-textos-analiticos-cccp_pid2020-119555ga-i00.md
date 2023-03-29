@@ -23,6 +23,9 @@ abstract: >-
   The study we propose examines the connections between the comprehension and evaluation of written texts in relation to connectivity devices which, according to previous studies, guide comprehension processes, and affect external evaluations of text quality. To do so, we will design experimental tasks for investigating the role of cohesive devices in written text comprehension. Our analysis will compare online and offline measures of reading comprehension with actual use of devices and the evaluations provided by external judges.
 
 
+  ![](/images/cccp.png)
+
+
   Studies on reading comprehension processes have rarely considered their relation with the quality of the text: both aspects have been studied independently and the relation between them is little known. Previous research has shown that the use of explicit connectivity mechanisms is an indicator of text quality. However, it is unclear how their presence influences reading comprehension: while some studies find that they facilitate text processing and guide the relation among sections of discourse, others indicate that certain subordinating connectives are difficult to process. Consequently, we speculate whether the facilitating effect of cohesive elements at the discourse level can compensate for the difficulty implied in syntactic complexity, and whether such facilitating effect operates with all types of semantic relations.
 
 

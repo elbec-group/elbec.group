@@ -24,6 +24,9 @@ abstract: >-
   L'estudi que proposem examina la relació entre comprensió i avaluació dels textos escrits a través dels recursos de connexió textual que, segons estudis previs, guien els processos de comprensió i són valorats en l'avaluació de la qualitat d'un text. Per a això s'investigarà de manera experimental el paper de mecanismes de cohesió (connectors sintàctics i marcadors discursius) en la comprensió del discurs escrit, combinant mesures online i offline de comprensió lectora, que es compararà amb l'ús i l'avaluació d'aquests mecanismes en textos ja disponibles. Els treballs sobre processos de comprensió lectora rarament han considerat la seva relació amb la qualitat del text: ambdós aspectes s'han estudiat per separat i la relació entre ells és poc coneguda.
 
 
+  ![](/images/cccp.png)
+
+
   Estudis previs han revelat que l'ús de mecanismes explícits de connectivitat és un indicador de qualitat textual. Així i tot, no queda clar com la seva presència incideix en la comprensió lectora: mentre alguns estudis observen que facilita el processament perquè guien les relacions entre parts del discurs, altres indiquen que determinats connectors i estructures oracionals resulten difícils de processar. Cal preguntar-se, doncs, com l'efecte facilitador dels elements cohesius en el discurs compensa la dificultat resultant de la complexitat oracional, i si l'efecte facilitador es produeix amb tota mena de relació semàntica. 
 
 

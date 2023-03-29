@@ -25,6 +25,9 @@ abstract: >-
   El estudio que proponemos examina la relación entre comprensión y evaluación de los textos escritos a través de los recursos de conexión textual que, según estudios previos, guían los procesos de comprensión y son valorados en la evaluación de la calidad de un texto. Para ello se investigara de manera experimental el papel de mecanismos de cohesión (conectores sintácticos y marcadores discursivos) en la comprensión del discurso escrito, combinando medidas online y offline de comprensión lectora, que se comparara con el uso y la evaluación de estos mecanismos en textos ya disponibles. Los trabajos sobre procesos de comprensión lectora raramente han considerado su relación con la calidad del texto: ambos aspectos se han estudiado por separado y la relación entre ellos es poco conocida. 
 
 
+  ![](/images/cccp.png)
+
+
   Estudios previos han revelado que el uso de mecanismos explícitos de conectividad es un indicador de calidad textual. Sin embargo, no esta claro como su presencia incide en la comprensión lectora: mientras algunos estudios observan que facilitan el procesamiento porque guían las relaciones entre partes del discurso, otros indican que determinados conectores y estructuras oracionales resultan difíciles de procesar. Cabe preguntarse, pues, como el efecto facilitador de los elementos cohesivos en el discurso compensa la dificultad resultante de la complejidad oracional, y si el efecto facilitador se produce con todo tipo de relación semántica. 
 
 
