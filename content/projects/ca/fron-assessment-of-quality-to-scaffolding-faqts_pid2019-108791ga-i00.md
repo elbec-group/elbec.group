@@ -37,5 +37,9 @@ abstract: >-
   El nostre projecte farà una contribució substancial al camp de la investigació de l'ensenyança de la qualitat textual, oferint informació detallada d'un ampli grup de característiques textuals en relació amb altres aspectes dels texts i dels seus escriptors. A més, proporcionarà orientacions detallades per a l'ensenyament de l'escriptura basada en evidències.
 relevant_outputs: null
 members:
-  - Naymé Salas
+  - Elisa Rosado
+  - Iban Mañas
+  - Mariona Pascual
+  - Remei González
+  - Rocío Cuberos
 ---
