@@ -5,7 +5,7 @@ name: "Teaching innovation project: Healthcare practices: creation of an online
   videoconference bank for the Speech Therapy degree"
 image: /public/images/videoconferencia.jpg
 reference: N/A
-funding_agency: Projectes d'Innovació Docent - UAB
+funding_agency: ICE-UAB
 amount: 4000
 currency_type: EUR
 running_from: 2021-2022

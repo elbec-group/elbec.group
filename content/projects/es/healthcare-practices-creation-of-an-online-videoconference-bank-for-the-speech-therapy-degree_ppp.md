@@ -5,7 +5,7 @@ name: "Proyecto de innovación docente: Prácticas sanitarias al alcance: creaci
   de un banco de videoconferencias online para el Grado de Logopedia"
 image: /public/images/videoconferencia.jpg
 reference: N/A
-funding_agency: "UAB "
+funding_agency: ICE-UAB
 amount: 4000
 currency_type: EUR
 running_from: 2021-2022
