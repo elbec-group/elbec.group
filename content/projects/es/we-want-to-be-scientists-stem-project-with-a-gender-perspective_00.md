@@ -3,7 +3,7 @@ order: 6
 id: FCT-20-15569
 name: ¡Queremos ser científicas! Proyecto STEM con perspectiva de género
 image: /public/images/notvolemsercientifiquesenginyeresgran.jpg
-reference: .
+reference: FCT-20-15569
 funding_agency: FECYT (Fundación Española para la Ciencia y la Tecnología),
   Ministerio de Ciencia, Innovación y Universidades
 amount: 12500
@@ -34,6 +34,5 @@ abstract: >-
 
 
   Participaron en el proyecto 17 grupos clase de 7 centros educativos de educación primaria y secundaria (400 estudiantes de quinto y sexto curso de primaria y de primero y segundo curso de la ESO); 15 docentes de los centros participantes, que recibieron la formación y el apoyo del equipo formador de la UAB (equipo del Centro de Investigación para la Investigación Científica y Matemática-CRECIM), además de la implicación del equipo directivo y el claustro de los centros educativos, 30 estudiantes universitarios mentores (mayoritariamente mujeres), que recibieron formación y participaron en este proyecto en el marco de una Actividad de Aprendizaje y Servicio reconocida por la universidad, y finalmente también se contó con la implicación del profesorado de las Facultades de Ciencias, Biociencias y de la Escuela de Ingeniería de la UAB en la organización de talleres de carácter científico tecnológico dirigido a los estudiantes de los centros educativos participantes.
-members:
-  - Anna Cros
+members: []
 ---
