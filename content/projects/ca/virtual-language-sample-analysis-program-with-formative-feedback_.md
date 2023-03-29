@@ -4,8 +4,8 @@ id: Pr1
 name: "Projecte d'Innovació Docent: Programa virtual d’anàlisi de mostres de
   llenguatge amb feedback formatiu"
 image: /public/images/pexels-ann-h-6732757.jpg
-reference: .
-funding_agency: Projectes d’Innovació Docent, MQD, Institut de Ciències de l’Educació, UAB
+reference: N/A
+funding_agency: ICE-UAB
 amount: 1000
 currency_type: EUR
 running_from: 2020-2021
@@ -26,6 +26,5 @@ abstract: >-
 
   S’espera que el programa respongui a una demanda reiterada de l’alumnat d’augmentar l’experiència amb casos pràctics. A més, les competències assolides durant aquesta activitat consolidaran l’aprenentatge dels aspectes no només pràctics sinó també teòrics referits al funcionament i desenvolupament de la llengua oral i escrita, que podran ser transferits a d’altres assignatures del Grau.
 members:
-  - Melina Aparici
   - Paula Resina
 ---

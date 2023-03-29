@@ -4,8 +4,8 @@ id: Pr1
 name: "Teaching innovation project: Virtual language sample analysis program
   with formative feedback"
 image: /public/images/pexels-ann-h-6732757.jpg
-reference: .
-funding_agency: Projectes d’Innovació Docent, MQD, Institut de Ciències de l’Educació, UAB
+reference: N/A
+funding_agency: ICE-UAB
 amount: 1000
 currency_type: EUR
 running_from: 2020-2021
@@ -27,6 +27,5 @@ abstract: >-
   The programme is expected to respond to a repeated demand from students to increase the experience with practical cases. In addition, the competences achieved during this activity will consolidate the learning of not only practical but also theoretical aspects referring to the functioning and development of oral and written language, which can be transferred to other subjects of the Degree.
 relevant_outputs: null
 members:
-  - Melina Aparici
   - Paula Resina
 ---
