@@ -4,8 +4,8 @@ id: Pr3
 name: " Projecte d’innovació docent: Pràctiques sanitàries a l'abast: creació
   d’un banc virtual de pràctiques sanitàries a través de videoconferències pel
   Grau en Logopèdia"
-image: /public/images/captura-de-pantalla-2023-02-22-a-las-17.13.04.png
-reference: "   "
+image: /public/images/videoconferencia.jpg
+reference: "N/A   "
 funding_agency: "UAB "
 amount: 4000
 currency_type: EUR
@@ -23,9 +23,11 @@ abstract: >-
 
 
   Esperem que aquest projecte contribueixi a cobrir les necessitats de formació pràctica de l’alumnat de Logopèdia,grau sanitari que requereix d’una alta càrrega de pràctiques, a partir de posar a la seva disposició un recurs per (a) poder enfrontar-se amb una massa crítica de casos i practicar-ne l’anàlisi en base a objectius diagnòstics, (b) tenir accés a l’explicació i aplicació de tècniques i estratègies d’intervenció poc conegudes o de difícil domini i (c) practicar el raonament clínic sobre casos de difícil accés, sense que hi hagi necessàriament docents i centres implicats presencialment.
+
+
+  ![]()
 relevant_outputs: null
 members:
-  - Melina Aparici
   - Alondra Camus
   - Paula Resina
 ---
