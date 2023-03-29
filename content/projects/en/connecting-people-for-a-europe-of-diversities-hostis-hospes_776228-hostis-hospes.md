@@ -23,6 +23,5 @@ abstract: >-
 
 
   Throughout the research, the contribution of the teachers interviews will be crucial, as the outcome of the educational process mainly relies on the capabilities of teachers to transform the school in a space of active citizenship.
-members:
-  - Melina Aparici
+members: []
 ---

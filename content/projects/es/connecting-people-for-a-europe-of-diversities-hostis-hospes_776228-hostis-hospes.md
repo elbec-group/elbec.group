@@ -24,6 +24,5 @@ abstract: >-
 
   A lo largo de la investigación, la contribución de las entrevistas a los profesores será crucial, ya que el resultado del proceso educativo depende principalmente de las capacidades de los profesores para transformar la escuela en un espacio de ciudadanía activa.
 relevant_outputs: null
-members:
-  - Melina Aparici
+members: []
 ---

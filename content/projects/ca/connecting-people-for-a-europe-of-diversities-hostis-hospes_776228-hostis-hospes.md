@@ -24,6 +24,5 @@ abstract: >-
 
   Al llarg d'aquesta investigació, la contribució de les entrevistes als professors serà crucial, ja que els resultats dels processos educacionals recauen majoritàriament en les capacitats dels professors per a transformar l'escola en un espai de ciutadania activa.
 relevant_outputs: null
-members:
-  - Melina Aparici
+members: []
 ---
