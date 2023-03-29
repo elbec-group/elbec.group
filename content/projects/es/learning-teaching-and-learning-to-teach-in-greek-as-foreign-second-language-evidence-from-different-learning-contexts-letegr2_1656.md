@@ -12,7 +12,7 @@ amount: 150000
 currency_type: EUR
 running_from: 2018-2022
 pi:
-  - Maria Andriá
+  - Maria Andria
 abstract: >-
   El proyecto de investigación **LETEGR2** (2018-2022) tiene como objetivo
   explorar cómo se aprende y se enseña el griego moderno en diferentes contextos
@@ -36,6 +36,5 @@ abstract: >-
 
    [www.letegr2.gr](http://www.letegr2.gr/)
 relevant_outputs: null
-members:
-  - Maria Andria
+members: []
 ---

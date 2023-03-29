@@ -11,7 +11,7 @@ amount: 150000
 currency_type: EUR
 running_from: 2018-2022
 pi:
-  - Maria Andriá
+  - Maria Andria
 abstract: >-
   The purpose of the **LETEGR2** research project (2018-2022) was to shed light
   on the way Greek is learned and taught in different learning contexts (second
@@ -34,6 +34,5 @@ abstract: >-
 
    [www.letegr2.gr](http://www.letegr2.gr/)
 relevant_outputs: []
-members:
-  - Maria Andria
+members: []
 ---
