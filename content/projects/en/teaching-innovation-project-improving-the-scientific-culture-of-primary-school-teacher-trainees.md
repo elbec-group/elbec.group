@@ -5,7 +5,7 @@ id: Pr2
 name: "Teaching innovation project: Improving the scientific training of Primary
   Education students"
 image: /public/images/scientific.jpg
-reference: "  "
+reference: "N/A  "
 funding_agency: "  Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB"
 amount: 1000
 currency_type: EUR
@@ -29,6 +29,5 @@ abstract: >-
 
   Specifically, the project will design a program of 10 tutoring sessions in the framework of the TFG course of the degrees involved (GEP and GL). We considered that the realization of a TFG of empirical type was an excellent opportunity to confront the students with the scientific operation in an area of maximum relevance for them as future educators: the teaching of the written language. Given that the duration of the project was only one semester (October-Gener), the implementation was still in progress at the time of writing this final report.
 relevant_outputs: []
-members:
-  - Naymé Salas
+members: []
 ---

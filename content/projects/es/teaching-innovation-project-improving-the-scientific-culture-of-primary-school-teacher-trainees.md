@@ -5,8 +5,8 @@ id: Pr2
 name: "Proyecto de innovación docente: Mejorar la formación científica del
   alumnado de Educación Primaria"
 image: /public/images/scientific.jpg
-reference: "  "
-funding_agency: "  Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB"
+reference: N/A
+funding_agency: Projectes d'Innovació Docent - Facultat de Ciències de l'Educació, UAB
 amount: 1000
 currency_type: EUR
 running_from: 2020-2020
@@ -30,6 +30,5 @@ abstract: >-
 
   En concreto, el proyecto diseñó un programa de 10 sesiones de tutorización en el marco de la asignatura de TFG de los grados implicados (GIBA y GL). Hemos considerado que la realización de un TFG de tipo empírico era una excelente oportunidad para confrontar los alumnos con el funcionamiento científico en un ámbito de máxima relevancia para ellos como futuros educadores: la didáctica de la lengua escrita. Dado que la duración del proyecto era solo de un semestre (octubre-enero), la implementación todavía estaba en curso en el momento de la confección de esta memoria final.
 relevant_outputs: []
-members:
-  - Naymé Salas
+members: []
 ---
