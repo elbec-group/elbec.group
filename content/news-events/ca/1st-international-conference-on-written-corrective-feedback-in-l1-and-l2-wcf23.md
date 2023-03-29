@@ -2,7 +2,7 @@
 name: 1r. Congrés Internacional sobre Retroacció Correctiva Escrita en L1 i L2
   (WCF23)
 date: 2023-03-24T22:57:54.040Z
-image: /public/images/uvic.png
+image: /public/images/wcf23.png
 abstract: >-
   El **1r. Congrés Internacional sobre Retroacció Correctiva Escrita en L1 i L2
   (WCF23)** serà presencial a la [Universitat de
