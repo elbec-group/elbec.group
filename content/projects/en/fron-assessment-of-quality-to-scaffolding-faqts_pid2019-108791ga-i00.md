@@ -28,5 +28,9 @@ abstract: >-
 
   We would like to propose that the way we conduct intervention studies and the subsequent meta-analytic studies do not properly translate to educators everyday concerns. We should be factoring in as many nuances to the effectiveness of an intervention, which would help or refuting) the effectiveness of a teaching method, to providing detailed information about its suitability, attending to common teacher concerns and realities. In other words, we aim to not just establish what works, but when and for whom, incorporating as many details as possible. In this project, we aim to provide a strong empirically-based approach to the assessment of writing across educational levels, by resorting to the large corpora that members of the research team have collected over several projects, as well as with the texts that will be collected in the context of the present project. This assessment goal will be complemented by a series of quasi-experimental interventions in primary schools. The main aim of these interventions will be to evaluate their effectiveness in a way that resonates with teachers and practitioners. In this sense, the project intends to explore a methodological approach that will serve to answer common, everyday questions that teachers might be making themselves with regards to the teaching of writing. Our project will make a substantial contribution to the field of text quality teaching and research by offering a thorough developmental account of a host of text characteristics in relation to several other aspects of the texts and of their writers, as well a providing detailed, evidence-based orientations for the teaching of writing at school.
 members:
-  - Naymé Salas
+  - Elisa Rosado
+  - Iban Mañas
+  - Mariona Pascual
+  - Remei González
+  - Rocío Cuberos
 ---
