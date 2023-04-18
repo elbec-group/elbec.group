@@ -1,8 +1,8 @@
 ---
 publication_type: Article
 eds: .
-name: "The development of analytical writing: Learning how to link information,
-  learning how to position oneself"
+name: "Developing Analytical Writing: Learning to Connect Information, Learning
+  to Take a Stance"
 journal: Pensamiento Educativo, Revista de Investigación Educacional
   Latinoamericana (PEL)
 publishing_house: .
