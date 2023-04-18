@@ -1,8 +1,8 @@
 ---
 publication_type: Others
 eds: .
-name: Intervening in oral and written language to improve the academic
-  competences of pupils in compulsory secondary education (ESO)
+name: Oral and Written Language Interventions to Improve the Academic Competence
+  of High-School Students
 journal: "Revista de Logopedia, Foniatría y Audiología  "
 publishing_house: .
 year: "2020"
