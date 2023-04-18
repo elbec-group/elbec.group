@@ -6,7 +6,7 @@ name: "Gratitud per respecte: Un estudi evolutiu sobre l'acte de parla de donar
 journal: Lingua
 publishing_house: .
 year: "2023"
-doi: "https://dx.doi.org/10.5209/rlog.82548 "
+doi: https://doi.org/10.1016/j.lingua.2022.103469
 abstract: Aquest estudi investiga la producció de l'acte de parla de donar les
   gràcies per part d'estudiants de grec L2 de tres nivells diferents de
   competència (principiant, intermedi i avançat) i busca examinar l'efecte de la

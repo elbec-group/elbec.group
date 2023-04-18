@@ -5,7 +5,7 @@ name: "Gratitude for compliance: A developmental study on the speech act of than
 journal: Lingua
 publishing_house: .
 year: "2023"
-doi: "https://dx.doi.org/10.5209/rlog.82548 "
+doi: https://doi.org/10.1016/j.lingua.2022.103469
 abstract: This study investigates the production of the speech act of thanking
   by L2 learners of Greek from three different proficiency levels (beginner,
   intermediate, and advanced) and seeks to examine the effect of proficiency on

@@ -6,7 +6,7 @@ name: "Gratitud por respeto: Un estudio evolutivo sobre el acto de habla de dar
 journal: Lingua
 publishing_house: .
 year: "2023"
-doi: "https://dx.doi.org/10.5209/rlog.82548 "
+doi: https://doi.org/10.1016/j.lingua.2022.103469
 abstract: Este estudio investiga la producción del acto de habla de dar las
   gracias por parte de estudiantes de griego L2 de tres niveles de competencia
   (principiante, intermedio y avanzado) y pretende examinar el efecto de la
