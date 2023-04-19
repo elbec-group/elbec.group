@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 14
 id: Pr5
 name: "Projecte d’innovació docent: Dissenyar i implementar tasques per promoure
   el pensament crític i reflexiu sobre l’ensenyament i aprenentatge de la
