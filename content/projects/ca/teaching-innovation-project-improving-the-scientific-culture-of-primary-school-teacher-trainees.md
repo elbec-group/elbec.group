@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 5
 id: Pr2
 name: "Projecte d’innovació docent: Millorar la formació científica de l’alumnat
   d’Educació Primària"
