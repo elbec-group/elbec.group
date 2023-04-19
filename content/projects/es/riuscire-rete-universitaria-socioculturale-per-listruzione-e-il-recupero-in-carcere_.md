@@ -20,13 +20,15 @@ abstract: >-
 
   Partiendo de la coexistencia de lenguas y culturas en un lugar de estancia forzosa, se pretende:\
 
-  - potenciar el multilingüismo y la diversidad cultural inherentes a un contexto penitenciario;\
 
-  - promover la educación de adultos en un contexto penitenciario a través de la comunicación intercultural;\
+  * potenciar el multilingüismo y la diversidad cultural inherentes a un contexto penitenciario;\
 
-  - desarrollar las competencias lingüístico-culturales y lingüístico-profesionales del interno para su reinserción social y laboral;\
+  * promover la educación de adultos en un contexto penitenciario a través de la comunicación intercultural;\
 
-  - proporcionar al personal penitenciario herramientas para una mejor comprensión de los procesos de comunicación con los reclusos extranjeros y a los profesores una metodología didáctica destinada a optimizar los resultados de los cursos de formación dirigidos al alumno "recluso extranjero".\
+  * desarrollar las competencias lingüístico-culturales y lingüístico-profesionales del interno para su reinserción social y laboral;\
+
+  * proporcionar al personal penitenciario herramientas para una mejor comprensión de los procesos de comunicación con los reclusos extranjeros y a los profesores una metodología didáctica destinada a optimizar los resultados de los cursos de formación dirigidos al alumno "recluso extranjero".
+
 
   En el proyecto participan cinco universidades europeas de Italia, Alemania, Francia, España y Portugal las que se caracterizan por su compromiso con la formación lingüística y/o la formación en el contexto penitenciario, así como el Instituto Superior de Estudios Penitenciarios italiano.
 relevant_outputs: null
