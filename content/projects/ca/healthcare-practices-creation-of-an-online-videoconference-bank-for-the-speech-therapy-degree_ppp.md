@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 10
 id: Pr3
 name: "Projecte d’innovació docent: Pràctiques sanitàries a l'abast: creació
   d’un banc virtual de pràctiques sanitàries a través de videoconferències pel
