@@ -1,5 +1,5 @@
 ---
-order: 12
+order: 5
 id: Pr5
 name: "Teaching innovation project: Design and implementation of tasks to
   promote critical and reflective thinking on the teaching and learning of

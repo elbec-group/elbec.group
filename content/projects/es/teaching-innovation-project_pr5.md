@@ -1,5 +1,5 @@
 ---
-order: 12
+order: 5
 id: Pr5
 name: "Proyecto de innovación docente: Diseñar e implementar tareas para
   promover el pensamiento crítico y reflexivo sobre la enseñanza y aprendizaje
