@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 7
 id: 776228-Hostis-Hospes
 name: Connecting People for a Europe of Diversities (HOSTIS-HOSPES)
 image: /public/images/pexels-fauxels-3184396.jpg
