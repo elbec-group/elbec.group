@@ -18,14 +18,14 @@ abstract: >-
   extranjeros, al personal penitenciario y a los profesores que trabajan en las
   prisiones de los países implicados.\
 
-  Partiendo de la coexistencia de lenguas y culturas en un lugar de estancia forzosa, se pretende:\
+  Partiendo de la coexistencia de lenguas y culturas en un lugar de estancia forzosa, se pretende:
 
 
-  * potenciar el multilingüismo y la diversidad cultural inherentes a un contexto penitenciario;\
+  * potenciar el multilingüismo y la diversidad cultural inherentes a un contexto penitenciario;
 
-  * promover la educación de adultos en un contexto penitenciario a través de la comunicación intercultural;\
+  * promover la educación de adultos en un contexto penitenciario a través de la comunicación intercultural;
 
-  * desarrollar las competencias lingüístico-culturales y lingüístico-profesionales del interno para su reinserción social y laboral;\
+  * desarrollar las competencias lingüístico-culturales y lingüístico-profesionales del interno para su reinserción social y laboral;
 
   * proporcionar al personal penitenciario herramientas para una mejor comprensión de los procesos de comunicación con los reclusos extranjeros y a los profesores una metodología didáctica destinada a optimizar los resultados de los cursos de formación dirigidos al alumno "recluso extranjero".
 
