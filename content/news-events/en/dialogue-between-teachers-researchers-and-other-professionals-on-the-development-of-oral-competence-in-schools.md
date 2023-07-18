@@ -2,7 +2,7 @@
 name: Dialogue between teachers, researchers and other professionals on the
   Development of oral competence in schools
 date: 2023-03-23T09:15:54.735Z
-image: /public/images/captura-de-pantalla-2023-03-10-a-las-10.38.00.png
+image: /public/images/captura-de-pantalla-2023-07-18-a-las-22.54.06.png
 abstract: >-
   On March 23rd will take place the **Dialogue between teachers, researchers and
   other professionals on the Development of oral competence in schools**,

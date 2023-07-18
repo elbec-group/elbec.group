@@ -2,7 +2,7 @@
 name: Diálogo entre docentes, investigadoras y otros profesionales sobre el
   Desarrollo de la competencia oral en los centros educativos
 date: 2023-03-23T09:15:54.762Z
-image: /public/images/captura-de-pantalla-2023-03-10-a-las-10.38.00.png
+image: /public/images/captura-de-pantalla-2023-07-18-a-las-22.54.06.png
 abstract: >-
   El próximo 23 de marzo tendrá lugar la Jornada **Diálogo entre docentes,
   investigadoras y otros profesionales sobre el Desarrollo de la competencia
