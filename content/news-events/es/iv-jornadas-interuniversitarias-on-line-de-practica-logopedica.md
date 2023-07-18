@@ -1,7 +1,7 @@
 ---
 name: IV Jornadas interuniversitarias on-line de práctica logopédica
 date: 2023-02-22T16:24:58.922Z
-image: /public/images/banner.png
+image: /public/images/captura-de-pantalla-2023-07-18-a-las-23.00.15.png
 abstract: >-
   Algunos de los integrantes de Elbec participan en **IV Jornadas
   interuniversitarias on-line de práctica logopédica**.  
