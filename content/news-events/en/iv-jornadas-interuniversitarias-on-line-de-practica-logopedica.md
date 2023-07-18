@@ -1,7 +1,7 @@
 ---
 name: IV Interuniversity Conference on Speech Therapy Practice
 date: 2023-02-22T16:24:58.922Z
-image: /public/images/banner.png
+image: /public/images/captura-de-pantalla-2023-07-18-a-las-22.56.27.png
 abstract: >-
   Some of the members of Elbec participate in the **IV Interuniversity
   Conference on Speech Therapy Practice**.
