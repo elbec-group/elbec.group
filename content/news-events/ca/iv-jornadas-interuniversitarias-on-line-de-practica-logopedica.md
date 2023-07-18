@@ -3,8 +3,8 @@ name: IV Jornades interuniversitàries en línia de pràctica logopèdica
 date: 2023-02-22T16:24:58.922Z
 image: /public/images/banner.png
 abstract: >-
-  Alguns dels integrants de Elbec participen en IV Jornades interuniversitàries
-  en línia de pràctica logopèdica. \
+  Alguns dels integrants de Elbec participen en **IV Jornades
+  interuniversitàries en línia de pràctica logopèdica**. \
 
   \
 
