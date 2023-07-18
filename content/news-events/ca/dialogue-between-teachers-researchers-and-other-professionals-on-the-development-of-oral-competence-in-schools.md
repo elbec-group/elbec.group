@@ -2,7 +2,7 @@
 name: Diàleg entre docents, investigadores i altres professionals sobre el
   Desenvolupament de la competència oral als centres educatius
 date: 2023-03-23T09:15:54.762Z
-image: /public/images/captura-de-pantalla-2023-07-18-a-las-22.54.06.png
+image: /public/images/captura-de-pantalla-2023-07-18-a-las-23.07.32.png
 abstract: >-
   El proper 23 de març tindrà lloc la Jornada **Diàleg entre docents,
   investigadores i altres professionals sobre el Desenvolupament de la
