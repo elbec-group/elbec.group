@@ -5,7 +5,7 @@ image: /public/images/captura-de-pantalla-2023-07-18-a-las-22.50.19.png
 abstract: >-
   Participaremos con varias comunicaciones en el **XXXIII Congreso Internacional
   de la AELFA-IF** (Asociación Española de Logopedia, Foniatría y Audiología e
-  Iberoamericana de Fonoaudiología)que se celebrará del 28 al 30 de septiembre
+  Iberoamericana de Fonoaudiología) que se celebrará del 28 al 30 de septiembre
   en Santander.
 
 
