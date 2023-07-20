@@ -1,5 +1,5 @@
 ---
-name: "XXXIII Congreso Internacional de la AELFA-IF "
+name: XXXIII Congreso Internacional de la AELFA-IF
 date: 2023-07-18T20:02:06.155Z
 image: /public/images/captura-de-pantalla-2023-07-18-a-las-22.50.19.png
 abstract: >-
