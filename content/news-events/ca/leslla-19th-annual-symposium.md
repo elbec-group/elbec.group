@@ -1,7 +1,7 @@
 ---
 name: LESLLA 19è Simposi Anual
 date: 2023-08-07T08:46:23.625Z
-image: /public/images/captura-de-pantalla-2023-08-07-a-las-10.49.06.png
+image: ""
 abstract: >-
   Us donem la benvinguda al web del 19è Simposi Anual LESLLA: Establir ponts
   entre la investigació i la pràctica amb els estudiants LESLLA: reptes i
