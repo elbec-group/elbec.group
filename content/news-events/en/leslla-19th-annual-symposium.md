@@ -1,7 +1,7 @@
 ---
 name: LESLLA 19th Annual Symposium
 date: 2023-08-07T08:41:15.906Z
-image: ""
+image: /public/images/captura-de-pantalla-2023-08-07-a-las-11.02.51.png
 abstract: >-
   We welcome you to the site of the LESLLA 19th Annual Symposium Bridging the
   gap between research and practice with LESLLA Learners: challenges and
