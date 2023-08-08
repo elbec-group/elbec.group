@@ -35,6 +35,6 @@ elbec_members_involved:
   - Iban Mañas
   - Marilisa Birello
 projects:
-  - "University SocioCultural Network for Education and Rehabilitation in Prison
-    (RiUscire) "
+  - Scientific culture at school. Research in language education at the service
+    of teachers
 ---
