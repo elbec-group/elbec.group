@@ -11,5 +11,5 @@ abstract: >-
   the Research School will be held.
 
 
-  For further information visit: <https://sites.google.com/view/sig-writing-2024/conference-home?authuser=0>
+  For further information, please visit: <https://sites.google.com/view/sig-writing-2024/conference-home?authuser=0>
 ---
