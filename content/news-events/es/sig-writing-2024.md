@@ -13,5 +13,5 @@ abstract: >-
   Investigación.
 
 
-  Para más informacion visite: <https://sites.google.com/view/sig-writing-2024/conference-home?authuser=0>
+  Para más información visite: <https://sites.google.com/view/sig-writing-2024/conference-home?authuser=0>
 ---
