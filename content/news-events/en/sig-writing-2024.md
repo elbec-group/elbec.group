@@ -1,7 +1,7 @@
 ---
 name: 20th biennial SIG Writing conference
 date: 2023-10-09T10:40:57.241Z
-image: /public/images/captura-de-pantalla-2023-10-09-a-las-13.07.11.png
+image: /public/images/captura-de-pantalla-2023-10-09-a-las-14.01.56.png
 abstract: >-
   The EARLI Special Interest Group SIG Writing, [Paris Nanterre
   University](https://www.parisnanterre.fr/) (France), [Sorbonne Nouvelle
