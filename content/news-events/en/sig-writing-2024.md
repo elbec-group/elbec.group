@@ -1,5 +1,5 @@
 ---
-name: SIG Writing 2024
+name: 20th biennial SIG Writing conference
 date: 2023-10-09T10:40:57.241Z
 abstract: >-
   The EARLI Special Interest Group SIG Writing, [Paris Nanterre

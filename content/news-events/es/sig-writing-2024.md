@@ -1,5 +1,5 @@
 ---
-name: SIG Writing 2024
+name: 20ª conferencia bienal SIG Writing
 date: 2023-10-09T10:40:57.241Z
 image: null
 abstract: >-
