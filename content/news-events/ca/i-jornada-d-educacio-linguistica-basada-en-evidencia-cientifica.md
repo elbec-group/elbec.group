@@ -3,6 +3,11 @@ name: I Jornada d’Educació Lingüística Basada en Evidència Científica
 date: 2023-10-20T13:56:16.690Z
 image: /public/images/captura-de-pantalla-2023-10-16-a-les-15.45.05.png
 abstract: >-
+  **Inscripció obligatria - Places limitades**\
+
+  **g﻿roup.elbec@gmail.com** 
+
+
   **16:30**\
 
   Recepció
