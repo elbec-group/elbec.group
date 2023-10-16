@@ -1,7 +1,7 @@
 ---
 name: I Jornada d’Educació Lingüística Basada en Evidència Científica
 date: 2023-10-20T13:50:05.037Z
-image: /public/images/captura-de-pantalla-2023-10-16-a-les-15.45.05.png
+image: /public/images/captura-de-pantalla-2023-10-16-a-les-16.30.56.png
 abstract: >-
   **Inscripción obligatoria - Plazas limitadas**\
 
