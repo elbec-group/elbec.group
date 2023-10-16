@@ -8,6 +8,9 @@ abstract: >-
   **g﻿roup.elbec@gmail.com** 
 
 
+  **P﻿ROGRAM**
+
+
   **16:30**\
 
   Reception
