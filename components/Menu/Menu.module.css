@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   padding: 5px 12px;
+  position: relative;
+  z-index: 1000;
 }
 
 .MenuLogo {
@@ -16,62 +18,155 @@
 }
 
 .MenuLinks {
-  align-items: center;
   display: flex;
-}
-
-.MenuIcon {
-  background-repeat: no-repeat;
-  background-image: url("/images/icons/Menu.svg");
-  background-position: center;
-  display: block;
-  height: 40px;
-  width: 40px;
-
-  @media (min-width: 480px) {
-    display: none;
-  }
+  align-items: center;
 }
 
 .MenuList {
   list-style: none;
-  display: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
   gap: 2ch;
+}
 
-  @media (min-width: 480px) {
-    display: flex;
-  }
-  
-  & a {
-    color: #E1E1E1;
+.MenuList li {
+  margin-bottom: 0; /* Removed bottom margin */
+}
 
-    &:hover {
-      color: #FDD068;
-      border-bottom: 4px solid #FDD068;
-      text-decoration: none;
-      padding-block-end: 12px;
-    }
-  }
+.MenuList a {
+  color: #E1E1E1;
+  text-decoration: none;
+  display: inline-block; /* Added to ensure consistent vertical alignment */
+  padding: 10px 0; /* Added padding for better clickable area and alignment */
 }
 
 .MenuLanguajes {
   list-style: none;
   display: flex;
-  font-size: 14px;;
+  font-size: 14px;
   gap: 1ch;
   margin-left: 24px;
   padding: 0;
-  
-  & li:first-of-type {
-    border-right: 1px solid #B0B0B0;
-    padding-inline: 1ch;
+  align-items: center; /* Added to align with MenuList items */
+}
+
+.MenuLanguajes li {
+  display: flex; /* Added to align content vertically */
+  align-items: center; /* Added to align content vertically */
+}
+
+.MenuLanguajes li:first-of-type {
+  border-right: 1px solid #B0B0B0;
+  padding-inline: 1ch;
+}
+
+.MenuLanguajes a {
+  color: #B0B0B0;
+  text-decoration: none;
+  display: inline-block; /* Added to ensure consistent vertical alignment */
+  padding: 10px 0; /* Added padding to match MenuList items */
+}
+
+.MenuLanguajes a:hover {
+  color: #dedede;
+  text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 479px) {
+  .DesktopMenu {
+    display: none;
   }
-  
-  & a {
-    color: #B0B0B0;
-    &:hover {
-      color: #dedede;
-      text-decoration: underline;
+
+  .MenuIcon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .MenuIconBar {
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    width: 25px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .MenuOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+  }
+
+  .MenuAside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 66.67%; /* 2/3 of the screen width */
+    background-color: #153E5A;
+    z-index: 101;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    animation: slideIn 0.3s forwards;
+  }
+
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
     }
+  }
+
+  .MenuAside .MenuLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 20px 20px;
+  }
+
+  .MenuAside .MenuList {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .MenuAside .MenuList a {
+    font-size: 18px;
+  }
+
+  .MenuAside .MenuLanguajes {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 480px) {
+  .MenuIcon {
+    display: none;
+  }
+
+  .MenuOverlay, .MenuAside {
+    display: none;
+  }
+
+  .MenuList a {
+    font-size: 16px;
+  }
+
+  .MenuList a:hover {
+    color: #FDD068;
+    border-bottom: 4px solid #FDD068;
+    padding-block-end: 8px; /* Adjusted to account for the border */
   }
 }
