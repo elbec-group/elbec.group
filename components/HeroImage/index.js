@@ -10,7 +10,7 @@ const HeroImage = ({ alt, image }) => {
           src={image.replace("/public", "")}
           alt={alt}
           layout="fill"
-          objectFit="cover"
+          objectFit="contain"
         />
       </div>
     </header>
