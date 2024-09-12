@@ -81,10 +81,23 @@ export const getStaticPaths: GetStaticPaths = async ({locales}: any) => {
 
 export const getStaticProps: GetStaticProps = async ({params, locale}: any) => {
   const slug = params.publication as string;
-  const contentHero = await import(`content/pages/${locale}/home.md`);
-  const publicationContents = await import(`content/publications/${locale}/${slug}.md`);
 
-  return {props: {content: publicationContents.attributes, contentHero: contentHero.attributes}};
+  try {
+    const contentHero = await import(`content/pages/${locale}/home.md`);
+    const publicationContents = await import(`content/publications/${locale}/${slug}.md`);
+
+    return {
+      props: {
+        content: publicationContents.attributes,
+        contentHero: contentHero.attributes
+      }
+    };
+  } catch (error) {
+    console.error(`Error loading publication: ${slug}`, error);
+
+    // Return notFound if the file doesn't exist
+    return {notFound: true};
+  }
 };
 
 export default Post;
