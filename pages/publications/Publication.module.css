@@ -24,14 +24,12 @@
 
 }
 
-.MemberLink, .ProjectLink {
+.InformationList li a {
   color: #0066cc;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
-.MemberLink:hover, .ProjectLink:hover {
-  color: #004080;
+.InformationList li a:hover {
   text-decoration: underline;
 }
 
