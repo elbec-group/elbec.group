@@ -26,5 +26,6 @@ authors:
 elbec_members_involved:
   - Naymé Salas
 projects:
-  - .
+  - Now, writing! Improving written expression to guarantee equality across
+    students
 ---

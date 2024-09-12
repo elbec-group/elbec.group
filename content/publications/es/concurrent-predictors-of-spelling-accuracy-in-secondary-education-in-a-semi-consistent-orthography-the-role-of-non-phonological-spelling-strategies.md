@@ -28,6 +28,5 @@ authors:
   - Naymé Salas
 elbec_members_involved:
   - Naymé Salas
-projects:
-  - .
+projects: []
 ---
