@@ -24,6 +24,17 @@
 
 }
 
+.MemberLink, .ProjectLink {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.MemberLink:hover, .ProjectLink:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
 .Content {
   margin-bottom: 40px;
   width: 100%;
