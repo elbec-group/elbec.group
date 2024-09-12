@@ -24,6 +24,15 @@
 
 }
 
+.InformationList li a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.InformationList li a:hover {
+  text-decoration: underline;
+}
+
 .Content {
   margin-bottom: 40px;
   width: 100%;
