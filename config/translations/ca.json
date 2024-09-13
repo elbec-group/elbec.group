@@ -16,5 +16,10 @@
   "ANOUNT": "Import",
   "DURATION": "Durada",
   "REFERENCE": "Referència",
-  "OUTPUTS": "Sortides"
+  "OUTPUTS": "Sortides",
+  "MISSION_TITLE": "Our Mission",
+  "MISSION_CONTENT": "GRETEL is committed to advancing linguistic education through evidence-based scientific research, fostering collaboration between academia and practitioners.",
+  "ROLE_SENIOR_RESEARCHER": "Investigadors Sènior",
+  "ROLE_JUNIOR_RESEARCHER": "Investigadors Júnior",
+  "ROLE_COLLABORATOR": "Col·laboradors"
 }

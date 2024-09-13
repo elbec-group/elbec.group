@@ -2,7 +2,7 @@
 order: 10
 name: Rocío Cuberos
 photo: /public/images/roci-o_cuberis.jpg
-role: null
+role: Collaborator
 url: https://www.researchgate.net/profile/Rocio-Cuberos
 bio: "Licenciada en Traducción e Interpretación por la Universidad de Málaga,
   Máster en Formación de Profesores como Lengua Extranjera por la Universidad de

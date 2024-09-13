@@ -1,6 +1,6 @@
 ---
 order: 2
 name: Naymé Salas
-role: BG
+role: Collaborator
 bio: Argentina radicada en bcn
 ---

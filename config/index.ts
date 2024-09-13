@@ -10,9 +10,9 @@ export const LOCALES = {
   'ca': 'ca-ES'
 };
 
-export const localeDateOptions = { year: "numeric", month: "long", day: "numeric" };
+export const localeDateOptions = {year: "numeric", month: "long", day: "numeric"};
 
-export const DATE_OPTIONS: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+export const DATE_OPTIONS: Intl.DateTimeFormatOptions = {year: 'numeric', month: 'long', day: 'numeric'};
 
 export const menuItems = {
   "PROJECTS": "/projects",
@@ -21,5 +21,5 @@ export const menuItems = {
   "NEWS_EVENTS": "/news-events",
   // "NEWSLETTER": "/newsletter",
   // "CONTACT": "/contact",
-  // "ABOUT": "/about",
+  "ABOUT": "/about",
 }
