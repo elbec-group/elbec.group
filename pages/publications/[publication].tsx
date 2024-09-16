@@ -17,7 +17,6 @@ const Post = ({content, contentHero}: any) => {
     year,
     doi,
     abstract,
-    authors,
     elbec_members_involved,
     projects
   } = content;
@@ -55,7 +54,6 @@ const Post = ({content, contentHero}: any) => {
                 </a>
               </li>
             )}
-            {renderInfoItem("Authors", authors)}
             {renderInfoItem("Elbec members involved", elbec_members_involved)}
             {projects && projects.length > 0 && projects[0] !== '.' && renderInfoItem("Associated project", projects)}
           </ul>
