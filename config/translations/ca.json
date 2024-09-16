@@ -16,5 +16,16 @@
   "ANOUNT": "Import",
   "DURATION": "Durada",
   "REFERENCE": "Referència",
-  "OUTPUTS": "Sortides"
+  "OUTPUTS": "Sortides",
+  "CONTACT": "Contacte",
+  "NAME_LABEL": "Nom i cognoms",
+  "EMAIL_LABEL": "Correu electrònic",
+  "PHONE_LABEL": "Telèfon (opcional)",
+  "MESSAGE_LABEL": "Missatge",
+  "SUBMIT_BUTTON": "Enviar",
+  "CANCEL_BUTTON": "Cancel·lar",
+  "NAME_REQUIRED": "El nom és obligatori",
+  "EMAIL_REQUIRED": "El correu electrònic és obligatori",
+  "EMAIL_INVALID": "El format del correu electrònic no és vàlid",
+  "MESSAGE_REQUIRED": "El missatge és obligatori"
 }
