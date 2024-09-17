@@ -51,9 +51,9 @@ const ContactPage: NextPage<Props> = ({contentHero}) => {
           </div>
 
           <input type="text" name="honeypot" style={{display: 'none'}} />
-          <input type="hidden" name="accessKey" value="5637ed13-6462-42a4-a26d-76af025883c0" />
+          <input type="hidden" name="accessKey" value="a3ef2716-4c76-49ba-9a83-9b850c85860e" />
           <input type="hidden" name="subject" value={t('CONTACT_FORM_SUBJECT')} />
-          <input type="hidden" name="replyTo" value="carlosvillu@gmail.com" />
+          <input type="hidden" name="replyTo" value="@" />
           <input type="hidden" name="redirectTo" value={`${baseUrl}/${t('LOCALE')}/contact/success`} />
 
           <div className={styles.buttonGroup}>
