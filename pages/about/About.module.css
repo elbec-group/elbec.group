@@ -75,3 +75,8 @@
 .memberBio:hover {
   text-decoration: underline;
 }
+
+.mission h2, .memberSection h2 {
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
+}
