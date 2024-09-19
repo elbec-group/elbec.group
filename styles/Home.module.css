@@ -20,3 +20,8 @@
   font-size: 24px;
   padding: 0.5ch;
 }
+
+.Title, .SectionTitle {
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
+}

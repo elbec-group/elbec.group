@@ -22,6 +22,11 @@
   color: #153E5A;
 }
 
+.pageTitle, .yearTitle {
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
+}
+
 .publicationsGrid {
   display: grid;
   grid-template-columns: 1fr;
