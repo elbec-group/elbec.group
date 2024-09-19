@@ -38,8 +38,6 @@ abstract: >-
 
   One experimental group reflected on the use of grammar for writing, while the other group was taught self-regulation strategies for written composition. All groups were taught to write discourse genres typical of school and academia. Participating teachers were specifically trained to carry out the interventions. Findings from this project have been disseminated in several national and international conferences and peer-reviewed journals.
 relevant_outputs:
-  - resource_name: Netlify CMS
-    resource_link: https://www.netlifycms.org/
   - resource_name: Publication Title
     resource_link: https://625ed483418ef50008ebcd50--elbec.netlify.app/ca/publications/title
 members:

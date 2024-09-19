@@ -20,6 +20,6 @@ export const menuItems = {
   // "RESOURCES": "/resources",
   "NEWS_EVENTS": "/news-events",
   // "NEWSLETTER": "/newsletter",
-  // "CONTACT": "/contact",
+  "CONTACT": "/contact",
   "ABOUT": "/about",
 }
