@@ -128,3 +128,8 @@
   font-weight: normal;
   margin-block-end: 24px;
 }
+
+.Title, .Date {
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
+}

@@ -1,9 +1,8 @@
 import {NextPage, GetStaticProps} from "next";
-//import Head from "next/head";
 import path from "path"
 import fs from "fs"
-
-import styles from "styles/Home.module.css";
+import {useI18N} from 'context/i18n';
+import styles from "../../styles/Projects.module.css"
 import {Hero} from "components/Hero";
 import {Card} from "components/Card";
 import {Footer} from "components/Footer";
@@ -16,25 +15,28 @@ type Props = {
 type HomeAttributes = {
   hero_title: string;
   logo_alt: string;
-  home_title: string;
 }
 
 const ProjectsPage: NextPage<Props> = ({projects, contentHero}) => {
-  const {
-    logo_alt, hero_title
-  } = contentHero;
+  const {t} = useI18N();
+  const {logo_alt, hero_title} = contentHero;
+
   return (
     <>
       <Hero title={hero_title} textAlt={logo_alt} />
-      <article className={styles.content}>
-        <section>
+      <main className={styles.main}>
+        <h1 className={styles.pageTitle}>{t('PROJECTS')}</h1>
+        <ul className={styles.projectsList}>
           {projects.map((project: any) => {
             const {attributes, slug} = project
-
-            return <Card key={slug} props={attributes} slug={slug} />
+            return (
+              <li key={slug} className={styles.projectItem}>
+                <Card props={attributes} slug={slug} />
+              </li>
+            );
           })}
-        </section>
-      </article>
+        </ul>
+      </main>
       <Footer />
     </>
   );
@@ -54,4 +56,3 @@ export const getStaticProps: GetStaticProps = async ({locale}) => {
 };
 
 export default ProjectsPage;
-
