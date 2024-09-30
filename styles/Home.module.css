@@ -10,13 +10,18 @@
 
 .Title {
   background-color: #efefef;
-  font-size: 24px;
+  font-size: 2rem;
   padding: 2ch;
   text-align: center;
 }
 
 .SectionTitle {
   border-bottom: 1px dashed #bdbdbd;
-  font-size: 24px;
+  font-size: 2rem;
   padding: 0.5ch;
+}
+
+.Title, .SectionTitle {
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
 }

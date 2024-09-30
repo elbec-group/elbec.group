@@ -1,0 +1,32 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 24px; /* Añadimos padding horizontal */
+}
+
+.pageTitle {
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #153E5A;
+  margin-bottom: 2rem;
+}
+
+.newsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.newsEventsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 0 24px; /* Alineamos con el título */
+}
+
+@media (min-width: 768px) {
+  .newsEventsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

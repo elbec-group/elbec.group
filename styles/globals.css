@@ -1,6 +1,5 @@
 /* @import "open-props/media.min.css"; */
 
-
 @import "./variables";
 
 html,
@@ -24,3 +23,4 @@ body {
     text-decoration: underline;
   }
 }
+
