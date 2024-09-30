@@ -4,9 +4,17 @@
   padding: 20px;
 }
 
-.mission {
+.mission, .aboutUs {
   margin-bottom: 40px;
-  text-align: center;
+}
+
+.sectionTitle {
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #153E5A;
+  text-align: left;
+  margin-bottom: 1rem;
 }
 
 .memberSection {
@@ -43,6 +51,12 @@
 .memberName {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  cursor: pointer;
+  color: #0066cc;
+}
+
+.memberName:hover {
+  text-decoration: underline;
 }
 
 .memberRole {
@@ -74,9 +88,4 @@
 
 .memberBio:hover {
   text-decoration: underline;
-}
-
-.mission h2, .memberSection h2 {
-  font-family: 'BioRhyme', serif;
-  font-weight: 700;
 }

@@ -1,6 +1,6 @@
 ---
 order: 2
 name: Naymé Salas
-role: Collaborator
+role: Project assistant
 bio: Argentina radicada en bcn
 ---

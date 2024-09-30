@@ -2,7 +2,7 @@
 order: 15
 name: Remei González
 photo: /public/images/remei_gonza-lez_2.jpg
-role: Collaborator
+role: PhD student
 url: https://www.researchgate.net/profile/Remei-Gonzalez-Manzanero
 bio: Profesora de Lengua castellana y literatura en educación secundaria.
   Graduada en Filología Hispánica, máster de Ciencia Cognitiva y Lenguaje y

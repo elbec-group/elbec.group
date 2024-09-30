@@ -1,8 +1,8 @@
 ---
-order: 16
+order: 8
 name: Teresa Sans
 photo: null
-role: Collaborator
+role: Project assistant
 url: null
 bio: null
 ---

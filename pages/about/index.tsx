@@ -37,14 +37,6 @@ const AboutPage: NextPage<Props> = ({contentHero, authors}) => {
     return `https://placehold.co/300x300?text=${name.charAt(0)}`;
   };
 
-  const truncateBio = (bio: string, limit: number) => {
-    const words = bio.split(' ');
-    if (words.length > limit) {
-      return words.slice(0, limit).join(' ') + '...';
-    }
-    return bio;
-  };
-
   const renderAuthorCard = (author: Author) => (
     <div key={author.name} className={styles.memberCard}>
       <div className={styles.imageWrapper}>
@@ -56,18 +48,16 @@ const AboutPage: NextPage<Props> = ({contentHero, authors}) => {
           className={styles.memberImage}
         />
       </div>
-      <h3 className={styles.memberName}>{author.name}</h3>
-      {author.bio && (
-        <p
-          className={styles.memberBio}
-          onClick={() => setSelectedAuthor(author)}
-        >
-          {truncateBio(author.bio, 20)}
-        </p>
-      )}
+      <h3
+        className={styles.memberName}
+        onClick={() => setSelectedAuthor(author)}
+      >
+        {author.name}
+      </h3>
+      <p className={styles.memberRole}>{author.role}</p>
       {author.url && (
         <a href={author.url} target="_blank" rel="noopener noreferrer" className={styles.memberLink}>
-          {t('VIEW_PROFILE')}
+          Saber más
         </a>
       )}
     </div>
@@ -75,6 +65,7 @@ const AboutPage: NextPage<Props> = ({contentHero, authors}) => {
 
   const renderAuthorSection = (role: string) => {
     const filteredAuthors = authors.filter(author => author.role?.toLowerCase().includes(role.toLowerCase()));
+    filteredAuthors.sort((a, b) => a.order - b.order);
 
     if (filteredAuthors.length === 0) return null;
 
@@ -88,20 +79,22 @@ const AboutPage: NextPage<Props> = ({contentHero, authors}) => {
     );
   };
 
+  const roles = ['Senior researcher', 'Junior researcher', 'PhD student', 'Collaborator', 'Project assistant'];
+
   return (
     <>
       <Hero title={hero_title} textAlt={logo_alt} />
       <article className={styles.content}>
         <section className={styles.mission}>
-          <h2>{t('MISSION_TITLE')}</h2>
+          <h2 className={styles.sectionTitle}>{t('MISSION_TITLE')}</h2>
           <p>{t('MISSION_CONTENT')}</p>
         </section>
 
-        <h1>{t('ABOUT_US')}</h1>
+        <section className={styles.aboutUs}>
+          <h2 className={styles.sectionTitle}>{t('ABOUT_US')}</h2>
+        </section>
 
-        {renderAuthorSection('Senior researcher')}
-        {renderAuthorSection('Junior researcher')}
-        {renderAuthorSection('Collaborator')}
+        {roles.map(role => renderAuthorSection(role))}
       </article>
       <Footer />
       {selectedAuthor && (

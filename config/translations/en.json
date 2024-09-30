@@ -5,6 +5,7 @@
   "NEWS_EVENTS": "News & Events",
   "NEWSLETTER": "Newsletter",
   "ABOUT": "About",
+  "ABOUT_US": "About",
   "NEWS": "News",
   "MISION": "Mision",
   "LOCALE_EN": "English",
@@ -18,8 +19,6 @@
   "OUTPUTS": "Outputs",
   "MISSION_TITLE": "Our Mission",
   "MISSION_CONTENT": "ELBEC is committed to advancing linguistic education through evidence-based scientific research, fostering collaboration between academia and practitioners.",
-  "ROLE_SENIOR_RESEARCHER": "Senior Researchers",
-  "ROLE_JUNIOR_RESEARCHER": "Junior Researchers",
   "ROLE_COLLABORATOR": "Collaborators",
   "CANCEL_BUTTON": "Cancel",
   "NAME_REQUIRED": "Name is required",
@@ -35,5 +34,10 @@
   "CONTACT_FORM_SUBJECT": "New contact form submission from elbec.group",
   "CONTACT_SUCCESS_TITLE": "Thank You!",
   "CONTACT_SUCCESS_MESSAGE": "Your message has been sent successfully. We will get back to you soon.",
-  "LOCALE": "en"
+  "LOCALE": "en",
+  "ROLE_SENIOR_RESEARCHER": "Senior researchers",
+  "ROLE_JUNIOR_RESEARCHER": "Junior researchers",
+  "ROLE_PHD_STUDENT": "PhD students",
+  "ROLE_COLLABORATOR": "Collaborators",
+  "ROLE_PROJECT_ASSISTANT": "Project assistant"
 }
