@@ -13,4 +13,7 @@ module.exports = {
     defaultLocale: "en",
     localeDetection: false,
   },
+  images: {
+    domains: ['placehold.co'],
+  },
 };
