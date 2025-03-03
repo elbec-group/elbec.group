@@ -1,5 +1,6 @@
 ---
 name: Maria Teresa Sans Bertran
+photo: /public/images/maria-teresa-sans.png
 url: https://www.researchgate.net/profile/Maria-Teresa-Sans
 bio: Maria Teresa Sans Bertran és Doctora en Educació per la Universitat
   Autònoma de Barcelona (UAB), amb especialitat en Didàctica de la Llengua i la

@@ -1,7 +1,7 @@
 ---
 order: 16
 name: Maria Teresa Sans Bertran
-photo: null
+photo: /public/images/maria-teresa-sans.png
 role: null
 url: https://www.researchgate.net/profile/Maria-Teresa-Sans
 bio: Maria Teresa Sans Bertran es Doctora en Educación por la Universidad
