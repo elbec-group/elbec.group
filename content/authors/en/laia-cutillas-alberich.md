@@ -1,6 +1,7 @@
 ---
 order: 19
 name: Laia Cutillas Alberich
+photo: /public/images/cutillas-alberich-laia_2025.jpg
 url: https://www.researchgate.net/profile/Laia-Cutillas-I-Alberich
 bio: Doctor of Theoretical, Computational and Applied Linguistics from the
   University of Barcelona. Her research focuses on later language development,
