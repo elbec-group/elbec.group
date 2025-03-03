@@ -4,11 +4,10 @@ name: Remei González
 photo: /public/images/remei_gonza-lez_2.jpg
 role: null
 url: " https://www.researchgate.net/profile/Remei-Gonzalez-Manzanero"
-bio: Professora de Llengua castellana i literatura a educació secundària.
-  Graduada en Filologia Hispànica, màster de Ciència Cognitiva i Llenguatge i
-  màster de Formació del Professorat a la Universitat de Barcelona, on
-  actualment prepara una tesi doctoral centrada en el desenvolupament de
-  l'expressió de la causalitat des de la infància tardana fins a l'educació
-  superior en castellà. També és professora associada a la Universitat Autònoma
-  de Barcelona.
+bio: Remei González Manzanero és doctora en Didàctica de la Llengua per la
+  Universitat de Barcelona amb una tesi sobre el desenvolupament de l'expressió
+  de la causalitat en l'escriptura, màster en Ciència Cognitiva i Llenguatge i
+  màster de Formació del Professorat. És professora de Llengua i Literatura a
+  l'Educació Secundària i ha participat en diversos projectes de recerca sobre
+  aprenentatge i desenvolupament de la llengua escrita.
 ---
