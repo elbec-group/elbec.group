@@ -1,6 +1,7 @@
 ---
 order: 21
 name: "Daniela Mieres Maldonado "
+photo: /public/images/daniela_mieres.jpg.jpeg
 url: https://orcid.org/0000-0001-5014-1416
 bio: Doctor in Communication Psychology and Change from the Universitat Autònoma
   de Barcelona. Master's degree in Communication and Language Disorders.
