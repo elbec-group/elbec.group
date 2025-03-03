@@ -4,8 +4,14 @@ name: Mario Figueroa
 photo: /public/images/fb_img_1652140170373.jpeg
 role: null
 url: https://www.researchgate.net/profile/Mario-Figueroa-2
-bio: Logopeda y doctor en Psicología de la Comunicación y el Cambio. Actualmente
-  es investigador postdoctoral Margarita Salas y lleva a cabo un proyecto sobre
-  el aprendizaje incidental de los precursores de la teoría de la mente en bebés
-  con sordera.
+bio: Soy profesor Lector en el Departamento de Psicología Básica, Evolutiva y de
+  la Educación de la Universidad Autónoma de Barcelona. Comencé a trabajar como
+  profesor asociado en la UAB en el año 2019 hasta el año 2022, cuando realicé
+  una estancia postdoctoral en la City University of London. En el año 2024,
+  regresé a la UAB como profesor lector. Mi investigación combina conocimientos
+  teóricos y prácticos adquiridos durante más de 6 años de experiencia en
+  escuelas y clínicas como logopeda con niños y adultos con dificultades
+  lingüísticas, cognitivas y sociales. Hasta la fecha, mi investigación se
+  centra en los aspectos cognitivos, lingüísticos y sociocognitivos de las
+  personas neurodivergentes (por ejemplo, con pérdida auditiva).
 ---
