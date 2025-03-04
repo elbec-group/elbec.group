@@ -1,9 +1,9 @@
 ---
 publication_type: Article
 eds: .
-name: "Moment de la retroalimentació correctiva en la missatgeria instantània
-  mòbil: Un estudi exploratori sobre les percepcions dels estudiants de grec
-  modern com a L2."
+name: "La temporalització de la retroalimentació correctiva en la missatgeria
+  instantània mòbil: Un estudi exploratori sobre les percepcions dels estudiants
+  de grec modern com a L2."
 journal: System
 publishing_house: .
 year: "2025"
