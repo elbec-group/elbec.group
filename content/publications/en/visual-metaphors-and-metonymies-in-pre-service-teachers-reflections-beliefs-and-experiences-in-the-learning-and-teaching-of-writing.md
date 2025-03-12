@@ -6,8 +6,7 @@ name: "Visual metaphors and metonymies in pre-service teachers’ reflections:
 journal: Teaching and Teacher Education
 publishing_house: .
 year: "2023"
-doi: "Visual metaphors and metonymies in pre-service teachers’ reflections:
-  Beliefs and experiences in the learning and teaching of writing"
+doi: https://doi.org/10.1016/j.tate.2022.103971
 abstract: This study focuses on visual metaphors and metonymies in
   a [Catalan](https://www.sciencedirect.com/topics/social-sciences/catalan
   "Learn more about Catalan from ScienceDirect's AI-generated Topic
