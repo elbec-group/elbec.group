@@ -7,7 +7,7 @@ name: "La temporalització de la retroalimentació correctiva en la missatgeria
 journal: System
 publishing_house: .
 year: "2025"
-doi: In press
+doi: https://doi.org/10.1016/j.system.2025.103591
 abstract: "Les aplicacions de missatgeria instantània mòbil (MIM), com WhatsApp,
   s’han consolidat com a eines pedagògiques importants per a ampliar
   l’aprenentatge i la pràctica de llengües estrangeres (L2) més enllà de l’aula,
