@@ -3,7 +3,7 @@ publication_type: Article
 eds: .
 name: "Macroestructura y microestructura narrativa en población infantil
   bilingüe con TDL: una revisión sistemática"
-journal: European Journal of Special Needs Education
+journal: Revista de Investigación en Logopedia
 publishing_house: .
 year: "2023"
 doi: https://doi.org/10.5209/rlog.82548

@@ -3,7 +3,7 @@ publication_type: Article
 eds: .
 name: "Narrative macrostructure and microstructure in bilingual children with
   DLD: A systematic review"
-journal: European Journal of Special Needs Education
+journal: Revista de Investigación en Logopedia
 publishing_house: .
 year: "2023"
 doi: https://doi.org/10.5209/rlog.82548
