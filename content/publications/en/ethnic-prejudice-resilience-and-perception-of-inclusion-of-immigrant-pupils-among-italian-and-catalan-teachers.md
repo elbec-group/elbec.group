@@ -6,7 +6,7 @@ name: Ethnic Prejudice, Resilience, and Perception of Inclusion of Immigrant
 journal: Journal of Child and Family Studies
 publishing_house: .
 year: "2022"
-doi: 10.1007/s10826-021-02098-9
+doi: https://doi.org/10.1007/s10826-021-02098-9
 abstract: "In the current study we investigated the relationship between ethnic
   prejudice and resilience and the perception of inclusion of immigrant students
   among primary and middle school teachers in two different countries (Italy and

@@ -6,7 +6,7 @@ name: Prejuicios étnicos, resiliencia y percepción de la inclusión de alumnos
 journal: Journal of Child and Family Studies
 publishing_house: .
 year: "2022"
-doi: 10.1007/s10826-021-02098-9
+doi: https://doi.org/10.1007/s10826-021-02098-9
 abstract: 'En el presente estudio investigamos la relación entre los prejuicios
   étnicos, la resiliencia y la percepción de la inclusión de alumnos inmigrantes
   entre profesores de primaria y secundaria de dos países diferentes (Italia y
