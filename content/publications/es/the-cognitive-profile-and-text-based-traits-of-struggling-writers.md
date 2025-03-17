@@ -34,5 +34,6 @@ elbec_members_involved:
   - Mariona Pascual
   - Naymé Salas
 projects:
-  - .
+  - Now, writing! Improving written expression to guarantee equality across
+    students
 ---
