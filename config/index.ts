@@ -21,5 +21,5 @@ export const menuItems = {
   "NEWS_EVENTS": "/news-events",
   // "NEWSLETTER": "/newsletter",
   "CONTACT": "/contact",
-  // "ABOUT": "/about",
+  "ABOUT": "/about",
 }

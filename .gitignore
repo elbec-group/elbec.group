@@ -33,5 +33,5 @@ yarn-error.log*
 
 # vercel
 .vercel
-repopack-output.xml
-repopack.config.json
+repomix-output.xml
+repomix.config.json

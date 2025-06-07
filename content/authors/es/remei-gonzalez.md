@@ -1,8 +1,8 @@
 ---
 order: 15
 name: Remei González
-photo: /public/images/remei_gonza-lez_2.jpg
-role: null
+photo: /images/remei_gonza-lez_2.jpg
+role: phd_student
 url: https://www.researchgate.net/profile/Remei-Gonzalez-Manzanero
 bio: Remei González Manzanero es doctora en Didáctica de la Lengua por la
   Universidad de Barcelona con una tesis sobre el desarrollo de la expresión de

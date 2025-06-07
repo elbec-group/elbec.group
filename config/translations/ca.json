@@ -5,6 +5,7 @@
   "NEWS_EVENTS": "Notices i Esdeveniments",
   "NEWSLETTER": "Botlletí",
   "ABOUT": "Sobre",
+  "ABOUT_US": "Quiénes somos",
   "NEWS": "Notícies",
   "MISION": "Misió",
   "LOCALE_EN": "English",
@@ -15,6 +16,9 @@
   "ANOUNT": "Import",
   "DURATION": "Durada",
   "REFERENCE": "Referència",
+  "MISSION_TITLE": "Our Mission",
+  "MISSION_CONTENT": "ELBEC is committed to advancing linguistic education through evidence-based scientific research, fostering collaboration between academia and practitioners.",
+  "ROLE_COLLABORATOR": "Col·laboradors",
   "OUTPUTS": "Recursos",
   "CANCEL_BUTTON": "Cancel·lar",
   "NAME_REQUIRED": "El nom és obligatori",
@@ -30,5 +34,13 @@
   "CONTACT_FORM_SUBJECT": "Nou missatge de contacte des d'elbec.group",
   "CONTACT_SUCCESS_TITLE": "Gràcies!",
   "CONTACT_SUCCESS_MESSAGE": "El teu missatge s'ha enviat correctament. Ens posarem en contacte amb tu aviat.",
-  "LOCALE": "ca"
+  "LOCALE": "ca",
+  "ROLE_SENIOR_RESEARCHER": "Investigadors sènior",
+  "ROLE_JUNIOR_RESEARCHER": "Investigadors en formació",
+  "ROLE_PHD_STUDENT": "Estudiants de doctorat",
+  "ROLE_COLLABORATOR": "Col·laboradors",
+  "ROLE_PROJECT_ASSISTANT": "Tècnics de suport a la recerca",
+  "ROLE_RESEARCH_GROUP_MEMBER": "Membres del grup de recerca",
+  "LEARN_MORE": "Saber més"
+
 }

@@ -1,8 +1,8 @@
 ---
 order: 1
 name: Anna Cros
-photo: /public/images/ana_cros.jpg
-role: ""
+photo: /images/ana_cros.jpg
+role: research_group_member
 url: "https://orcid.org/my-orcid?orcid=0000-0002-2339-4693 "
 bio: "Llicenciada en Geografia i Història i en Filologia Catalana per la
   Universitat de Barcelona (UB). Doctora en Filologia Catalana per la

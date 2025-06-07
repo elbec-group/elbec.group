@@ -1,8 +1,8 @@
 ---
 order: 7
 name: Mario Figueroa
-photo: /public/images/fb_img_1652140170373.jpeg
-role: null
+photo: /images/fb_img_1652140170373.jpeg
+role: collaborator
 url: https://www.researchgate.net/profile/Mario-Figueroa-2
 bio: Soy profesor Lector en el Departamento de Psicología Básica, Evolutiva y de
   la Educación de la Universidad Autónoma de Barcelona. Comencé a trabajar como

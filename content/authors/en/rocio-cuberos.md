@@ -1,7 +1,8 @@
 ---
 order: 10
 name: Rocío Cuberos
-photo: /public/images/roci-o_cuberis.jpg
+photo: /images/roci-o_cuberis.jpg
+role: research_group_member
 url: https://www.researchgate.net/profile/Rocio-Cuberos
 bio: Rocío Cuberos holds a PhD in Language Teaching from the Universitat de
   Barcelona. She is currently Assistant Professor at the Department of Spanish

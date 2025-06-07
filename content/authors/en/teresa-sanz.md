@@ -1,7 +1,8 @@
 ---
 order: 16
 name: Maria Teresa Sans Bertran
-photo: /public/images/maria-teresa-sans.png
+photo: /images/maria-teresa-sans.png
+role: research_group_member
 url: https://www.researchgate.net/profile/Maria-Teresa-Sans
 bio: Maria Teresa Sans Bertran holds a PhD in Education from the Autonomous
   University of Barcelona (UAB), specializing in Language and Literature
