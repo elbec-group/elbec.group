@@ -2,7 +2,7 @@
 order: 10
 name: Rocío Cuberos
 photo: /public/images/roci-o_cuberis.jpg
-role: null
+role: research_group_member
 url: https://www.researchgate.net/profile/Rocio-Cuberos
 bio: Rocío Cuberos és doctora en Didàctica de la Llengua per la Universitat de
   Barcelona. Actualment és Professora Ajudant Doctora al Departament de Llengua

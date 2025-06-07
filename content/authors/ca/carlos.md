@@ -2,7 +2,7 @@
 order: 5
 name: Melina Aparici
 photo: /public/images/m.aparici.jpg
-role: Investigadora sénior
+role: senior_researcher
 url: https://www.researchgate.net/profile/Melina-Aparici
 bio: Doctora en Psicologia per la Universitat de Barcelona. Actualment és
   professora agregada (contractat doctor) del Departament de Psicologia Bàsica,

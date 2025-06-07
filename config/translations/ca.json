@@ -39,6 +39,8 @@
   "ROLE_JUNIOR_RESEARCHER": "Investigadors en formació",
   "ROLE_PHD_STUDENT": "Estudiants de doctorat",
   "ROLE_COLLABORATOR": "Col·laboradors",
-  "ROLE_PROJECT_ASSISTANT": "Tècnic de suport a la recerca"
+  "ROLE_PROJECT_ASSISTANT": "Tècnics de suport a la recerca",
+  "ROLE_RESEARCH_GROUP_MEMBER": "Membres del grup de recerca",
+  "LEARN_MORE": "Saber més"
 
 }

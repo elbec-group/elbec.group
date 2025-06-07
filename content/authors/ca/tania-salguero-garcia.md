@@ -2,6 +2,7 @@
 order: 22
 name: Tania Salguero García
 photo: /public/images/tania-salguero.png
+role: research_group_member
 url: https://www.researchgate.net/profile/Tania-Salguero
 bio: Tania Salguero García és estudiant de doctorat en Educació a la Universitat
   Autònoma de Barcelona (UAB). Té un Màster en Recerca en Educació per la UAB,

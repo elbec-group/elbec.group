@@ -2,6 +2,7 @@
 order: 7
 name: Mario Figueroa
 photo: /public/images/fb_img_1652140170373.jpeg
+role: research_group_member
 url: https://www.researchgate.net/profile/Mario-Figueroa-2
 bio: I am a Lecturer at the Department of Basic, Developmental and Educational
   Psychology of the Autonomous University of Barcelona. I started working as an

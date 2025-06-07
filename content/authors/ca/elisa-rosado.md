@@ -2,7 +2,7 @@
 order: 2
 name: Elisa Rosado
 photo: /public/images/elisa_rosado.jpg
-role: null
+role: research_group_member
 url: https://www.researchgate.net/profile/Elisa-Rosado-2
 bio: Elisa Rosado és professora Agregada en la Facultat d'Educació de la
   Universitat de Barcelona. És doctora en Ciències de l'Educació per la

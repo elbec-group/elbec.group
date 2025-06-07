@@ -2,6 +2,7 @@
 order: 9
 name: Mariona Pascual
 photo: /public/images/mpp_web.jpeg
+role: research_group_member
 url: https://www.researchgate.net/profile/Mariona-Pascual
 bio: "Mariona Pascual is a postdoctoral fellow in the Faculdade de Psicologia of
   the University of Lisbon. She is currently working on the FCT project “LEMON,

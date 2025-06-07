@@ -39,5 +39,7 @@
   "ROLE_JUNIOR_RESEARCHER": "Junior researchers",
   "ROLE_PHD_STUDENT": "PhD students",
   "ROLE_COLLABORATOR": "Collaborators",
-  "ROLE_PROJECT_ASSISTANT": "Project assistant"
+  "ROLE_PROJECT_ASSISTANT": "Project assistants",
+  "ROLE_RESEARCH_GROUP_MEMBER": "Research group members",
+  "LEARN_MORE": "Learn more"
 }

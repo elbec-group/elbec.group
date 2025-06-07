@@ -41,7 +41,7 @@ const AboutPage: NextPage<Props> = ({contentHero, authors}) => {
     <div key={author.name} className={styles.memberCard}>
       <div className={styles.imageWrapper}>
         <Image
-          src={getPlaceholderImage(author.name)}
+          src={author.photo || getPlaceholderImage(author.name)}
           alt={author.name}
           width={150}
           height={150}
@@ -54,32 +54,32 @@ const AboutPage: NextPage<Props> = ({contentHero, authors}) => {
       >
         {author.name}
       </h3>
-      <p className={styles.memberRole}>{author.role}</p>
+      <p className={styles.memberRole}>{t(`ROLE_${author.role.toUpperCase()}`)}</p>
       {author.url && (
         <a href={author.url} target="_blank" rel="noopener noreferrer" className={styles.memberLink}>
-          Saber más
+          {t('LEARN_MORE')}
         </a>
       )}
     </div>
   );
 
   const renderAuthorSection = (role: string) => {
-    const filteredAuthors = authors.filter(author => author.role?.toLowerCase().includes(role.toLowerCase()));
+    const filteredAuthors = authors.filter(author => author.role === role);
     filteredAuthors.sort((a, b) => a.order - b.order);
 
     if (filteredAuthors.length === 0) return null;
 
     return (
       <section className={styles.memberSection}>
-        <h2>{t(`ROLE_${role.toUpperCase().replace(' ', '_')}`)}</h2>
+        <h2>{t(`ROLE_${role.toUpperCase()}`)}</h2>
         <div className={styles.memberGrid}>
-          {filteredAuthors.map(renderAuthorCard)}
+          {filteredAuthors.map((author) => renderAuthorCard(author))}
         </div>
       </section>
     );
   };
 
-  const roles = ['Senior researcher', 'Junior researcher', 'PhD student', 'Collaborator', 'Project assistant'];
+  const roles = ['senior_researcher', 'junior_researcher', 'phd_student', 'collaborator', 'project_assistant', 'research_group_member'];
 
   return (
     <>

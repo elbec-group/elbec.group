@@ -1,6 +1,7 @@
 ---
 order: 20
 name: Patrícia Álvarez Cabrera
+role: research_group_member
 url: https://www.researchgate.net/profile/Patricia-Alvarez-Cabrera
 bio: Patrícia Álvarez Cabrera es Logopeda. Actualmente es Profesora Asociada del
   Grado de Logopedia en la Universidad Autónoma de Barcelona y está ejerciendo

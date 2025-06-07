@@ -1,4 +1,5 @@
 ---
+role: research_group_member
 name: Maria Teresa Sans Bertran
 photo: /public/images/maria-teresa-sans.png
 url: https://www.researchgate.net/profile/Maria-Teresa-Sans

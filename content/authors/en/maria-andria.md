@@ -2,6 +2,7 @@
 order: 3
 name: Maria Andria
 photo: /public/images/foto-maria_andria_rodona.png
+role: research_group_member
 url: https://www.researchgate.net/profile/Maria_Andria
 bio: >-
   Maria Andria is currently a Serra Húnter Lecturer at the University of

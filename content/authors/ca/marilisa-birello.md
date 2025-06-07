@@ -1,4 +1,5 @@
 ---
+role: research_group_member
 photo: /public/images/marilisa-birello.jpg
 url: https://www.researchgate.net/profile/Marilisa-Birello
 bio: Doctora en Ciències de l’Educació per la Universitat de Barcelona i
