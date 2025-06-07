@@ -1,7 +1,7 @@
 ---
 order: 8
 name: Iban Mañas
-photo: /public/images/iban-manas.jpg
+photo: /images/iban-manas.jpg
 url: https://www.researchgate.net/profile/Iban-Manas-2
 bio: "Dr. Iban Mañas Navarrete is currently a PhD Assistant Professor in the
   Department of Spanish Language (Section: Linguistic and Literary Education),

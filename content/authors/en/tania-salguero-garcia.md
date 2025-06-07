@@ -1,7 +1,7 @@
 ---
 order: 22
 name: Tania Salguero García
-photo: /public/images/tania-salguero.png
+photo: /images/tania-salguero.png
 role: research_group_member
 url: https://www.researchgate.net/profile/Tania-Salguero
 bio: Tania Salguero García is a PhD student in Education at the Autonomous

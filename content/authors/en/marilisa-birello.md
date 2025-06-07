@@ -1,7 +1,7 @@
 ---
 order: 4
 name: Marilisa Birello
-photo: /public/images/marilisa-birello.jpg
+photo: /images/marilisa-birello.jpg
 role: research_group_member
 url: https://www.researchgate.net/profile/Marilisa-Birello
 bio: PhD in Education from the University of Barcelona and is associate

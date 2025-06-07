@@ -1,7 +1,7 @@
 ---
 order: 21
 name: "Daniela Mieres Maldonado "
-photo: /public/images/daniela_mieres.jpg.jpeg
+photo: /images/daniela_mieres.jpg.jpeg
 role: research_group_member
 url: https://orcid.org/0000-0001-5014-1416
 bio: Doctor in Communication Psychology and Change from the Universitat Autònoma

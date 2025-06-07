@@ -1,7 +1,7 @@
 ---
 order: 5
 name: Melina Aparici
-photo: /public/images/m.aparici.jpg
+photo: /images/m.aparici.jpg
 role: senior_researcher
 url: https://www.researchgate.net/profile/Melina-Aparici
 bio: She holds a PhD in Psychology from the University of Barcelona. Currently

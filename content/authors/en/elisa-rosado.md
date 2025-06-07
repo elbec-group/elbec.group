@@ -1,7 +1,7 @@
 ---
 order: 2
 name: Elisa Rosado
-photo: /public/images/elisa_rosado.jpg
+photo: /images/elisa_rosado.jpg
 url: https://www.researchgate.net/profile/Elisa-Rosado-2
 bio: Elisa Rosado is an Associate Professor in the Faculty of Education at the
   University of Barcelona. She holds a PhD in Educational Sciences from the

@@ -1,7 +1,7 @@
 ---
 order: 8
 name: Iban Mañas
-photo: /public/images/iban-manas.jpg
+photo: /images/iban-manas.jpg
 role: research_group_member
 url: https://www.researchgate.net/profile/Iban-Manas-2
 bio: "El Dr. Iban Mañas Navarrete es actualmente Profesor Ayudante Doctor en el

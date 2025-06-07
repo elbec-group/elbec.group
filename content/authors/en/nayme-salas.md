@@ -1,7 +1,7 @@
 ---
 order: 6
 name: Naymé Salas
-photo: /public/images/nayme-salas.jpeg
+photo: /images/nayme-salas.jpeg
 role: research_group_member
 url: https://www.researchgate.net/profile/Nayme-Salas
 bio: Naymé holds a PhD in Psychology from Bangor University (United Kingdom).

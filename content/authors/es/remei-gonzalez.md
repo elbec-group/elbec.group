@@ -1,7 +1,7 @@
 ---
 order: 15
 name: Remei González
-photo: /public/images/remei_gonza-lez_2.jpg
+photo: /images/remei_gonza-lez_2.jpg
 role: phd_student
 url: https://www.researchgate.net/profile/Remei-Gonzalez-Manzanero
 bio: Remei González Manzanero es doctora en Didáctica de la Lengua por la

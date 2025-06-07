@@ -1,7 +1,7 @@
 ---
 order: 15
 name: Remei González
-photo: /public/images/remei_gonza-lez_2.jpg
+photo: /images/remei_gonza-lez_2.jpg
 role: research_group_member
 url: " https://www.researchgate.net/profile/Remei-Gonzalez-Manzanero"
 bio: Remei González Manzanero holds a PhD in Language Teaching from the

@@ -1,7 +1,7 @@
 ---
 order: 19
 name: Laia Cutillas Alberich
-photo: /public/images/cutillas-alberich-laia_2025.jpg
+photo: /images/cutillas-alberich-laia_2025.jpg
 role: research_group_member
 url: https://www.researchgate.net/profile/Laia-Cutillas-I-Alberich
 bio: Doctora en Lingüística Teórica, Computacional y Aplicada por la Universidad
