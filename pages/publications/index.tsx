@@ -20,7 +20,7 @@ type HomeAttributes = {
 type Publication = {
   id: string;
   name: string;
-  authors: string[];
+  authors?: string[];
   journal: string;
   year: string;
   doi: string;
@@ -54,7 +54,7 @@ const PublicationsPage: NextPage<Props> = ({publications, contentHero}) => {
                       <a className={styles.publicationLink}>{publication.name}</a>
                     </Link>
                   </h3>
-                  <p className={styles.publicationAuthors}>{publication.authors.join(', ')}</p>
+                  <p className={styles.publicationAuthors}>{publication.authors?.join(', ') || ''}</p>
                   <p className={styles.publicationJournal}>{publication.journal}</p>
                   <p className={styles.publicationDoi}>
                     DOI: <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noopener noreferrer">{publication.doi}</a>
