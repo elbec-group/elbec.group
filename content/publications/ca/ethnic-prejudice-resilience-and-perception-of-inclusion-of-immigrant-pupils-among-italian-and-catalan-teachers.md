@@ -6,7 +6,7 @@ name: Prejudici ètnic, resiliència, i percepció de la inclusió d'alumnes
 journal: Journal of Child and Family Studies
 publishing_house: .
 year: "2022"
-doi: 10.1007/s10826-021-02098-9
+doi: https://doi.org/10.1007/s10826-021-02098-9
 abstract: "En el present estudi hem investigat les relacions entre els
   prejudicis ètnics, la resiliència i la percepció de la inclusió dels
   estudiants immigrants entre professors de primària i secundària de dos països

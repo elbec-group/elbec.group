@@ -6,7 +6,7 @@ name: "The limits of the foreign language effect on decision-making: The case of
 journal: PLoS ONE
 publishing_house: .
 year: "2018"
-doi: 10.1371/journal.pone.0203528
+doi: https://doi.org/10.1371/journal.pone.0203528
 abstract: Language context (native vs. foreign) affects people’s choices and
   preferences in a wide variety of situations. However, emotional reactions are
   a key component driving people’s choices in those situations. In six studies,

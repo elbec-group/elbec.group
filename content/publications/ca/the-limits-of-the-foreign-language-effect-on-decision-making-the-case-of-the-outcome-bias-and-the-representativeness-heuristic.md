@@ -6,7 +6,7 @@ name: "Els limits de l'efecte del llenguatge extranger en la presa de decisions:
 journal: PLoS ONE
 publishing_house: .
 year: "2018"
-doi: 10.1371/journal.pone.0203528
+doi: https://doi.org/10.1371/journal.pone.0203528
 abstract: El context lingüístic (natiu o estranger) afecta les decisions i
   preferències de les persones en una àmplia varietat de situacions. Però, les
   reaccions emocionals són un component clau que impulsa les eleccions de les

@@ -6,7 +6,7 @@ name: "Los límites del efecto de la lengua extranjera en la toma de decisiones:
 journal: PLoS ONE
 publishing_house: .
 year: "2018"
-doi: 10.1371/journal.pone.0203528
+doi: https://doi.org/10.1371/journal.pone.0203528
 abstract: El contexto lingüístico (nativo o extranjero) afecta a las elecciones
   y preferencias de las personas en una gran variedad de situaciones. Sin
   embargo, las reacciones emocionales son un componente clave que impulsa las

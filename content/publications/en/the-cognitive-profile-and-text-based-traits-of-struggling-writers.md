@@ -5,7 +5,7 @@ name: The cognitive profile and text-based traits of struggling writers
 journal: Journal for the Study of Education and Development
 publishing_house: .
 year: "2021"
-doi: Infancia y Aprendizaje
+doi: https://doi.org/10.1080/02103702.2020.1848090
 abstract: Writing difficulties have typically been investigated as the
   consequence of learning disabilities. However, several characteristics of
   texts and the underlying cognitive skills are often shared across these
@@ -30,5 +30,6 @@ elbec_members_involved:
   - Mariona Pascual
   - Naymé Salas
 projects:
-  - .
+  - Now, writing! Improving written expression to guarantee equality across
+    students
 ---
