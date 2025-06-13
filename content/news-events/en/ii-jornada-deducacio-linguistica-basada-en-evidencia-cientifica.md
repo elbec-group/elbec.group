@@ -22,4 +22,7 @@ abstract: >-
 
 
   1﻿8:15 Round table: Other educational agents. The challenge of implementing scientific evidence in educational decisions. Joan Cuevas, Fundació Bofill; Anna Llauradó, educator and researcher; Jordi Serarols, deputy director of Research and Digital Culture, Dept. d’Educació
+
+
+  1﻿9:30 End of conference
 ---
