@@ -6,7 +6,7 @@ name: "Timing of corrective feedback in mobile instant messaging: An exploratory
 journal: System
 publishing_house: .
 year: "2025"
-doi: .https://doi.org/10.1016/j.system.2025.103591
+doi: https://doi.org/10.1016/j.system.2025.103591
 abstract: "Mobile instant messaging (MIM) applications such as WhatsApp have
   been established as important pedagogical tools for extending foreign language
   (L2) learning and practice beyond the classroom, increasing students’ exposure
