@@ -53,7 +53,7 @@ export const getStaticProps: GetStaticProps = async ({locale}) => {
   const newsEvents = await Promise.all(newsEventsFilenames.map(async filename => {
     const fileContents = await import(`content/news-events/${locale}/${filename}`)
     return {slug: `/news-events/${filename.split('.')[0]}`, attributes: fileContents.attributes}
-  })).then(result => result)
+  })).then(result => result.sort((a, b) => new Date(b.attributes.date).getTime() - new Date(a.attributes.date).getTime()))
 
   return {props: {newsEvents, contentHero: contentHero.attributes}}
 };
