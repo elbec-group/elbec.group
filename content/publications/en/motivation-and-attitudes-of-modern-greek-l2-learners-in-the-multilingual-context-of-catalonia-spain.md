@@ -5,7 +5,7 @@ name: Motivation and attitudes of Modern Greek L2 learners in the multilingual
   context of Catalonia, Spain.
 journal: .
 publishing_house: Routledge
-year: .
+year: "2020"
 doi: .
 abstract: This study examines the motivations and attitudes of multilingual
   learners in Catalonia, Spain, towards learning Modern Greek as a Foreign

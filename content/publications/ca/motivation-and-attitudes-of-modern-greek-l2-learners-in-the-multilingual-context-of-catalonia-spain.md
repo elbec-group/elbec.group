@@ -5,7 +5,7 @@ name: Motivació i actituds dels estudiants de grec modern com a L2 en el contex
   multilingüe de Catalunya, Espanya.
 journal: .
 publishing_house: Routledge
-year: .
+year: "2020"
 doi: .
 abstract: Aquest estudi examina les motivacions i actituds dels estudiants
   multilingües a Catalunya, Espanya, envers l’aprenentatge del grec modern com a

@@ -4,7 +4,7 @@ eds: .
 name: Motivación y actitudes de los estudiantes de griego moderno como L2 en el
   contexto multilingüe de Cataluña, España.
 publishing_house: Routledge
-year: .
+year: "2020"
 doi: .
 abstract: Este estudio examina las motivaciones y actitudes de los estudiantes
   multilingües en Cataluña, España, hacia el aprendizaje del griego moderno como
